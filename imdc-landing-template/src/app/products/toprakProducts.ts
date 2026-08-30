@@ -43,6 +43,14 @@ export const toprakCategories = [
     "slug": "park-bahce"
   },
   {
+    "label": "Şehir Görselleri",
+    "slug": "sehir-gorselleri"
+  },
+  {
+    "label": "Galvanizli Yol Aydınlatma",
+    "slug": "galvanizli-yol-aydinlatma"
+  },
+  {
     "label": "Gloplar ve Aksesuarlar",
     "slug": "gloplar"
   }
@@ -55,7 +63,7 @@ export const toprakProducts = [
     "code": "3545-001",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-001",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m010.jpg",
+    "image": "/product-whitebacks/3545-001.png",
     "alt": "TOPRAK SERİSİ 3545-001"
   },
   {
@@ -64,7 +72,7 @@ export const toprakProducts = [
     "code": "3545-004",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-004",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m012.jpg",
+    "image": "/product-whitebacks/3545-004.png",
     "alt": "TOPRAK SERİSİ 3545-004"
   },
   {
@@ -73,7 +81,7 @@ export const toprakProducts = [
     "code": "3545-007",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-007",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m014.jpg",
+    "image": "/product-whitebacks/3545-007.png",
     "alt": "TOPRAK SERİSİ 3545-007"
   },
   {
@@ -82,7 +90,7 @@ export const toprakProducts = [
     "code": "3545-010",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-010",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m016.jpg",
+    "image": "/product-whitebacks/3545-010.png",
     "alt": "TOPRAK SERİSİ 3545-010"
   },
   {
@@ -91,7 +99,7 @@ export const toprakProducts = [
     "code": "3545-013",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-013",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m018.jpg",
+    "image": "/product-whitebacks/3545-013.png",
     "alt": "TOPRAK SERİSİ 3545-013"
   },
   {
@@ -100,7 +108,7 @@ export const toprakProducts = [
     "code": "3545-016",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-016",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m022.jpg",
+    "image": "/product-whitebacks/3545-016.png",
     "alt": "TOPRAK SERİSİ 3545-016"
   },
   {
@@ -109,7 +117,7 @@ export const toprakProducts = [
     "code": "3545-019",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-019",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m024.jpg",
+    "image": "/product-whitebacks/3545-019.png",
     "alt": "TOPRAK SERİSİ 3545-019"
   },
   {
@@ -118,7 +126,7 @@ export const toprakProducts = [
     "code": "3545-022",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-022",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m026.jpg",
+    "image": "/product-whitebacks/3545-022.png",
     "alt": "TOPRAK SERİSİ 3545-022"
   },
   {
@@ -127,7 +135,7 @@ export const toprakProducts = [
     "code": "3545-025",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-025",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m028.jpg",
+    "image": "/product-whitebacks/3545-025.png",
     "alt": "TOPRAK SERİSİ 3545-025"
   },
   {
@@ -136,7 +144,7 @@ export const toprakProducts = [
     "code": "3545-028",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-028",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m030.jpg",
+    "image": "/product-whitebacks/3545-028.png",
     "alt": "TOPRAK SERİSİ 3545-028"
   },
   {
@@ -145,7 +153,7 @@ export const toprakProducts = [
     "code": "3545-031",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-031",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m034.jpg",
+    "image": "/product-whitebacks/3545-031.png",
     "alt": "TOPRAK SERİSİ 3545-031"
   },
   {
@@ -154,7 +162,7 @@ export const toprakProducts = [
     "code": "3545-034",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-034",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m036.jpg",
+    "image": "/product-whitebacks/3545-034.png",
     "alt": "TOPRAK SERİSİ 3545-034"
   },
   {
@@ -163,7 +171,7 @@ export const toprakProducts = [
     "code": "3545-036",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-036",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m038.jpg",
+    "image": "/product-whitebacks/3545-036.png",
     "alt": "TOPRAK SERİSİ 3545-036"
   },
   {
@@ -172,7 +180,7 @@ export const toprakProducts = [
     "code": "3545-039",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-039",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m040.jpg",
+    "image": "/product-whitebacks/3545-039.png",
     "alt": "TOPRAK SERİSİ 3545-039"
   },
   {
@@ -181,7 +189,7 @@ export const toprakProducts = [
     "code": "3545-041",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-041",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m042.jpg",
+    "image": "/product-whitebacks/3545-041.png",
     "alt": "TOPRAK SERİSİ 3545-041"
   },
   {
@@ -190,7 +198,7 @@ export const toprakProducts = [
     "code": "3545-044",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-044",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m046.jpg",
+    "image": "/product-whitebacks/3545-044.png",
     "alt": "TOPRAK SERİSİ 3545-044"
   },
   {
@@ -199,7 +207,7 @@ export const toprakProducts = [
     "code": "3545-047",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-047",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m048.jpg",
+    "image": "/product-whitebacks/3545-047.png",
     "alt": "TOPRAK SERİSİ 3545-047"
   },
   {
@@ -208,7 +216,7 @@ export const toprakProducts = [
     "code": "3545-050",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-050",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m050.jpg",
+    "image": "/product-whitebacks/3545-050.png",
     "alt": "TOPRAK SERİSİ 3545-050"
   },
   {
@@ -217,7 +225,7 @@ export const toprakProducts = [
     "code": "3545-053",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-053",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m052.jpg",
+    "image": "/product-whitebacks/3545-053.png",
     "alt": "TOPRAK SERİSİ 3545-053"
   },
   {
@@ -226,7 +234,7 @@ export const toprakProducts = [
     "code": "3545-056",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-056",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m054.jpg",
+    "image": "/product-whitebacks/3545-056.png",
     "alt": "TOPRAK SERİSİ 3545-056"
   },
   {
@@ -235,7 +243,7 @@ export const toprakProducts = [
     "code": "3545-059",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-059",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m058.jpg",
+    "image": "/product-whitebacks/3545-059.png",
     "alt": "TOPRAK SERİSİ 3545-059"
   },
   {
@@ -244,7 +252,7 @@ export const toprakProducts = [
     "code": "3545-062",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-062",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m060.jpg",
+    "image": "/product-whitebacks/3545-062.png",
     "alt": "TOPRAK SERİSİ 3545-062"
   },
   {
@@ -253,7 +261,7 @@ export const toprakProducts = [
     "code": "3545-065",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-065",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m062.jpg",
+    "image": "/product-whitebacks/3545-065.png",
     "alt": "TOPRAK SERİSİ 3545-065"
   },
   {
@@ -262,7 +270,7 @@ export const toprakProducts = [
     "code": "3545-067",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-067",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m064.jpg",
+    "image": "/product-whitebacks/3545-067.png",
     "alt": "TOPRAK SERİSİ 3545-067"
   },
   {
@@ -271,7 +279,7 @@ export const toprakProducts = [
     "code": "3545-071",
     "category": "dekoratif",
     "href": "/tr/urunler/3545-071",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m066.jpg",
+    "image": "/product-whitebacks/3545-071.png",
     "alt": "TOPRAK SERİSİ 3545-071"
   },
   {
@@ -280,7 +288,7 @@ export const toprakProducts = [
     "code": "3545-142",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-142",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m070.jpg",
+    "image": "/product-whitebacks/3545-142.png",
     "alt": "LİNA TEK KONSOLLU 3545-142"
   },
   {
@@ -289,7 +297,7 @@ export const toprakProducts = [
     "code": "3545-001",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-001-p73",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m072.jpg",
+    "image": "/product-whitebacks/3545-001-p73.png",
     "alt": "LİNA ÇİFT KONSOLLU 3545-001"
   },
   {
@@ -298,7 +306,7 @@ export const toprakProducts = [
     "code": "3545-162",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-162",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m074.jpg",
+    "image": "/product-whitebacks/3545-162.png",
     "alt": "LİNA PARK 3545-162"
   },
   {
@@ -307,241 +315,241 @@ export const toprakProducts = [
     "code": "3545-172",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-172",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m076.jpg",
+    "image": "/product-whitebacks/3545-172.png",
     "alt": "LİNA-İKİLİ 3545-172"
   },
   {
     "id": "3545-182",
     "name": "RAIN",
     "code": "3545-182",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-182",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m078.jpg",
+    "image": "/product-whitebacks/3545-182.png",
     "alt": "RAIN 3545-182"
   },
   {
     "id": "3545-192",
     "name": "COBRA",
     "code": "3545-192",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-192",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m080.jpg",
+    "image": "/product-whitebacks/3545-192.png",
     "alt": "COBRA 3545-192"
   },
   {
     "id": "3545-202",
     "name": "ATLAS",
     "code": "3545-202",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-202",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m082.jpg",
+    "image": "/product-whitebacks/3545-202.png",
     "alt": "ATLAS 3545-202"
   },
   {
     "id": "3545-212",
     "name": "ATLAS CENTER",
     "code": "3545-212",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-212",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m084.jpg",
+    "image": "/product-whitebacks/3545-212.png",
     "alt": "ATLAS CENTER 3545-212"
   },
   {
     "id": "3545-222",
     "name": "ATLAS SİTE",
     "code": "3545-222",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-222",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m086.jpg",
+    "image": "/product-whitebacks/3545-222.png",
     "alt": "ATLAS SİTE 3545-222"
   },
   {
     "id": "3545-232",
     "name": "ATLAS İKİLİ",
     "code": "3545-232",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-232",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m088.jpg",
+    "image": "/product-whitebacks/3545-232.png",
     "alt": "ATLAS İKİLİ 3545-232"
   },
   {
     "id": "3545-242",
     "name": "ATLAS CITY",
     "code": "3545-242",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-242",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m090.jpg",
+    "image": "/product-whitebacks/3545-242.png",
     "alt": "ATLAS CITY 3545-242"
   },
   {
     "id": "3545-262",
     "name": "ATLAS PARK",
     "code": "3545-262",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-262",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m092.jpg",
+    "image": "/product-whitebacks/3545-262.png",
     "alt": "ATLAS PARK 3545-262"
   },
   {
     "id": "3545-272",
     "name": "ATLAS CITY",
     "code": "3545-272",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-272",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m094.jpg",
+    "image": "/product-whitebacks/3545-272.png",
     "alt": "ATLAS CITY 3545-272"
   },
   {
     "id": "3545-282",
     "name": "RİGEL",
     "code": "3545-282",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-282",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m096.jpg",
+    "image": "/product-whitebacks/3545-282.png",
     "alt": "RİGEL 3545-282"
   },
   {
     "id": "3545-292",
     "name": "RİGEL ÇİFTLİ",
     "code": "3545-292",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-292",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m098.jpg",
+    "image": "/product-whitebacks/3545-292.png",
     "alt": "RİGEL ÇİFTLİ 3545-292"
   },
   {
     "id": "3545-302",
     "name": "MİNA",
     "code": "3545-302",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-302",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m100.jpg",
+    "image": "/product-whitebacks/3545-302.png",
     "alt": "MİNA 3545-302"
   },
   {
     "id": "3545-312",
     "name": "FLORA",
     "code": "3545-312",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-312",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m102.jpg",
+    "image": "/product-whitebacks/3545-312.png",
     "alt": "FLORA 3545-312"
   },
   {
     "id": "3545-322",
     "name": "DORA",
     "code": "3545-322",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-322",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m104.jpg",
+    "image": "/product-whitebacks/3545-322.png",
     "alt": "DORA 3545-322"
   },
   {
     "id": "3545-332",
     "name": "ALFA",
     "code": "3545-332",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-332",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m106.jpg",
+    "image": "/product-whitebacks/3545-332.png",
     "alt": "ALFA 3545-332"
   },
   {
     "id": "3545-342",
     "name": "ALFA 3",
     "code": "3545-342",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-342",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m108.jpg",
+    "image": "/product-whitebacks/3545-342.png",
     "alt": "ALFA 3 3545-342"
   },
   {
     "id": "3545-352",
     "name": "SUN",
     "code": "3545-352",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-352",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m110.jpg",
+    "image": "/product-whitebacks/3545-352.png",
     "alt": "SUN 3545-352"
   },
   {
     "id": "3545-362",
     "name": "SUN 3",
     "code": "3545-362",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-362",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m112.jpg",
+    "image": "/product-whitebacks/3545-362.png",
     "alt": "SUN 3 3545-362"
   },
   {
     "id": "3545-372",
     "name": "ALDO",
     "code": "3545-372",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-372",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m114.jpg",
+    "image": "/product-whitebacks/3545-372.png",
     "alt": "ALDO 3545-372"
   },
   {
     "id": "3545-382",
     "name": "HEKTOR",
     "code": "3545-382",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-382",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m116.jpg",
+    "image": "/product-whitebacks/3545-382.png",
     "alt": "HEKTOR 3545-382"
   },
   {
     "id": "3545-392",
     "name": "EGE",
     "code": "3545-392",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-392",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m118.jpg",
+    "image": "/product-whitebacks/3545-392.png",
     "alt": "EGE 3545-392"
   },
   {
     "id": "3545-402",
     "name": "UFO",
     "code": "3545-402",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-402",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m120.jpg",
+    "image": "/product-whitebacks/3545-402.png",
     "alt": "UFO 3545-402"
   },
   {
     "id": "3545-412",
     "name": "EVA",
     "code": "3545-412",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-412",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m122.jpg",
+    "image": "/product-whitebacks/3545-412.png",
     "alt": "EVA 3545-412"
   },
   {
     "id": "3545-422",
     "name": "RUSTIK",
     "code": "3545-422",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-422",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m124.jpg",
+    "image": "/product-whitebacks/3545-422.png",
     "alt": "RUSTIK 3545-422"
   },
   {
     "id": "3545-426",
     "name": "RUSTIK A",
     "code": "3545-426",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-426",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m126.jpg",
+    "image": "/product-whitebacks/3545-426.png",
     "alt": "RUSTIK A 3545-426"
   },
   {
     "id": "3545-429",
     "name": "RUSTIK B",
     "code": "3545-429",
-    "category": "yol-ve-cadde",
+    "category": "park-bahce",
     "href": "/tr/urunler/3545-429",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m128.jpg",
+    "image": "/product-whitebacks/3545-429.png",
     "alt": "RUSTIK B 3545-429"
   },
   {
@@ -550,97 +558,97 @@ export const toprakProducts = [
     "code": "3545-432",
     "category": "kamera-direkleri",
     "href": "/tr/urunler/3545-432",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m130.jpg",
+    "image": "/product-whitebacks/3545-432.png",
     "alt": "STORM 3545-432"
   },
   {
     "id": "3545-442",
     "name": "MAIA",
     "code": "3545-442",
-    "category": "yol-ve-cadde",
+    "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-442",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m132.jpg",
+    "image": "/product-whitebacks/3545-442.png",
     "alt": "MAIA 3545-442"
   },
   {
     "id": "3545-452",
     "name": "STAR",
     "code": "3545-452",
-    "category": "yol-ve-cadde",
+    "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-452",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m134.jpg",
+    "image": "/product-whitebacks/3545-452.png",
     "alt": "STAR 3545-452"
   },
   {
     "id": "3545-462",
     "name": "NOVA",
     "code": "3545-462",
-    "category": "yol-ve-cadde",
+    "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-462",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m136.jpg",
+    "image": "/product-whitebacks/3545-462.png",
     "alt": "NOVA 3545-462"
   },
   {
     "id": "3545-472",
     "name": "ALYA",
     "code": "3545-472",
-    "category": "yol-ve-cadde",
+    "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-472",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m138.jpg",
+    "image": "/product-whitebacks/3545-472.png",
     "alt": "ALYA 3545-472"
   },
   {
     "id": "3545-482",
     "name": "MEYDAN",
     "code": "3545-482",
-    "category": "yol-ve-cadde",
+    "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-482",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m140.jpg",
+    "image": "/product-whitebacks/3545-482.png",
     "alt": "MEYDAN 3545-482"
   },
   {
     "id": "3545-492",
     "name": "RİGA",
     "code": "3545-492",
-    "category": "yol-ve-cadde",
+    "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-492",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m142.jpg",
+    "image": "/product-whitebacks/3545-492.png",
     "alt": "RİGA 3545-492"
   },
   {
     "id": "3545-502",
     "name": "MATA",
     "code": "3545-502",
-    "category": "yol-ve-cadde",
+    "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-502",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m144.jpg",
+    "image": "/product-whitebacks/3545-502.png",
     "alt": "MATA 3545-502"
   },
   {
     "id": "3545-512",
     "name": "KİT",
     "code": "3545-512",
-    "category": "yol-ve-cadde",
+    "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-512",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m146.jpg",
+    "image": "/product-whitebacks/3545-512.png",
     "alt": "KİT 3545-512"
   },
   {
     "id": "3545-522",
     "name": "HEKA",
     "code": "3545-522",
-    "category": "yol-ve-cadde",
+    "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-522",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m148.jpg",
+    "image": "/product-whitebacks/3545-522.png",
     "alt": "HEKA 3545-522"
   },
   {
     "id": "3545-532",
     "name": "ALKES",
     "code": "3545-532",
-    "category": "yol-ve-cadde",
+    "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-532",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m150.jpg",
+    "image": "/product-whitebacks/3545-532.png",
     "alt": "ALKES 3545-532"
   },
   {
@@ -649,7 +657,7 @@ export const toprakProducts = [
     "code": "3545-542",
     "category": "solar",
     "href": "/tr/urunler/3545-542",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m152.jpg",
+    "image": "/product-whitebacks/3545-542.png",
     "alt": "SOLAR A 3545-542"
   },
   {
@@ -658,7 +666,7 @@ export const toprakProducts = [
     "code": "3545-552",
     "category": "solar",
     "href": "/tr/urunler/3545-552",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m154.jpg",
+    "image": "/product-whitebacks/3545-552.png",
     "alt": "SOLAR B 3545-552"
   },
   {
@@ -667,7 +675,7 @@ export const toprakProducts = [
     "code": "3545-562",
     "category": "solar",
     "href": "/tr/urunler/3545-562",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m156.jpg",
+    "image": "/product-whitebacks/3545-562.png",
     "alt": "SOLAR C 3545-562"
   },
   {
@@ -676,7 +684,7 @@ export const toprakProducts = [
     "code": "3545-572",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-572",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m158.jpg",
+    "image": "/product-whitebacks/3545-572.png",
     "alt": "SEDİR A 3545-572"
   },
   {
@@ -685,7 +693,7 @@ export const toprakProducts = [
     "code": "3545-582",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-582",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m160.jpg",
+    "image": "/product-whitebacks/3545-582.png",
     "alt": "SEDİR B 3545-582"
   },
   {
@@ -694,7 +702,7 @@ export const toprakProducts = [
     "code": "3545-592",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-592",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m162.jpg",
+    "image": "/product-whitebacks/3545-592.png",
     "alt": "SEDİR C 3545-592"
   },
   {
@@ -703,7 +711,7 @@ export const toprakProducts = [
     "code": "3545-602",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-602",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m164.jpg",
+    "image": "/product-whitebacks/3545-602.png",
     "alt": "SEDİR D 3545-602"
   },
   {
@@ -712,7 +720,7 @@ export const toprakProducts = [
     "code": "3545-612",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-612",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m166.jpg",
+    "image": "/product-whitebacks/3545-612.png",
     "alt": "SEDİR E 3545-612"
   },
   {
@@ -721,7 +729,7 @@ export const toprakProducts = [
     "code": "3545-622",
     "category": "yol-ve-cadde",
     "href": "/tr/urunler/3545-622",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m168.jpg",
+    "image": "/product-whitebacks/3545-622.png",
     "alt": "SEDİR F 3545-622"
   },
   {
@@ -730,7 +738,7 @@ export const toprakProducts = [
     "code": "3545-1001",
     "category": "bollard",
     "href": "/tr/urunler/3545-1001",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m172.jpg",
+    "image": "/product-whitebacks/3545-1001.png",
     "alt": "ERA C 3545-1001"
   },
   {
@@ -739,7 +747,7 @@ export const toprakProducts = [
     "code": "3545-1005",
     "category": "bollard",
     "href": "/tr/urunler/3545-1005",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m173.jpg",
+    "image": "/product-whitebacks/3545-1005.png",
     "alt": "ERA D 3545-1005"
   },
   {
@@ -748,7 +756,7 @@ export const toprakProducts = [
     "code": "3545-1010",
     "category": "bollard",
     "href": "/tr/urunler/3545-1010",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m174.jpg",
+    "image": "/product-whitebacks/3545-1010.png",
     "alt": "ERA S 3545-1010"
   },
   {
@@ -757,7 +765,7 @@ export const toprakProducts = [
     "code": "3545-1015",
     "category": "bollard",
     "href": "/tr/urunler/3545-1015",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m175.jpg",
+    "image": "/product-whitebacks/3545-1015.png",
     "alt": "ERA T 3545-1015"
   },
   {
@@ -766,7 +774,7 @@ export const toprakProducts = [
     "code": "3545-1020",
     "category": "bollard",
     "href": "/tr/urunler/3545-1020",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m176.jpg",
+    "image": "/product-whitebacks/3545-1020.png",
     "alt": "RİGEL B 3545-1020"
   },
   {
@@ -775,7 +783,7 @@ export const toprakProducts = [
     "code": "3545-1025",
     "category": "bollard",
     "href": "/tr/urunler/3545-1025",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m177.jpg",
+    "image": "/product-whitebacks/3545-1025.png",
     "alt": "RİGEL C 3545-1025"
   },
   {
@@ -784,7 +792,7 @@ export const toprakProducts = [
     "code": "3545-1030",
     "category": "bollard",
     "href": "/tr/urunler/3545-1030",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m178.jpg",
+    "image": "/product-whitebacks/3545-1030.png",
     "alt": "RİGEL K 3545-1030"
   },
   {
@@ -793,7 +801,7 @@ export const toprakProducts = [
     "code": "3545-1035",
     "category": "bollard",
     "href": "/tr/urunler/3545-1035",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m179.jpg",
+    "image": "/product-whitebacks/3545-1035.png",
     "alt": "RİGEL S 3545-1035"
   },
   {
@@ -802,7 +810,7 @@ export const toprakProducts = [
     "code": "3545-1040",
     "category": "bollard",
     "href": "/tr/urunler/3545-1040",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m180.jpg",
+    "image": "/product-whitebacks/3545-1040.png",
     "alt": "RİGEL Y 3545-1040"
   },
   {
@@ -811,7 +819,7 @@ export const toprakProducts = [
     "code": "3545-1045",
     "category": "bollard",
     "href": "/tr/urunler/3545-1045",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m181.jpg",
+    "image": "/product-whitebacks/3545-1045.png",
     "alt": "RİGEL W 3545-1045"
   },
   {
@@ -820,7 +828,7 @@ export const toprakProducts = [
     "code": "3545-1050",
     "category": "bollard",
     "href": "/tr/urunler/3545-1050",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m182.jpg",
+    "image": "/product-whitebacks/3545-1050.png",
     "alt": "RECTA Y 3545-1050"
   },
   {
@@ -829,7 +837,7 @@ export const toprakProducts = [
     "code": "3545-1055",
     "category": "bollard",
     "href": "/tr/urunler/3545-1055",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m183.jpg",
+    "image": "/product-whitebacks/3545-1055.png",
     "alt": "ATLAS T/S 3545-1055"
   },
   {
@@ -838,7 +846,7 @@ export const toprakProducts = [
     "code": "3545-1060",
     "category": "bollard",
     "href": "/tr/urunler/3545-1060",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m184.jpg",
+    "image": "/product-whitebacks/3545-1060.png",
     "alt": "ATLAS T/Y 3545-1060"
   },
   {
@@ -847,7 +855,7 @@ export const toprakProducts = [
     "code": "3545-1065",
     "category": "bollard",
     "href": "/tr/urunler/3545-1065",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m185.jpg",
+    "image": "/product-whitebacks/3545-1065.png",
     "alt": "ATLAS Ç/S 3545-1065"
   },
   {
@@ -856,7 +864,7 @@ export const toprakProducts = [
     "code": "3545-1070",
     "category": "bollard",
     "href": "/tr/urunler/3545-1070",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m186.jpg",
+    "image": "/product-whitebacks/3545-1070.png",
     "alt": "ATLAS S 3545-1070"
   },
   {
@@ -865,7 +873,7 @@ export const toprakProducts = [
     "code": "3545-1075",
     "category": "bollard",
     "href": "/tr/urunler/3545-1075",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m187.jpg",
+    "image": "/product-whitebacks/3545-1075.png",
     "alt": "COBRA C 3545-1075"
   },
   {
@@ -874,7 +882,7 @@ export const toprakProducts = [
     "code": "3545-1080",
     "category": "bollard",
     "href": "/tr/urunler/3545-1080",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m188.jpg",
+    "image": "/product-whitebacks/3545-1080.png",
     "alt": "COBRA S 3545-1080"
   },
   {
@@ -883,7 +891,7 @@ export const toprakProducts = [
     "code": "3545-1085",
     "category": "bollard",
     "href": "/tr/urunler/3545-1085",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m189.jpg",
+    "image": "/product-whitebacks/3545-1085.png",
     "alt": "MİNA S 3545-1085"
   },
   {
@@ -892,7 +900,7 @@ export const toprakProducts = [
     "code": "3545-1090",
     "category": "bollard",
     "href": "/tr/urunler/3545-1090",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m190.jpg",
+    "image": "/product-whitebacks/3545-1090.png",
     "alt": "MİNA Y 3545-1090"
   },
   {
@@ -901,7 +909,7 @@ export const toprakProducts = [
     "code": "3545-1095",
     "category": "bollard",
     "href": "/tr/urunler/3545-1095",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/m191.jpg",
+    "image": "/product-whitebacks/3545-1095.png",
     "alt": "FLORA S 3545-1095"
   },
   {
@@ -910,7 +918,7 @@ export const toprakProducts = [
     "code": "GL-34-2001",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2001",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2001.jpg",
+    "image": "/product-whitebacks/gl-34-2001.png",
     "alt": "Park & Bahçe Direği GL-34-2001"
   },
   {
@@ -919,7 +927,7 @@ export const toprakProducts = [
     "code": "GL-34-2002",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2002",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2002.jpg",
+    "image": "/product-whitebacks/gl-34-2002.png",
     "alt": "Park & Bahçe Direği GL-34-2002"
   },
   {
@@ -928,7 +936,7 @@ export const toprakProducts = [
     "code": "GL-34-2003",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2003",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2003.jpg",
+    "image": "/product-whitebacks/gl-34-2003.png",
     "alt": "Park & Bahçe Direği GL-34-2003"
   },
   {
@@ -937,7 +945,7 @@ export const toprakProducts = [
     "code": "GL-34-2004",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2004",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2004.jpg",
+    "image": "/product-whitebacks/gl-34-2004.png",
     "alt": "Park & Bahçe Direği GL-34-2004"
   },
   {
@@ -946,7 +954,7 @@ export const toprakProducts = [
     "code": "GL-34-2006",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2006",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2006.jpg",
+    "image": "/product-whitebacks/gl-34-2006.png",
     "alt": "Park & Bahçe Direği GL-34-2006"
   },
   {
@@ -955,7 +963,7 @@ export const toprakProducts = [
     "code": "GL-34-2007",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2007",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2007.jpg",
+    "image": "/product-whitebacks/gl-34-2007.png",
     "alt": "Park & Bahçe Direği GL-34-2007"
   },
   {
@@ -964,7 +972,7 @@ export const toprakProducts = [
     "code": "GL-34-2008",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2008",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2008.jpg",
+    "image": "/product-whitebacks/gl-34-2008.png",
     "alt": "Park & Bahçe Direği GL-34-2008"
   },
   {
@@ -973,7 +981,7 @@ export const toprakProducts = [
     "code": "GL-34-2005",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2005",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2005.jpg",
+    "image": "/product-whitebacks/gl-34-2005.png",
     "alt": "Park & Bahçe Direği GL-34-2005"
   },
   {
@@ -982,7 +990,7 @@ export const toprakProducts = [
     "code": "GL-34-2009",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2009",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2009.jpg",
+    "image": "/product-whitebacks/gl-34-2009.png",
     "alt": "Park & Bahçe Direği GL-34-2009"
   },
   {
@@ -991,7 +999,7 @@ export const toprakProducts = [
     "code": "GL-34-2010",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2010",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2010.jpg",
+    "image": "/product-whitebacks/gl-34-2010.png",
     "alt": "Park & Bahçe Direği GL-34-2010"
   },
   {
@@ -1000,7 +1008,7 @@ export const toprakProducts = [
     "code": "GL-34-2011",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2011",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2011.jpg",
+    "image": "/product-whitebacks/gl-34-2011.png",
     "alt": "Park & Bahçe Direği GL-34-2011"
   },
   {
@@ -1009,7 +1017,7 @@ export const toprakProducts = [
     "code": "GL-34-2012",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2012",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2012.jpg",
+    "image": "/product-whitebacks/gl-34-2012.png",
     "alt": "Park & Bahçe Direği GL-34-2012"
   },
   {
@@ -1018,7 +1026,7 @@ export const toprakProducts = [
     "code": "GL-34-2013",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2013",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2013.jpg",
+    "image": "/product-whitebacks/gl-34-2013.png",
     "alt": "Park & Bahçe Direği GL-34-2013"
   },
   {
@@ -1027,7 +1035,7 @@ export const toprakProducts = [
     "code": "GL-34-2014",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2014",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2014.jpg",
+    "image": "/product-whitebacks/gl-34-2014.png",
     "alt": "Park & Bahçe Direği GL-34-2014"
   },
   {
@@ -1036,7 +1044,7 @@ export const toprakProducts = [
     "code": "GL-34-2015",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2015",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2015.jpg",
+    "image": "/product-whitebacks/gl-34-2015.png",
     "alt": "Park & Bahçe Direği GL-34-2015"
   },
   {
@@ -1045,7 +1053,7 @@ export const toprakProducts = [
     "code": "GL-34-2016",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2016",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2016.jpg",
+    "image": "/product-whitebacks/gl-34-2016.png",
     "alt": "Park & Bahçe Direği GL-34-2016"
   },
   {
@@ -1054,7 +1062,7 @@ export const toprakProducts = [
     "code": "GL-34-2017",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2017",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2017.jpg",
+    "image": "/product-whitebacks/gl-34-2017.png",
     "alt": "Park & Bahçe Direği GL-34-2017"
   },
   {
@@ -1063,7 +1071,7 @@ export const toprakProducts = [
     "code": "GL-34-2018",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2018",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2018.jpg",
+    "image": "/product-whitebacks/gl-34-2018.png",
     "alt": "Park & Bahçe Direği GL-34-2018"
   },
   {
@@ -1072,7 +1080,7 @@ export const toprakProducts = [
     "code": "GL-34-2019",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2019",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2019.jpg",
+    "image": "/product-whitebacks/gl-34-2019.png",
     "alt": "Park & Bahçe Direği GL-34-2019"
   },
   {
@@ -1081,7 +1089,7 @@ export const toprakProducts = [
     "code": "GL-34-2020",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2020",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2020.jpg",
+    "image": "/product-whitebacks/gl-34-2020.png",
     "alt": "Park & Bahçe Direği GL-34-2020"
   },
   {
@@ -1090,7 +1098,7 @@ export const toprakProducts = [
     "code": "GL-34-2021",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2021",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2021.jpg",
+    "image": "/product-whitebacks/gl-34-2021.png",
     "alt": "Park & Bahçe Direği GL-34-2021"
   },
   {
@@ -1099,7 +1107,7 @@ export const toprakProducts = [
     "code": "GL-34-2022",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2022",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2022.jpg",
+    "image": "/product-whitebacks/gl-34-2022.png",
     "alt": "Park & Bahçe Direği GL-34-2022"
   },
   {
@@ -1108,7 +1116,7 @@ export const toprakProducts = [
     "code": "GL-34-2023",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2023",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2023.jpg",
+    "image": "/product-whitebacks/gl-34-2023.png",
     "alt": "Park & Bahçe Direği GL-34-2023"
   },
   {
@@ -1117,7 +1125,7 @@ export const toprakProducts = [
     "code": "GL-34-2024",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2024",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2024.jpg",
+    "image": "/product-whitebacks/gl-34-2024.png",
     "alt": "Park & Bahçe Direği GL-34-2024"
   },
   {
@@ -1126,7 +1134,7 @@ export const toprakProducts = [
     "code": "GL-34-2025",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2025",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2025.jpg",
+    "image": "/product-whitebacks/gl-34-2025.png",
     "alt": "Park & Bahçe Direği GL-34-2025"
   },
   {
@@ -1135,7 +1143,7 @@ export const toprakProducts = [
     "code": "GL-34-2026",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2026",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2026.jpg",
+    "image": "/product-whitebacks/gl-34-2026.png",
     "alt": "Park & Bahçe Direği GL-34-2026"
   },
   {
@@ -1144,7 +1152,7 @@ export const toprakProducts = [
     "code": "GL-34-2027",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2027",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2027.jpg",
+    "image": "/product-whitebacks/gl-34-2027.png",
     "alt": "Park & Bahçe Direği GL-34-2027"
   },
   {
@@ -1153,7 +1161,7 @@ export const toprakProducts = [
     "code": "GL-34-2028",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-2028",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-2028.jpg",
+    "image": "/product-whitebacks/gl-34-2028.png",
     "alt": "Park & Bahçe Direği GL-34-2028"
   },
   {
@@ -1162,7 +1170,7 @@ export const toprakProducts = [
     "code": "GL-34-3001",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3001",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3001.jpg",
+    "image": "/product-whitebacks/gl-34-3001.png",
     "alt": "Park & Bahçe Direği GL-34-3001"
   },
   {
@@ -1171,7 +1179,7 @@ export const toprakProducts = [
     "code": "GL-34-3002",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3002",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3002.jpg",
+    "image": "/product-whitebacks/gl-34-3002.png",
     "alt": "Park & Bahçe Direği GL-34-3002"
   },
   {
@@ -1180,7 +1188,7 @@ export const toprakProducts = [
     "code": "GL-34-3003",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3003",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3003.jpg",
+    "image": "/product-whitebacks/gl-34-3003.png",
     "alt": "Park & Bahçe Direği GL-34-3003"
   },
   {
@@ -1189,7 +1197,7 @@ export const toprakProducts = [
     "code": "GL-34-3004",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3004",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3004.jpg",
+    "image": "/product-whitebacks/gl-34-3004.png",
     "alt": "Park & Bahçe Direği GL-34-3004"
   },
   {
@@ -1198,7 +1206,7 @@ export const toprakProducts = [
     "code": "GL-34-3005",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3005",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3005.jpg",
+    "image": "/product-whitebacks/gl-34-3005.png",
     "alt": "Park & Bahçe Direği GL-34-3005"
   },
   {
@@ -1207,7 +1215,7 @@ export const toprakProducts = [
     "code": "GL-34-3006",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3006",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3006.jpg",
+    "image": "/product-whitebacks/gl-34-3006.png",
     "alt": "Park & Bahçe Direği GL-34-3006"
   },
   {
@@ -1216,7 +1224,7 @@ export const toprakProducts = [
     "code": "GL-34-3007",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3007",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3007.jpg",
+    "image": "/product-whitebacks/gl-34-3007.png",
     "alt": "Park & Bahçe Direği GL-34-3007"
   },
   {
@@ -1225,7 +1233,7 @@ export const toprakProducts = [
     "code": "GL-34-3008",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3008",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3008.jpg",
+    "image": "/product-whitebacks/gl-34-3008.png",
     "alt": "Park & Bahçe Direği GL-34-3008"
   },
   {
@@ -1234,7 +1242,7 @@ export const toprakProducts = [
     "code": "GL-34-3009",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3009",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3009.jpg",
+    "image": "/product-whitebacks/gl-34-3009.png",
     "alt": "Park & Bahçe Direği GL-34-3009"
   },
   {
@@ -1243,7 +1251,7 @@ export const toprakProducts = [
     "code": "GL-34-3010",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3010",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3010.jpg",
+    "image": "/product-whitebacks/gl-34-3010.png",
     "alt": "Park & Bahçe Direği GL-34-3010"
   },
   {
@@ -1252,7 +1260,7 @@ export const toprakProducts = [
     "code": "GL-34-3011",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3011",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3011.jpg",
+    "image": "/product-whitebacks/gl-34-3011.png",
     "alt": "Park & Bahçe Direği GL-34-3011"
   },
   {
@@ -1261,7 +1269,7 @@ export const toprakProducts = [
     "code": "GL-34-3012",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3012",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3012.jpg",
+    "image": "/product-whitebacks/gl-34-3012.png",
     "alt": "Park & Bahçe Direği GL-34-3012"
   },
   {
@@ -1270,7 +1278,7 @@ export const toprakProducts = [
     "code": "GL-34-3013",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3013",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3013.jpg",
+    "image": "/product-whitebacks/gl-34-3013.png",
     "alt": "Park & Bahçe Direği GL-34-3013"
   },
   {
@@ -1279,7 +1287,7 @@ export const toprakProducts = [
     "code": "GL-34-3014",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3014",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3014.jpg",
+    "image": "/product-whitebacks/gl-34-3014.png",
     "alt": "Park & Bahçe Direği GL-34-3014"
   },
   {
@@ -1288,7 +1296,7 @@ export const toprakProducts = [
     "code": "GL-34-3015",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3015",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3015.jpg",
+    "image": "/product-whitebacks/gl-34-3015.png",
     "alt": "Park & Bahçe Direği GL-34-3015"
   },
   {
@@ -1297,7 +1305,7 @@ export const toprakProducts = [
     "code": "GL-34-3016",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3016",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3016.jpg",
+    "image": "/product-whitebacks/gl-34-3016.png",
     "alt": "Park & Bahçe Direği GL-34-3016"
   },
   {
@@ -1306,7 +1314,7 @@ export const toprakProducts = [
     "code": "GL-34-3017",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3017",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3017.jpg",
+    "image": "/product-whitebacks/gl-34-3017.png",
     "alt": "Park & Bahçe Direği GL-34-3017"
   },
   {
@@ -1315,7 +1323,7 @@ export const toprakProducts = [
     "code": "GL-34-3018",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3018",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3018.jpg",
+    "image": "/product-whitebacks/gl-34-3018.png",
     "alt": "Park & Bahçe Direği GL-34-3018"
   },
   {
@@ -1324,7 +1332,7 @@ export const toprakProducts = [
     "code": "GL-34-3019",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3019",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3019.jpg",
+    "image": "/product-whitebacks/gl-34-3019.png",
     "alt": "Park & Bahçe Direği GL-34-3019"
   },
   {
@@ -1333,7 +1341,7 @@ export const toprakProducts = [
     "code": "GL-34-3020",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3020",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3020.jpg",
+    "image": "/product-whitebacks/gl-34-3020.png",
     "alt": "Park & Bahçe Direği GL-34-3020"
   },
   {
@@ -1342,7 +1350,7 @@ export const toprakProducts = [
     "code": "GL-34-3021",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3021",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3021.jpg",
+    "image": "/product-whitebacks/gl-34-3021.png",
     "alt": "Park & Bahçe Direği GL-34-3021"
   },
   {
@@ -1351,7 +1359,7 @@ export const toprakProducts = [
     "code": "GL-34-3022",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3022",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3022.jpg",
+    "image": "/product-whitebacks/gl-34-3022.png",
     "alt": "Park & Bahçe Direği GL-34-3022"
   },
   {
@@ -1360,7 +1368,7 @@ export const toprakProducts = [
     "code": "GL-34-3023",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3023",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3023.jpg",
+    "image": "/product-whitebacks/gl-34-3023.png",
     "alt": "Park & Bahçe Direği GL-34-3023"
   },
   {
@@ -1369,7 +1377,7 @@ export const toprakProducts = [
     "code": "GL-34-3024",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3024",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3024.jpg",
+    "image": "/product-whitebacks/gl-34-3024.png",
     "alt": "Park & Bahçe Direği GL-34-3024"
   },
   {
@@ -1378,7 +1386,7 @@ export const toprakProducts = [
     "code": "GL-34-3025",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3025",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3025.jpg",
+    "image": "/product-whitebacks/gl-34-3025.png",
     "alt": "Park & Bahçe Direği GL-34-3025"
   },
   {
@@ -1387,7 +1395,7 @@ export const toprakProducts = [
     "code": "GL-34-3026",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3026",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3026.jpg",
+    "image": "/product-whitebacks/gl-34-3026.png",
     "alt": "Park & Bahçe Direği GL-34-3026"
   },
   {
@@ -1396,7 +1404,7 @@ export const toprakProducts = [
     "code": "GL-34-3027",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3027",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3027.jpg",
+    "image": "/product-whitebacks/gl-34-3027.png",
     "alt": "Park & Bahçe Direği GL-34-3027"
   },
   {
@@ -1405,7 +1413,7 @@ export const toprakProducts = [
     "code": "GL-34-3028",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3028",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3028.jpg",
+    "image": "/product-whitebacks/gl-34-3028.png",
     "alt": "Park & Bahçe Direği GL-34-3028"
   },
   {
@@ -1414,7 +1422,7 @@ export const toprakProducts = [
     "code": "GL-34-3029",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3029",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3029.jpg",
+    "image": "/product-whitebacks/gl-34-3029.png",
     "alt": "Park & Bahçe Direği GL-34-3029"
   },
   {
@@ -1423,7 +1431,7 @@ export const toprakProducts = [
     "code": "GL-34-3030",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3030",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3030.jpg",
+    "image": "/product-whitebacks/gl-34-3030.png",
     "alt": "Park & Bahçe Direği GL-34-3030"
   },
   {
@@ -1432,7 +1440,7 @@ export const toprakProducts = [
     "code": "GL-34-3032",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3032",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3032.jpg",
+    "image": "/product-whitebacks/gl-34-3032.png",
     "alt": "Park & Bahçe Direği GL-34-3032"
   },
   {
@@ -1441,7 +1449,7 @@ export const toprakProducts = [
     "code": "GL-34-3031",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3031",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3031.jpg",
+    "image": "/product-whitebacks/gl-34-3031.png",
     "alt": "Park & Bahçe Direği GL-34-3031"
   },
   {
@@ -1450,7 +1458,7 @@ export const toprakProducts = [
     "code": "GL-34-3033",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3033",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3033.jpg",
+    "image": "/product-whitebacks/gl-34-3033.png",
     "alt": "Park & Bahçe Direği GL-34-3033"
   },
   {
@@ -1459,7 +1467,7 @@ export const toprakProducts = [
     "code": "GL-34-3034",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3034",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3034.jpg",
+    "image": "/product-whitebacks/gl-34-3034.png",
     "alt": "Park & Bahçe Direği GL-34-3034"
   },
   {
@@ -1468,7 +1476,7 @@ export const toprakProducts = [
     "code": "GL-34-3035",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3035",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3035.jpg",
+    "image": "/product-whitebacks/gl-34-3035.png",
     "alt": "Park & Bahçe Direği GL-34-3035"
   },
   {
@@ -1477,7 +1485,7 @@ export const toprakProducts = [
     "code": "GL-34-3037",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3037",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3037.jpg",
+    "image": "/product-whitebacks/gl-34-3037.png",
     "alt": "Park & Bahçe Direği GL-34-3037"
   },
   {
@@ -1486,7 +1494,7 @@ export const toprakProducts = [
     "code": "GL-34-3038",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3038",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3038.jpg",
+    "image": "/product-whitebacks/gl-34-3038.png",
     "alt": "Park & Bahçe Direği GL-34-3038"
   },
   {
@@ -1495,7 +1503,7 @@ export const toprakProducts = [
     "code": "GL-34-3039",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3039",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3039.jpg",
+    "image": "/product-whitebacks/gl-34-3039.png",
     "alt": "Park & Bahçe Direği GL-34-3039"
   },
   {
@@ -1504,7 +1512,7 @@ export const toprakProducts = [
     "code": "GL-34-3036",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3036",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3036.jpg",
+    "image": "/product-whitebacks/gl-34-3036.png",
     "alt": "Park & Bahçe Direği GL-34-3036"
   },
   {
@@ -1513,7 +1521,7 @@ export const toprakProducts = [
     "code": "GL-34-3040",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3040",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3040.jpg",
+    "image": "/product-whitebacks/gl-34-3040.png",
     "alt": "Park & Bahçe Direği GL-34-3040"
   },
   {
@@ -1522,7 +1530,7 @@ export const toprakProducts = [
     "code": "GL-34-3041",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3041",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3041.jpg",
+    "image": "/product-whitebacks/gl-34-3041.png",
     "alt": "Park & Bahçe Direği GL-34-3041"
   },
   {
@@ -1531,7 +1539,7 @@ export const toprakProducts = [
     "code": "GL-34-3042",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3042",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3042.jpg",
+    "image": "/product-whitebacks/gl-34-3042.png",
     "alt": "Park & Bahçe Direği GL-34-3042"
   },
   {
@@ -1540,7 +1548,7 @@ export const toprakProducts = [
     "code": "GL-34-3043",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3043",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3043.jpg",
+    "image": "/product-whitebacks/gl-34-3043.png",
     "alt": "Park & Bahçe Direği GL-34-3043"
   },
   {
@@ -1549,7 +1557,7 @@ export const toprakProducts = [
     "code": "GL-34-3044",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3044",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3044.jpg",
+    "image": "/product-whitebacks/gl-34-3044.png",
     "alt": "Park & Bahçe Direği GL-34-3044"
   },
   {
@@ -1558,7 +1566,7 @@ export const toprakProducts = [
     "code": "GL-34-3045",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3045",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3045.jpg",
+    "image": "/product-whitebacks/gl-34-3045.png",
     "alt": "Park & Bahçe Direği GL-34-3045"
   },
   {
@@ -1567,7 +1575,7 @@ export const toprakProducts = [
     "code": "GL-34-3046",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3046",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3046.jpg",
+    "image": "/product-whitebacks/gl-34-3046.png",
     "alt": "Park & Bahçe Direği GL-34-3046"
   },
   {
@@ -1576,7 +1584,7 @@ export const toprakProducts = [
     "code": "GL-34-3047",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3047",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3047.jpg",
+    "image": "/product-whitebacks/gl-34-3047.png",
     "alt": "Park & Bahçe Direği GL-34-3047"
   },
   {
@@ -1585,7 +1593,7 @@ export const toprakProducts = [
     "code": "GL-34-3048",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3048",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3048.jpg",
+    "image": "/product-whitebacks/gl-34-3048.png",
     "alt": "Park & Bahçe Direği GL-34-3048"
   },
   {
@@ -1594,7 +1602,7 @@ export const toprakProducts = [
     "code": "GL-34-3049",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3049",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3049.jpg",
+    "image": "/product-whitebacks/gl-34-3049.png",
     "alt": "Park & Bahçe Direği GL-34-3049"
   },
   {
@@ -1603,7 +1611,7 @@ export const toprakProducts = [
     "code": "GL-34-3050",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3050",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3050.jpg",
+    "image": "/product-whitebacks/gl-34-3050.png",
     "alt": "Park & Bahçe Direği GL-34-3050"
   },
   {
@@ -1612,7 +1620,7 @@ export const toprakProducts = [
     "code": "GL-34-3051",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3051",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3051.jpg",
+    "image": "/product-whitebacks/gl-34-3051.png",
     "alt": "Park & Bahçe Direği GL-34-3051"
   },
   {
@@ -1621,7 +1629,7 @@ export const toprakProducts = [
     "code": "GL-34-3052",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3052",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3052.jpg",
+    "image": "/product-whitebacks/gl-34-3052.png",
     "alt": "Park & Bahçe Direği GL-34-3052"
   },
   {
@@ -1630,7 +1638,7 @@ export const toprakProducts = [
     "code": "GL-34-3053",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3053",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3053.jpg",
+    "image": "/product-whitebacks/gl-34-3053.png",
     "alt": "Park & Bahçe Direği GL-34-3053"
   },
   {
@@ -1639,7 +1647,7 @@ export const toprakProducts = [
     "code": "GL-34-3054",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3054",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3054.jpg",
+    "image": "/product-whitebacks/gl-34-3054.png",
     "alt": "Park & Bahçe Direği GL-34-3054"
   },
   {
@@ -1648,7 +1656,7 @@ export const toprakProducts = [
     "code": "GL-34-3055",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3055",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3055.jpg",
+    "image": "/product-whitebacks/gl-34-3055.png",
     "alt": "Park & Bahçe Direği GL-34-3055"
   },
   {
@@ -1657,7 +1665,7 @@ export const toprakProducts = [
     "code": "GL-34-3056",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3056",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3056.jpg",
+    "image": "/product-whitebacks/gl-34-3056.png",
     "alt": "Park & Bahçe Direği GL-34-3056"
   },
   {
@@ -1666,7 +1674,7 @@ export const toprakProducts = [
     "code": "GL-34-3058",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3058",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3058.jpg",
+    "image": "/product-whitebacks/gl-34-3058.png",
     "alt": "Park & Bahçe Direği GL-34-3058"
   },
   {
@@ -1675,7 +1683,7 @@ export const toprakProducts = [
     "code": "GL-34-3060",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3060",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3060.jpg",
+    "image": "/product-whitebacks/gl-34-3060.png",
     "alt": "Park & Bahçe Direği GL-34-3060"
   },
   {
@@ -1684,7 +1692,7 @@ export const toprakProducts = [
     "code": "GL-34-3061",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3061",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3061.jpg",
+    "image": "/product-whitebacks/gl-34-3061.png",
     "alt": "Park & Bahçe Direği GL-34-3061"
   },
   {
@@ -1693,7 +1701,7 @@ export const toprakProducts = [
     "code": "GL-34-3064",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3064",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3064.jpg",
+    "image": "/product-whitebacks/gl-34-3064.png",
     "alt": "Park & Bahçe Direği GL-34-3064"
   },
   {
@@ -1702,7 +1710,7 @@ export const toprakProducts = [
     "code": "GL-34-3057",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3057",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3057.jpg",
+    "image": "/product-whitebacks/gl-34-3057.png",
     "alt": "Park & Bahçe Direği GL-34-3057"
   },
   {
@@ -1711,7 +1719,7 @@ export const toprakProducts = [
     "code": "GL-34-3059",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3059",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3059.jpg",
+    "image": "/product-whitebacks/gl-34-3059.png",
     "alt": "Park & Bahçe Direği GL-34-3059"
   },
   {
@@ -1720,7 +1728,7 @@ export const toprakProducts = [
     "code": "GL-34-3062",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3062",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3062.jpg",
+    "image": "/product-whitebacks/gl-34-3062.png",
     "alt": "Park & Bahçe Direği GL-34-3062"
   },
   {
@@ -1729,7 +1737,7 @@ export const toprakProducts = [
     "code": "GL-34-3063",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3063",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3063.jpg",
+    "image": "/product-whitebacks/gl-34-3063.png",
     "alt": "Park & Bahçe Direği GL-34-3063"
   },
   {
@@ -1738,7 +1746,7 @@ export const toprakProducts = [
     "code": "GL-34-3065",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3065",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3065.jpg",
+    "image": "/product-whitebacks/gl-34-3065.png",
     "alt": "Park & Bahçe Direği GL-34-3065"
   },
   {
@@ -1747,7 +1755,7 @@ export const toprakProducts = [
     "code": "GL-34-3066",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3066",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3066.jpg",
+    "image": "/product-whitebacks/gl-34-3066.png",
     "alt": "Park & Bahçe Direği GL-34-3066"
   },
   {
@@ -1756,7 +1764,7 @@ export const toprakProducts = [
     "code": "GL-34-3067",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3067",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3067.jpg",
+    "image": "/product-whitebacks/gl-34-3067.png",
     "alt": "Park & Bahçe Direği GL-34-3067"
   },
   {
@@ -1765,7 +1773,7 @@ export const toprakProducts = [
     "code": "GL-34-3068",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-3068",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-3068.jpg",
+    "image": "/product-whitebacks/gl-34-3068.png",
     "alt": "Park & Bahçe Direği GL-34-3068"
   },
   {
@@ -1774,7 +1782,7 @@ export const toprakProducts = [
     "code": "GL-34-4001",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4001",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4001.jpg",
+    "image": "/product-whitebacks/gl-34-4001.png",
     "alt": "Park & Bahçe Direği GL-34-4001"
   },
   {
@@ -1783,7 +1791,7 @@ export const toprakProducts = [
     "code": "GL-34-4002",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4002",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4002.jpg",
+    "image": "/product-whitebacks/gl-34-4002.png",
     "alt": "Park & Bahçe Direği GL-34-4002"
   },
   {
@@ -1792,7 +1800,7 @@ export const toprakProducts = [
     "code": "GL-34-4003",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4003",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4003.jpg",
+    "image": "/product-whitebacks/gl-34-4003.png",
     "alt": "Park & Bahçe Direği GL-34-4003"
   },
   {
@@ -1801,7 +1809,7 @@ export const toprakProducts = [
     "code": "GL-34-4005",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4005",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4005.jpg",
+    "image": "/product-whitebacks/gl-34-4005.png",
     "alt": "Park & Bahçe Direği GL-34-4005"
   },
   {
@@ -1810,7 +1818,7 @@ export const toprakProducts = [
     "code": "GL-34-4006",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4006",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4006.jpg",
+    "image": "/product-whitebacks/gl-34-4006.png",
     "alt": "Park & Bahçe Direği GL-34-4006"
   },
   {
@@ -1819,7 +1827,7 @@ export const toprakProducts = [
     "code": "GL-34-4007",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4007",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4007.jpg",
+    "image": "/product-whitebacks/gl-34-4007.png",
     "alt": "Park & Bahçe Direği GL-34-4007"
   },
   {
@@ -1828,7 +1836,7 @@ export const toprakProducts = [
     "code": "GL-34-4004",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4004",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4004.jpg",
+    "image": "/product-whitebacks/gl-34-4004.png",
     "alt": "Park & Bahçe Direği GL-34-4004"
   },
   {
@@ -1837,7 +1845,7 @@ export const toprakProducts = [
     "code": "GL-34-4008",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4008",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4008.jpg",
+    "image": "/product-whitebacks/gl-34-4008.png",
     "alt": "Park & Bahçe Direği GL-34-4008"
   },
   {
@@ -1846,7 +1854,7 @@ export const toprakProducts = [
     "code": "GL-34-4009",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4009",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4009.jpg",
+    "image": "/product-whitebacks/gl-34-4009.png",
     "alt": "Park & Bahçe Direği GL-34-4009"
   },
   {
@@ -1855,7 +1863,7 @@ export const toprakProducts = [
     "code": "GL-34-4010",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4010",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4010.jpg",
+    "image": "/product-whitebacks/gl-34-4010.png",
     "alt": "Park & Bahçe Direği GL-34-4010"
   },
   {
@@ -1864,7 +1872,7 @@ export const toprakProducts = [
     "code": "GL-34-4011",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4011",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4011.jpg",
+    "image": "/product-whitebacks/gl-34-4011.png",
     "alt": "Park & Bahçe Direği GL-34-4011"
   },
   {
@@ -1873,7 +1881,7 @@ export const toprakProducts = [
     "code": "GL-34-4013",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4013",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4013.jpg",
+    "image": "/product-whitebacks/gl-34-4013.png",
     "alt": "Park & Bahçe Direği GL-34-4013"
   },
   {
@@ -1882,7 +1890,7 @@ export const toprakProducts = [
     "code": "GL-34-4014",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4014",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4014.jpg",
+    "image": "/product-whitebacks/gl-34-4014.png",
     "alt": "Park & Bahçe Direği GL-34-4014"
   },
   {
@@ -1891,7 +1899,7 @@ export const toprakProducts = [
     "code": "GL-34-4015",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4015",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4015.jpg",
+    "image": "/product-whitebacks/gl-34-4015.png",
     "alt": "Park & Bahçe Direği GL-34-4015"
   },
   {
@@ -1900,7 +1908,7 @@ export const toprakProducts = [
     "code": "GL-34-4012",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4012",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4012.jpg",
+    "image": "/product-whitebacks/gl-34-4012.png",
     "alt": "Park & Bahçe Direği GL-34-4012"
   },
   {
@@ -1909,7 +1917,7 @@ export const toprakProducts = [
     "code": "GL-34-4016",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4016",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4016.jpg",
+    "image": "/product-whitebacks/gl-34-4016.png",
     "alt": "Park & Bahçe Direği GL-34-4016"
   },
   {
@@ -1918,7 +1926,7 @@ export const toprakProducts = [
     "code": "GL-34-4017",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4017",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4017.jpg",
+    "image": "/product-whitebacks/gl-34-4017.png",
     "alt": "Park & Bahçe Direği GL-34-4017"
   },
   {
@@ -1927,7 +1935,7 @@ export const toprakProducts = [
     "code": "GL-34-4018",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4018",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4018.jpg",
+    "image": "/product-whitebacks/gl-34-4018.png",
     "alt": "Park & Bahçe Direği GL-34-4018"
   },
   {
@@ -1936,7 +1944,7 @@ export const toprakProducts = [
     "code": "GL-34-4019",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4019",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4019.jpg",
+    "image": "/product-whitebacks/gl-34-4019.png",
     "alt": "Park & Bahçe Direği GL-34-4019"
   },
   {
@@ -1945,7 +1953,7 @@ export const toprakProducts = [
     "code": "GL-34-4021",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4021",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4021.jpg",
+    "image": "/product-whitebacks/gl-34-4021.png",
     "alt": "Park & Bahçe Direği GL-34-4021"
   },
   {
@@ -1954,7 +1962,7 @@ export const toprakProducts = [
     "code": "GL-34-4022",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4022",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4022.jpg",
+    "image": "/product-whitebacks/gl-34-4022.png",
     "alt": "Park & Bahçe Direği GL-34-4022"
   },
   {
@@ -1963,7 +1971,7 @@ export const toprakProducts = [
     "code": "GL-34-4023",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4023",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4023.jpg",
+    "image": "/product-whitebacks/gl-34-4023.png",
     "alt": "Park & Bahçe Direği GL-34-4023"
   },
   {
@@ -1972,7 +1980,7 @@ export const toprakProducts = [
     "code": "GL-34-4020",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4020",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4020.jpg",
+    "image": "/product-whitebacks/gl-34-4020.png",
     "alt": "Park & Bahçe Direği GL-34-4020"
   },
   {
@@ -1981,7 +1989,7 @@ export const toprakProducts = [
     "code": "GL-34-4024",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4024",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4024.jpg",
+    "image": "/product-whitebacks/gl-34-4024.png",
     "alt": "Park & Bahçe Direği GL-34-4024"
   },
   {
@@ -1990,7 +1998,7 @@ export const toprakProducts = [
     "code": "GL-34-4025",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4025",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4025.jpg",
+    "image": "/product-whitebacks/gl-34-4025.png",
     "alt": "Park & Bahçe Direği GL-34-4025"
   },
   {
@@ -1999,7 +2007,7 @@ export const toprakProducts = [
     "code": "GL-34-4026",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4026",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4026.jpg",
+    "image": "/product-whitebacks/gl-34-4026.png",
     "alt": "Park & Bahçe Direği GL-34-4026"
   },
   {
@@ -2008,7 +2016,7 @@ export const toprakProducts = [
     "code": "GL-34-4027",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4027",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4027.jpg",
+    "image": "/product-whitebacks/gl-34-4027.png",
     "alt": "Park & Bahçe Direği GL-34-4027"
   },
   {
@@ -2017,7 +2025,7 @@ export const toprakProducts = [
     "code": "GL-34-4028",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4028",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4028.jpg",
+    "image": "/product-whitebacks/gl-34-4028.png",
     "alt": "Park & Bahçe Direği GL-34-4028"
   },
   {
@@ -2026,7 +2034,7 @@ export const toprakProducts = [
     "code": "GL-34-4029",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4029",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4029.jpg",
+    "image": "/product-whitebacks/gl-34-4029.png",
     "alt": "Park & Bahçe Direği GL-34-4029"
   },
   {
@@ -2035,7 +2043,7 @@ export const toprakProducts = [
     "code": "GL-34-4030",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4030",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4030.jpg",
+    "image": "/product-whitebacks/gl-34-4030.png",
     "alt": "Park & Bahçe Direği GL-34-4030"
   },
   {
@@ -2044,7 +2052,7 @@ export const toprakProducts = [
     "code": "GL-34-4031",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4031",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4031.jpg",
+    "image": "/product-whitebacks/gl-34-4031.png",
     "alt": "Park & Bahçe Direği GL-34-4031"
   },
   {
@@ -2053,7 +2061,7 @@ export const toprakProducts = [
     "code": "GL-34-4032",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4032",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4032.jpg",
+    "image": "/product-whitebacks/gl-34-4032.png",
     "alt": "Park & Bahçe Direği GL-34-4032"
   },
   {
@@ -2062,7 +2070,7 @@ export const toprakProducts = [
     "code": "GL-34-4036",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4036",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4036.jpg",
+    "image": "/product-whitebacks/gl-34-4036.png",
     "alt": "Park & Bahçe Direği GL-34-4036"
   },
   {
@@ -2071,7 +2079,7 @@ export const toprakProducts = [
     "code": "GL-34-5001",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5001",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5001.jpg",
+    "image": "/product-whitebacks/gl-34-5001.png",
     "alt": "Park & Bahçe Direği GL-34-5001"
   },
   {
@@ -2080,7 +2088,7 @@ export const toprakProducts = [
     "code": "GL-34-4033",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4033",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4033.jpg",
+    "image": "/product-whitebacks/gl-34-4033.png",
     "alt": "Park & Bahçe Direği GL-34-4033"
   },
   {
@@ -2089,7 +2097,7 @@ export const toprakProducts = [
     "code": "GL-34-4034",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4034",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4034.jpg",
+    "image": "/product-whitebacks/gl-34-4034.png",
     "alt": "Park & Bahçe Direği GL-34-4034"
   },
   {
@@ -2098,7 +2106,7 @@ export const toprakProducts = [
     "code": "GL-34-4035",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-4035",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-4035.jpg",
+    "image": "/product-whitebacks/gl-34-4035.png",
     "alt": "Park & Bahçe Direği GL-34-4035"
   },
   {
@@ -2107,7 +2115,7 @@ export const toprakProducts = [
     "code": "GL-34-5002",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5002",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5002.jpg",
+    "image": "/product-whitebacks/gl-34-5002.png",
     "alt": "Park & Bahçe Direği GL-34-5002"
   },
   {
@@ -2116,7 +2124,7 @@ export const toprakProducts = [
     "code": "GL-34-5003",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5003",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5003.jpg",
+    "image": "/product-whitebacks/gl-34-5003.png",
     "alt": "Park & Bahçe Direği GL-34-5003"
   },
   {
@@ -2125,7 +2133,7 @@ export const toprakProducts = [
     "code": "GL-34-5004",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5004",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5004.jpg",
+    "image": "/product-whitebacks/gl-34-5004.png",
     "alt": "Park & Bahçe Direği GL-34-5004"
   },
   {
@@ -2134,7 +2142,7 @@ export const toprakProducts = [
     "code": "GL-34-5016",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5016",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5016.jpg",
+    "image": "/product-whitebacks/gl-34-5016.png",
     "alt": "Park & Bahçe Direği GL-34-5016"
   },
   {
@@ -2143,7 +2151,7 @@ export const toprakProducts = [
     "code": "GL-34-5013",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5013",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5013.jpg",
+    "image": "/product-whitebacks/gl-34-5013.png",
     "alt": "Park & Bahçe Direği GL-34-5013"
   },
   {
@@ -2152,7 +2160,7 @@ export const toprakProducts = [
     "code": "GL-34-5014",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5014",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5014.jpg",
+    "image": "/product-whitebacks/gl-34-5014.png",
     "alt": "Park & Bahçe Direği GL-34-5014"
   },
   {
@@ -2161,7 +2169,7 @@ export const toprakProducts = [
     "code": "GL-34-5015",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5015",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5015.jpg",
+    "image": "/product-whitebacks/gl-34-5015.png",
     "alt": "Park & Bahçe Direği GL-34-5015"
   },
   {
@@ -2170,7 +2178,7 @@ export const toprakProducts = [
     "code": "GL-34-5017",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5017",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5017.jpg",
+    "image": "/product-whitebacks/gl-34-5017.png",
     "alt": "Park & Bahçe Direği GL-34-5017"
   },
   {
@@ -2179,7 +2187,7 @@ export const toprakProducts = [
     "code": "GL-34-5018",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5018",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5018.jpg",
+    "image": "/product-whitebacks/gl-34-5018.png",
     "alt": "Park & Bahçe Direği GL-34-5018"
   },
   {
@@ -2188,7 +2196,7 @@ export const toprakProducts = [
     "code": "GL-34-5019",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5019",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5019.jpg",
+    "image": "/product-whitebacks/gl-34-5019.png",
     "alt": "Park & Bahçe Direği GL-34-5019"
   },
   {
@@ -2197,7 +2205,7 @@ export const toprakProducts = [
     "code": "GL-34-5020",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5020",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5020.jpg",
+    "image": "/product-whitebacks/gl-34-5020.png",
     "alt": "Park & Bahçe Direği GL-34-5020"
   },
   {
@@ -2206,7 +2214,7 @@ export const toprakProducts = [
     "code": "GL-34-5005",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5005",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5005.jpg",
+    "image": "/product-whitebacks/gl-34-5005.png",
     "alt": "Park & Bahçe Direği GL-34-5005"
   },
   {
@@ -2215,7 +2223,7 @@ export const toprakProducts = [
     "code": "GL-34-5008",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5008",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5008.jpg",
+    "image": "/product-whitebacks/gl-34-5008.png",
     "alt": "Park & Bahçe Direği GL-34-5008"
   },
   {
@@ -2224,7 +2232,7 @@ export const toprakProducts = [
     "code": "GL-34-5006",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5006",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5006.jpg",
+    "image": "/product-whitebacks/gl-34-5006.png",
     "alt": "Park & Bahçe Direği GL-34-5006"
   },
   {
@@ -2233,7 +2241,7 @@ export const toprakProducts = [
     "code": "GL-34-5007",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5007",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5007.jpg",
+    "image": "/product-whitebacks/gl-34-5007.png",
     "alt": "Park & Bahçe Direği GL-34-5007"
   },
   {
@@ -2242,7 +2250,7 @@ export const toprakProducts = [
     "code": "GL-34-5009",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5009",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5009.jpg",
+    "image": "/product-whitebacks/gl-34-5009.png",
     "alt": "Park & Bahçe Direği GL-34-5009"
   },
   {
@@ -2251,7 +2259,7 @@ export const toprakProducts = [
     "code": "GL-34-5010",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5010",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5010.jpg",
+    "image": "/product-whitebacks/gl-34-5010.png",
     "alt": "Park & Bahçe Direği GL-34-5010"
   },
   {
@@ -2260,7 +2268,7 @@ export const toprakProducts = [
     "code": "GL-34-5011",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5011",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5011.jpg",
+    "image": "/product-whitebacks/gl-34-5011.png",
     "alt": "Park & Bahçe Direği GL-34-5011"
   },
   {
@@ -2269,7 +2277,7 @@ export const toprakProducts = [
     "code": "GL-34-5012",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5012",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5012.jpg",
+    "image": "/product-whitebacks/gl-34-5012.png",
     "alt": "Park & Bahçe Direği GL-34-5012"
   },
   {
@@ -2278,7 +2286,7 @@ export const toprakProducts = [
     "code": "GL-34-5021",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5021",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5021.jpg",
+    "image": "/product-whitebacks/gl-34-5021.png",
     "alt": "Park & Bahçe Direği GL-34-5021"
   },
   {
@@ -2287,7 +2295,7 @@ export const toprakProducts = [
     "code": "GL-34-5022",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5022",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5022.jpg",
+    "image": "/product-whitebacks/gl-34-5022.png",
     "alt": "Park & Bahçe Direği GL-34-5022"
   },
   {
@@ -2296,7 +2304,7 @@ export const toprakProducts = [
     "code": "GL-34-5023",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5023",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5023.jpg",
+    "image": "/product-whitebacks/gl-34-5023.png",
     "alt": "Park & Bahçe Direği GL-34-5023"
   },
   {
@@ -2305,7 +2313,7 @@ export const toprakProducts = [
     "code": "GL-34-5024",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5024",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5024.jpg",
+    "image": "/product-whitebacks/gl-34-5024.png",
     "alt": "Park & Bahçe Direği GL-34-5024"
   },
   {
@@ -2314,7 +2322,7 @@ export const toprakProducts = [
     "code": "GL-34-5025",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5025",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5025.jpg",
+    "image": "/product-whitebacks/gl-34-5025.png",
     "alt": "Park & Bahçe Direği GL-34-5025"
   },
   {
@@ -2323,7 +2331,7 @@ export const toprakProducts = [
     "code": "GL-34-5026",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5026",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5026.jpg",
+    "image": "/product-whitebacks/gl-34-5026.png",
     "alt": "Park & Bahçe Direği GL-34-5026"
   },
   {
@@ -2332,7 +2340,7 @@ export const toprakProducts = [
     "code": "GL-34-5027",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5027",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5027.jpg",
+    "image": "/product-whitebacks/gl-34-5027.png",
     "alt": "Park & Bahçe Direği GL-34-5027"
   },
   {
@@ -2341,7 +2349,7 @@ export const toprakProducts = [
     "code": "GL-34-5028",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5028",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5028.jpg",
+    "image": "/product-whitebacks/gl-34-5028.png",
     "alt": "Park & Bahçe Direği GL-34-5028"
   },
   {
@@ -2350,7 +2358,7 @@ export const toprakProducts = [
     "code": "GL-34-5029",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5029",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5029.jpg",
+    "image": "/product-whitebacks/gl-34-5029.png",
     "alt": "Park & Bahçe Direği GL-34-5029"
   },
   {
@@ -2359,7 +2367,7 @@ export const toprakProducts = [
     "code": "GL-34-5030",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5030",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5030.jpg",
+    "image": "/product-whitebacks/gl-34-5030.png",
     "alt": "Park & Bahçe Direği GL-34-5030"
   },
   {
@@ -2368,7 +2376,7 @@ export const toprakProducts = [
     "code": "GL-34-5031",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5031",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5031.jpg",
+    "image": "/product-whitebacks/gl-34-5031.png",
     "alt": "Park & Bahçe Direği GL-34-5031"
   },
   {
@@ -2377,7 +2385,7 @@ export const toprakProducts = [
     "code": "GL-34-5032",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5032",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5032.jpg",
+    "image": "/product-whitebacks/gl-34-5032.png",
     "alt": "Park & Bahçe Direği GL-34-5032"
   },
   {
@@ -2386,7 +2394,7 @@ export const toprakProducts = [
     "code": "GL-34-5034",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5034",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5034.jpg",
+    "image": "/product-whitebacks/gl-34-5034.png",
     "alt": "Park & Bahçe Direği GL-34-5034"
   },
   {
@@ -2395,7 +2403,7 @@ export const toprakProducts = [
     "code": "GL-34-5035",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5035",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5035.jpg",
+    "image": "/product-whitebacks/gl-34-5035.png",
     "alt": "Park & Bahçe Direği GL-34-5035"
   },
   {
@@ -2404,7 +2412,7 @@ export const toprakProducts = [
     "code": "GL-34-5033",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5033",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5033.jpg",
+    "image": "/product-whitebacks/gl-34-5033.png",
     "alt": "Park & Bahçe Direği GL-34-5033"
   },
   {
@@ -2413,7 +2421,7 @@ export const toprakProducts = [
     "code": "GL-34-5036",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5036",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5036.jpg",
+    "image": "/product-whitebacks/gl-34-5036.png",
     "alt": "Park & Bahçe Direği GL-34-5036"
   },
   {
@@ -2422,7 +2430,7 @@ export const toprakProducts = [
     "code": "GL-34-5037",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5037",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5037.jpg",
+    "image": "/product-whitebacks/gl-34-5037.png",
     "alt": "Park & Bahçe Direği GL-34-5037"
   },
   {
@@ -2431,7 +2439,7 @@ export const toprakProducts = [
     "code": "GL-34-5038",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5038",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5038.jpg",
+    "image": "/product-whitebacks/gl-34-5038.png",
     "alt": "Park & Bahçe Direği GL-34-5038"
   },
   {
@@ -2440,7 +2448,7 @@ export const toprakProducts = [
     "code": "GL-34-5039",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5039",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5039.jpg",
+    "image": "/product-whitebacks/gl-34-5039.png",
     "alt": "Park & Bahçe Direği GL-34-5039"
   },
   {
@@ -2449,7 +2457,7 @@ export const toprakProducts = [
     "code": "GL-34-5040",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5040",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5040.jpg",
+    "image": "/product-whitebacks/gl-34-5040.png",
     "alt": "Park & Bahçe Direği GL-34-5040"
   },
   {
@@ -2458,7 +2466,7 @@ export const toprakProducts = [
     "code": "GL-34-5041",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5041",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5041.jpg",
+    "image": "/product-whitebacks/gl-34-5041.png",
     "alt": "Park & Bahçe Direği GL-34-5041"
   },
   {
@@ -2467,7 +2475,7 @@ export const toprakProducts = [
     "code": "GL-34-5042",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5042",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5042.jpg",
+    "image": "/product-whitebacks/gl-34-5042.png",
     "alt": "Park & Bahçe Direği GL-34-5042"
   },
   {
@@ -2476,7 +2484,7 @@ export const toprakProducts = [
     "code": "GL-34-5043",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5043",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5043.jpg",
+    "image": "/product-whitebacks/gl-34-5043.png",
     "alt": "Park & Bahçe Direği GL-34-5043"
   },
   {
@@ -2485,7 +2493,7 @@ export const toprakProducts = [
     "code": "GL-34-5044",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5044",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5044.jpg",
+    "image": "/product-whitebacks/gl-34-5044.png",
     "alt": "Park & Bahçe Direği GL-34-5044"
   },
   {
@@ -2494,7 +2502,7 @@ export const toprakProducts = [
     "code": "GL-34-5045",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5045",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5045.jpg",
+    "image": "/product-whitebacks/gl-34-5045.png",
     "alt": "Park & Bahçe Direği GL-34-5045"
   },
   {
@@ -2503,7 +2511,7 @@ export const toprakProducts = [
     "code": "GL-34-5046",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5046",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5046.jpg",
+    "image": "/product-whitebacks/gl-34-5046.png",
     "alt": "Park & Bahçe Direği GL-34-5046"
   },
   {
@@ -2512,7 +2520,7 @@ export const toprakProducts = [
     "code": "GL-34-5049",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5049",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5049.jpg",
+    "image": "/product-whitebacks/gl-34-5049.png",
     "alt": "Park & Bahçe Direği GL-34-5049"
   },
   {
@@ -2521,7 +2529,7 @@ export const toprakProducts = [
     "code": "GL-34-5047",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5047",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5047.jpg",
+    "image": "/product-whitebacks/gl-34-5047.png",
     "alt": "Park & Bahçe Direği GL-34-5047"
   },
   {
@@ -2530,7 +2538,7 @@ export const toprakProducts = [
     "code": "GL-34-5051",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5051",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5051.jpg",
+    "image": "/product-whitebacks/gl-34-5051.png",
     "alt": "Park & Bahçe Direği GL-34-5051"
   },
   {
@@ -2539,7 +2547,7 @@ export const toprakProducts = [
     "code": "GL-34-5050",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5050",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5050.jpg",
+    "image": "/product-whitebacks/gl-34-5050.png",
     "alt": "Park & Bahçe Direği GL-34-5050"
   },
   {
@@ -2548,7 +2556,7 @@ export const toprakProducts = [
     "code": "GL-34-5048",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5048",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5048.jpg",
+    "image": "/product-whitebacks/gl-34-5048.png",
     "alt": "Park & Bahçe Direği GL-34-5048"
   },
   {
@@ -2557,7 +2565,7 @@ export const toprakProducts = [
     "code": "GL-34-5052",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5052",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5052.jpg",
+    "image": "/product-whitebacks/gl-34-5052.png",
     "alt": "Park & Bahçe Direği GL-34-5052"
   },
   {
@@ -2566,7 +2574,7 @@ export const toprakProducts = [
     "code": "GL-34-5053",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5053",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5053.jpg",
+    "image": "/product-whitebacks/gl-34-5053.png",
     "alt": "Park & Bahçe Direği GL-34-5053"
   },
   {
@@ -2575,7 +2583,7 @@ export const toprakProducts = [
     "code": "GL-34-5054",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5054",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5054.jpg",
+    "image": "/product-whitebacks/gl-34-5054.png",
     "alt": "Park & Bahçe Direği GL-34-5054"
   },
   {
@@ -2584,7 +2592,7 @@ export const toprakProducts = [
     "code": "GL-34-5055",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5055",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5055.jpg",
+    "image": "/product-whitebacks/gl-34-5055.png",
     "alt": "Park & Bahçe Direği GL-34-5055"
   },
   {
@@ -2593,7 +2601,7 @@ export const toprakProducts = [
     "code": "GL-34-5058",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5058",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5058.jpg",
+    "image": "/product-whitebacks/gl-34-5058.png",
     "alt": "Park & Bahçe Direği GL-34-5058"
   },
   {
@@ -2602,7 +2610,7 @@ export const toprakProducts = [
     "code": "GL-34-5057",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5057",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5057.jpg",
+    "image": "/product-whitebacks/gl-34-5057.png",
     "alt": "Park & Bahçe Direği GL-34-5057"
   },
   {
@@ -2611,7 +2619,7 @@ export const toprakProducts = [
     "code": "GL-34-5059",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5059",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5059.jpg",
+    "image": "/product-whitebacks/gl-34-5059.png",
     "alt": "Park & Bahçe Direği GL-34-5059"
   },
   {
@@ -2620,7 +2628,7 @@ export const toprakProducts = [
     "code": "GL-34-5056",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5056",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5056.jpg",
+    "image": "/product-whitebacks/gl-34-5056.png",
     "alt": "Park & Bahçe Direği GL-34-5056"
   },
   {
@@ -2629,7 +2637,7 @@ export const toprakProducts = [
     "code": "GL-34-5060",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5060",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5060.jpg",
+    "image": "/product-whitebacks/gl-34-5060.png",
     "alt": "Park & Bahçe Direği GL-34-5060"
   },
   {
@@ -2638,7 +2646,7 @@ export const toprakProducts = [
     "code": "GL-34-5061",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5061",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5061.jpg",
+    "image": "/product-whitebacks/gl-34-5061.png",
     "alt": "Park & Bahçe Direği GL-34-5061"
   },
   {
@@ -2647,7 +2655,7 @@ export const toprakProducts = [
     "code": "GL-34-5062",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5062",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5062.jpg",
+    "image": "/product-whitebacks/gl-34-5062.png",
     "alt": "Park & Bahçe Direği GL-34-5062"
   },
   {
@@ -2656,7 +2664,7 @@ export const toprakProducts = [
     "code": "GL-34-5063",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5063",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5063.jpg",
+    "image": "/product-whitebacks/gl-34-5063.png",
     "alt": "Park & Bahçe Direği GL-34-5063"
   },
   {
@@ -2665,7 +2673,7 @@ export const toprakProducts = [
     "code": "GL-34-5064",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5064",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5064.jpg",
+    "image": "/product-whitebacks/gl-34-5064.png",
     "alt": "Park & Bahçe Direği GL-34-5064"
   },
   {
@@ -2674,7 +2682,7 @@ export const toprakProducts = [
     "code": "GL-34-5065",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5065",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5065.jpg",
+    "image": "/product-whitebacks/gl-34-5065.png",
     "alt": "Park & Bahçe Direği GL-34-5065"
   },
   {
@@ -2683,7 +2691,7 @@ export const toprakProducts = [
     "code": "GL-34-5066",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5066",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5066.jpg",
+    "image": "/product-whitebacks/gl-34-5066.png",
     "alt": "Park & Bahçe Direği GL-34-5066"
   },
   {
@@ -2692,7 +2700,7 @@ export const toprakProducts = [
     "code": "GL-34-5067",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5067",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5067.jpg",
+    "image": "/product-whitebacks/gl-34-5067.png",
     "alt": "Park & Bahçe Direği GL-34-5067"
   },
   {
@@ -2701,7 +2709,7 @@ export const toprakProducts = [
     "code": "GL-34-5068",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5068",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5068.jpg",
+    "image": "/product-whitebacks/gl-34-5068.png",
     "alt": "Park & Bahçe Direği GL-34-5068"
   },
   {
@@ -2710,7 +2718,7 @@ export const toprakProducts = [
     "code": "GL-34-5069",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5069",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5069.jpg",
+    "image": "/product-whitebacks/gl-34-5069.png",
     "alt": "Park & Bahçe Direği GL-34-5069"
   },
   {
@@ -2719,7 +2727,7 @@ export const toprakProducts = [
     "code": "GL-34-5070",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5070",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5070.jpg",
+    "image": "/product-whitebacks/gl-34-5070.png",
     "alt": "Park & Bahçe Direği GL-34-5070"
   },
   {
@@ -2728,7 +2736,7 @@ export const toprakProducts = [
     "code": "GL-34-5071",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5071",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5071.jpg",
+    "image": "/product-whitebacks/gl-34-5071.png",
     "alt": "Park & Bahçe Direği GL-34-5071"
   },
   {
@@ -2737,7 +2745,7 @@ export const toprakProducts = [
     "code": "GL-34-5072",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5072",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5072.jpg",
+    "image": "/product-whitebacks/gl-34-5072.png",
     "alt": "Park & Bahçe Direği GL-34-5072"
   },
   {
@@ -2746,7 +2754,7 @@ export const toprakProducts = [
     "code": "GL-34-5073",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5073",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5073.jpg",
+    "image": "/product-whitebacks/gl-34-5073.png",
     "alt": "Park & Bahçe Direği GL-34-5073"
   },
   {
@@ -2755,7 +2763,7 @@ export const toprakProducts = [
     "code": "GL-34-50714",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-50714",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-50714.jpg",
+    "image": "/product-whitebacks/gl-34-50714.png",
     "alt": "Park & Bahçe Direği GL-34-50714"
   },
   {
@@ -2764,7 +2772,7 @@ export const toprakProducts = [
     "code": "GL-34-5075",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5075",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5075.jpg",
+    "image": "/product-whitebacks/gl-34-5075.png",
     "alt": "Park & Bahçe Direği GL-34-5075"
   },
   {
@@ -2773,7 +2781,7 @@ export const toprakProducts = [
     "code": "GL-34-5076",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5076",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5076.jpg",
+    "image": "/product-whitebacks/gl-34-5076.png",
     "alt": "Park & Bahçe Direği GL-34-5076"
   },
   {
@@ -2782,7 +2790,7 @@ export const toprakProducts = [
     "code": "GL-34-5077",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5077",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5077.jpg",
+    "image": "/product-whitebacks/gl-34-5077.png",
     "alt": "Park & Bahçe Direği GL-34-5077"
   },
   {
@@ -2791,7 +2799,7 @@ export const toprakProducts = [
     "code": "GL-34-5078",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5078",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5078.jpg",
+    "image": "/product-whitebacks/gl-34-5078.png",
     "alt": "Park & Bahçe Direği GL-34-5078"
   },
   {
@@ -2800,7 +2808,7 @@ export const toprakProducts = [
     "code": "GL-34-5079",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5079",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5079.jpg",
+    "image": "/product-whitebacks/gl-34-5079.png",
     "alt": "Park & Bahçe Direği GL-34-5079"
   },
   {
@@ -2809,7 +2817,7 @@ export const toprakProducts = [
     "code": "GL-34-5080",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5080",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5080.jpg",
+    "image": "/product-whitebacks/gl-34-5080.png",
     "alt": "Park & Bahçe Direği GL-34-5080"
   },
   {
@@ -2818,7 +2826,7 @@ export const toprakProducts = [
     "code": "GL-34-5084",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5084",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5084.jpg",
+    "image": "/product-whitebacks/gl-34-5084.png",
     "alt": "Park & Bahçe Direği GL-34-5084"
   },
   {
@@ -2827,7 +2835,7 @@ export const toprakProducts = [
     "code": "GL-34-5081",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5081",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5081.jpg",
+    "image": "/product-whitebacks/gl-34-5081.png",
     "alt": "Park & Bahçe Direği GL-34-5081"
   },
   {
@@ -2836,7 +2844,7 @@ export const toprakProducts = [
     "code": "GL-34-5082",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5082",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5082.jpg",
+    "image": "/product-whitebacks/gl-34-5082.png",
     "alt": "Park & Bahçe Direği GL-34-5082"
   },
   {
@@ -2845,7 +2853,7 @@ export const toprakProducts = [
     "code": "GL-34-5083",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5083",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5083.jpg",
+    "image": "/product-whitebacks/gl-34-5083.png",
     "alt": "Park & Bahçe Direği GL-34-5083"
   },
   {
@@ -2854,7 +2862,7 @@ export const toprakProducts = [
     "code": "GL-34-5085",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5085",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5085.jpg",
+    "image": "/product-whitebacks/gl-34-5085.png",
     "alt": "Park & Bahçe Direği GL-34-5085"
   },
   {
@@ -2863,7 +2871,7 @@ export const toprakProducts = [
     "code": "GL-34-5086",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5086",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5086.jpg",
+    "image": "/product-whitebacks/gl-34-5086.png",
     "alt": "Park & Bahçe Direği GL-34-5086"
   },
   {
@@ -2872,7 +2880,7 @@ export const toprakProducts = [
     "code": "GL-34-5087",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5087",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5087.jpg",
+    "image": "/product-whitebacks/gl-34-5087.png",
     "alt": "Park & Bahçe Direği GL-34-5087"
   },
   {
@@ -2881,7 +2889,7 @@ export const toprakProducts = [
     "code": "GL-34-5090",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5090",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5090.jpg",
+    "image": "/product-whitebacks/gl-34-5090.png",
     "alt": "Park & Bahçe Direği GL-34-5090"
   },
   {
@@ -2890,7 +2898,7 @@ export const toprakProducts = [
     "code": "GL-34-5089",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5089",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5089.jpg",
+    "image": "/product-whitebacks/gl-34-5089.png",
     "alt": "Park & Bahçe Direği GL-34-5089"
   },
   {
@@ -2899,7 +2907,7 @@ export const toprakProducts = [
     "code": "GL-34-5091",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5091",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5091.jpg",
+    "image": "/product-whitebacks/gl-34-5091.png",
     "alt": "Park & Bahçe Direği GL-34-5091"
   },
   {
@@ -2908,7 +2916,7 @@ export const toprakProducts = [
     "code": "GL-34-5088",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5088",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5088.jpg",
+    "image": "/product-whitebacks/gl-34-5088.png",
     "alt": "Park & Bahçe Direği GL-34-5088"
   },
   {
@@ -2917,7 +2925,7 @@ export const toprakProducts = [
     "code": "GL-34-5092",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5092",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5092.jpg",
+    "image": "/product-whitebacks/gl-34-5092.png",
     "alt": "Park & Bahçe Direği GL-34-5092"
   },
   {
@@ -2926,7 +2934,7 @@ export const toprakProducts = [
     "code": "GL-34-5093",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5093",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5093.jpg",
+    "image": "/product-whitebacks/gl-34-5093.png",
     "alt": "Park & Bahçe Direği GL-34-5093"
   },
   {
@@ -2935,7 +2943,7 @@ export const toprakProducts = [
     "code": "GL-34-5094",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5094",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5094.jpg",
+    "image": "/product-whitebacks/gl-34-5094.png",
     "alt": "Park & Bahçe Direği GL-34-5094"
   },
   {
@@ -2944,7 +2952,7 @@ export const toprakProducts = [
     "code": "GL-34-5095",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5095",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5095.jpg",
+    "image": "/product-whitebacks/gl-34-5095.png",
     "alt": "Park & Bahçe Direği GL-34-5095"
   },
   {
@@ -2953,7 +2961,7 @@ export const toprakProducts = [
     "code": "GL-34-5096",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5096",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5096.jpg",
+    "image": "/product-whitebacks/gl-34-5096.png",
     "alt": "Park & Bahçe Direği GL-34-5096"
   },
   {
@@ -2962,7 +2970,7 @@ export const toprakProducts = [
     "code": "GL-34-5097",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5097",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5097.jpg",
+    "image": "/product-whitebacks/gl-34-5097.png",
     "alt": "Park & Bahçe Direği GL-34-5097"
   },
   {
@@ -2971,7 +2979,7 @@ export const toprakProducts = [
     "code": "GL-34-5098",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5098",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5098.jpg",
+    "image": "/product-whitebacks/gl-34-5098.png",
     "alt": "Park & Bahçe Direği GL-34-5098"
   },
   {
@@ -2980,7 +2988,7 @@ export const toprakProducts = [
     "code": "GL-34-5099",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5099",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5099.jpg",
+    "image": "/product-whitebacks/gl-34-5099.png",
     "alt": "Park & Bahçe Direği GL-34-5099"
   },
   {
@@ -2989,7 +2997,7 @@ export const toprakProducts = [
     "code": "GL-34-5100",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5100",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5100.jpg",
+    "image": "/product-whitebacks/gl-34-5100.png",
     "alt": "Park & Bahçe Direği GL-34-5100"
   },
   {
@@ -2998,7 +3006,7 @@ export const toprakProducts = [
     "code": "GL-34-5101",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5101",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5101.jpg",
+    "image": "/product-whitebacks/gl-34-5101.png",
     "alt": "Park & Bahçe Direği GL-34-5101"
   },
   {
@@ -3007,7 +3015,7 @@ export const toprakProducts = [
     "code": "GL-34-5102",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5102",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5102.jpg",
+    "image": "/product-whitebacks/gl-34-5102.png",
     "alt": "Park & Bahçe Direği GL-34-5102"
   },
   {
@@ -3016,7 +3024,7 @@ export const toprakProducts = [
     "code": "GL-34-5103",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5103",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5103.jpg",
+    "image": "/product-whitebacks/gl-34-5103.png",
     "alt": "Park & Bahçe Direği GL-34-5103"
   },
   {
@@ -3025,7 +3033,7 @@ export const toprakProducts = [
     "code": "GL-34-5104",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5104",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5104.jpg",
+    "image": "/product-whitebacks/gl-34-5104.png",
     "alt": "Park & Bahçe Direği GL-34-5104"
   },
   {
@@ -3034,7 +3042,7 @@ export const toprakProducts = [
     "code": "GL-34-5105",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5105",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5105.jpg",
+    "image": "/product-whitebacks/gl-34-5105.png",
     "alt": "Park & Bahçe Direği GL-34-5105"
   },
   {
@@ -3043,7 +3051,7 @@ export const toprakProducts = [
     "code": "GL-34-5106",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5106",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5106.jpg",
+    "image": "/product-whitebacks/gl-34-5106.png",
     "alt": "Park & Bahçe Direği GL-34-5106"
   },
   {
@@ -3052,7 +3060,7 @@ export const toprakProducts = [
     "code": "GL-34-5107",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5107",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5107.jpg",
+    "image": "/product-whitebacks/gl-34-5107.png",
     "alt": "Park & Bahçe Direği GL-34-5107"
   },
   {
@@ -3061,7 +3069,7 @@ export const toprakProducts = [
     "code": "GL-34-5108",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5108",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5108.jpg",
+    "image": "/product-whitebacks/gl-34-5108.png",
     "alt": "Park & Bahçe Direği GL-34-5108"
   },
   {
@@ -3070,7 +3078,7 @@ export const toprakProducts = [
     "code": "GL-34-5109",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5109",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5109.jpg",
+    "image": "/product-whitebacks/gl-34-5109.png",
     "alt": "Park & Bahçe Direği GL-34-5109"
   },
   {
@@ -3079,7 +3087,7 @@ export const toprakProducts = [
     "code": "GL-34-5110",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5110",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5110.jpg",
+    "image": "/product-whitebacks/gl-34-5110.png",
     "alt": "Park & Bahçe Direği GL-34-5110"
   },
   {
@@ -3088,7 +3096,7 @@ export const toprakProducts = [
     "code": "GL-34-5113",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5113",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5113.jpg",
+    "image": "/product-whitebacks/gl-34-5113.png",
     "alt": "Park & Bahçe Direği GL-34-5113"
   },
   {
@@ -3097,7 +3105,7 @@ export const toprakProducts = [
     "code": "GL-34-5112",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5112",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5112.jpg",
+    "image": "/product-whitebacks/gl-34-5112.png",
     "alt": "Park & Bahçe Direği GL-34-5112"
   },
   {
@@ -3106,7 +3114,7 @@ export const toprakProducts = [
     "code": "GL-34-5111",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5111",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5111.jpg",
+    "image": "/product-whitebacks/gl-34-5111.png",
     "alt": "Park & Bahçe Direği GL-34-5111"
   },
   {
@@ -3115,7 +3123,7 @@ export const toprakProducts = [
     "code": "GL-34-5114",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5114",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5114.jpg",
+    "image": "/product-whitebacks/gl-34-5114.png",
     "alt": "Park & Bahçe Direği GL-34-5114"
   },
   {
@@ -3124,7 +3132,7 @@ export const toprakProducts = [
     "code": "GL-34-5115",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5115",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5115.jpg",
+    "image": "/product-whitebacks/gl-34-5115.png",
     "alt": "Park & Bahçe Direği GL-34-5115"
   },
   {
@@ -3133,7 +3141,7 @@ export const toprakProducts = [
     "code": "GL-34-5116",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5116",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5116.jpg",
+    "image": "/product-whitebacks/gl-34-5116.png",
     "alt": "Park & Bahçe Direği GL-34-5116"
   },
   {
@@ -3142,7 +3150,7 @@ export const toprakProducts = [
     "code": "GL-34-5120",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5120",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5120.jpg",
+    "image": "/product-whitebacks/gl-34-5120.png",
     "alt": "Park & Bahçe Direği GL-34-5120"
   },
   {
@@ -3151,7 +3159,7 @@ export const toprakProducts = [
     "code": "GL-34-5121",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5121",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5121.jpg",
+    "image": "/product-whitebacks/gl-34-5121.png",
     "alt": "Park & Bahçe Direği GL-34-5121"
   },
   {
@@ -3160,7 +3168,7 @@ export const toprakProducts = [
     "code": "GL-34-5122",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5122",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5122.jpg",
+    "image": "/product-whitebacks/gl-34-5122.png",
     "alt": "Park & Bahçe Direği GL-34-5122"
   },
   {
@@ -3169,7 +3177,7 @@ export const toprakProducts = [
     "code": "GL-34-5123",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5123",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5123.jpg",
+    "image": "/product-whitebacks/gl-34-5123.png",
     "alt": "Park & Bahçe Direği GL-34-5123"
   },
   {
@@ -3178,7 +3186,7 @@ export const toprakProducts = [
     "code": "GL-34-5124",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5124",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5124.jpg",
+    "image": "/product-whitebacks/gl-34-5124.png",
     "alt": "Park & Bahçe Direği GL-34-5124"
   },
   {
@@ -3187,7 +3195,7 @@ export const toprakProducts = [
     "code": "GL-34-5117",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5117",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5117.jpg",
+    "image": "/product-whitebacks/gl-34-5117.png",
     "alt": "Park & Bahçe Direği GL-34-5117"
   },
   {
@@ -3196,7 +3204,7 @@ export const toprakProducts = [
     "code": "GL-34-5118",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5118",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5118.jpg",
+    "image": "/product-whitebacks/gl-34-5118.png",
     "alt": "Park & Bahçe Direği GL-34-5118"
   },
   {
@@ -3205,7 +3213,7 @@ export const toprakProducts = [
     "code": "GL-34-5119",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5119",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5119.jpg",
+    "image": "/product-whitebacks/gl-34-5119.png",
     "alt": "Park & Bahçe Direği GL-34-5119"
   },
   {
@@ -3214,7 +3222,7 @@ export const toprakProducts = [
     "code": "GL-34-5128",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5128",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5128.jpg",
+    "image": "/product-whitebacks/gl-34-5128.png",
     "alt": "Park & Bahçe Direği GL-34-5128"
   },
   {
@@ -3223,7 +3231,7 @@ export const toprakProducts = [
     "code": "GL-34-5125",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5125",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5125.jpg",
+    "image": "/product-whitebacks/gl-34-5125.png",
     "alt": "Park & Bahçe Direği GL-34-5125"
   },
   {
@@ -3232,7 +3240,7 @@ export const toprakProducts = [
     "code": "GL-34-5126",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5126",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5126.jpg",
+    "image": "/product-whitebacks/gl-34-5126.png",
     "alt": "Park & Bahçe Direği GL-34-5126"
   },
   {
@@ -3241,7 +3249,7 @@ export const toprakProducts = [
     "code": "GL-34-5127",
     "category": "park-bahce",
     "href": "/tr/urunler/gl-34-5127",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-5127.jpg",
+    "image": "/product-whitebacks/gl-34-5127.png",
     "alt": "Park & Bahçe Direği GL-34-5127"
   },
   {
@@ -3250,7 +3258,7 @@ export const toprakProducts = [
     "code": "GL-34-9063",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9063",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9063.jpg",
+    "image": "/product-whitebacks/gl-34-9063.png",
     "alt": "Küre Glop GL-34-9063"
   },
   {
@@ -3259,7 +3267,7 @@ export const toprakProducts = [
     "code": "GL-34-9062",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9062",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9062.jpg",
+    "image": "/product-whitebacks/gl-34-9062.png",
     "alt": "Küre Glop GL-34-9062"
   },
   {
@@ -3268,7 +3276,7 @@ export const toprakProducts = [
     "code": "GL-34-9061",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9061",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9061.jpg",
+    "image": "/product-whitebacks/gl-34-9061.png",
     "alt": "Küre Glop GL-34-9061"
   },
   {
@@ -3277,7 +3285,7 @@ export const toprakProducts = [
     "code": "GL-34-9064",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9064",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9064.jpg",
+    "image": "/product-whitebacks/gl-34-9064.png",
     "alt": "Küre Glop GL-34-9064"
   },
   {
@@ -3286,7 +3294,7 @@ export const toprakProducts = [
     "code": "GL-34-9066",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9066",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9066.jpg",
+    "image": "/product-whitebacks/gl-34-9066.png",
     "alt": "Küre Glop GL-34-9066"
   },
   {
@@ -3295,7 +3303,7 @@ export const toprakProducts = [
     "code": "GL-34-9067",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9067",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9067.jpg",
+    "image": "/product-whitebacks/gl-34-9067.png",
     "alt": "Küre Glop GL-34-9067"
   },
   {
@@ -3304,7 +3312,7 @@ export const toprakProducts = [
     "code": "GL-34-9065",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9065",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9065.jpg",
+    "image": "/product-whitebacks/gl-34-9065.png",
     "alt": "Küre Glop GL-34-9065"
   },
   {
@@ -3313,7 +3321,7 @@ export const toprakProducts = [
     "code": "GL-34-9068",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9068",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9068.jpg",
+    "image": "/product-whitebacks/gl-34-9068.png",
     "alt": "Küre Glop GL-34-9068"
   },
   {
@@ -3322,7 +3330,7 @@ export const toprakProducts = [
     "code": "GL-34-9070",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9070",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9070.jpg",
+    "image": "/product-whitebacks/gl-34-9070.png",
     "alt": "Küre Glop GL-34-9070"
   },
   {
@@ -3331,7 +3339,7 @@ export const toprakProducts = [
     "code": "GL-34-9071",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9071",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9071.jpg",
+    "image": "/product-whitebacks/gl-34-9071.png",
     "alt": "Küre Glop GL-34-9071"
   },
   {
@@ -3340,7 +3348,7 @@ export const toprakProducts = [
     "code": "GL-34-9069",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9069",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9069.jpg",
+    "image": "/product-whitebacks/gl-34-9069.png",
     "alt": "Küre Glop GL-34-9069"
   },
   {
@@ -3349,7 +3357,7 @@ export const toprakProducts = [
     "code": "GL-34-9072",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9072",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9072.jpg",
+    "image": "/product-whitebacks/gl-34-9072.png",
     "alt": "Küre Glop GL-34-9072"
   },
   {
@@ -3358,7 +3366,7 @@ export const toprakProducts = [
     "code": "GL-34-9074",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9074",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9074.jpg",
+    "image": "/product-whitebacks/gl-34-9074.png",
     "alt": "Küre Glop GL-34-9074"
   },
   {
@@ -3367,7 +3375,7 @@ export const toprakProducts = [
     "code": "GL-34-9075",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9075",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9075.jpg",
+    "image": "/product-whitebacks/gl-34-9075.png",
     "alt": "Küre Glop GL-34-9075"
   },
   {
@@ -3376,7 +3384,7 @@ export const toprakProducts = [
     "code": "GL-34-9073",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9073",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9073.jpg",
+    "image": "/product-whitebacks/gl-34-9073.png",
     "alt": "Küre Glop GL-34-9073"
   },
   {
@@ -3385,7 +3393,7 @@ export const toprakProducts = [
     "code": "GL-34-9076",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9076",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9076.jpg",
+    "image": "/product-whitebacks/gl-34-9076.png",
     "alt": "Küre Glop GL-34-9076"
   },
   {
@@ -3394,7 +3402,7 @@ export const toprakProducts = [
     "code": "GL-34-9078",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9078",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9078.jpg",
+    "image": "/product-whitebacks/gl-34-9078.png",
     "alt": "Küre Glop GL-34-9078"
   },
   {
@@ -3403,7 +3411,7 @@ export const toprakProducts = [
     "code": "GL-34-9077",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9077",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9077.jpg",
+    "image": "/product-whitebacks/gl-34-9077.png",
     "alt": "Küre Glop GL-34-9077"
   },
   {
@@ -3412,7 +3420,7 @@ export const toprakProducts = [
     "code": "GL-34-9081",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9081",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9081.jpg",
+    "image": "/product-whitebacks/gl-34-9081.png",
     "alt": "Küre Glop GL-34-9081"
   },
   {
@@ -3421,7 +3429,7 @@ export const toprakProducts = [
     "code": "GL-34-9079",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9079",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9079.jpg",
+    "image": "/product-whitebacks/gl-34-9079.png",
     "alt": "Küre Glop GL-34-9079"
   },
   {
@@ -3430,7 +3438,7 @@ export const toprakProducts = [
     "code": "GL-34-9080",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9080",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9080.jpg",
+    "image": "/product-whitebacks/gl-34-9080.png",
     "alt": "Küre Glop GL-34-9080"
   },
   {
@@ -3439,7 +3447,7 @@ export const toprakProducts = [
     "code": "GL-34-9084",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9084",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9084.jpg",
+    "image": "/product-whitebacks/gl-34-9084.png",
     "alt": "Küre Glop GL-34-9084"
   },
   {
@@ -3448,7 +3456,7 @@ export const toprakProducts = [
     "code": "GL-34-9082",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9082",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9082.jpg",
+    "image": "/product-whitebacks/gl-34-9082.png",
     "alt": "Küre Glop GL-34-9082"
   },
   {
@@ -3457,7 +3465,7 @@ export const toprakProducts = [
     "code": "GL-34-9083",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9083",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9083.jpg",
+    "image": "/product-whitebacks/gl-34-9083.png",
     "alt": "Küre Glop GL-34-9083"
   },
   {
@@ -3466,7 +3474,7 @@ export const toprakProducts = [
     "code": "GL-34-9087",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9087",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9087.jpg",
+    "image": "/product-whitebacks/gl-34-9087.png",
     "alt": "Küre Glop GL-34-9087"
   },
   {
@@ -3475,7 +3483,7 @@ export const toprakProducts = [
     "code": "GL-34-9085",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9085",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9085.jpg",
+    "image": "/product-whitebacks/gl-34-9085.png",
     "alt": "Küre Glop GL-34-9085"
   },
   {
@@ -3484,7 +3492,7 @@ export const toprakProducts = [
     "code": "GL-34-9086",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9086",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9086.jpg",
+    "image": "/product-whitebacks/gl-34-9086.png",
     "alt": "Küre Glop GL-34-9086"
   },
   {
@@ -3493,7 +3501,7 @@ export const toprakProducts = [
     "code": "GL-34-9090",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9090",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9090.jpg",
+    "image": "/product-whitebacks/gl-34-9090.png",
     "alt": "Küre Glop GL-34-9090"
   },
   {
@@ -3502,7 +3510,7 @@ export const toprakProducts = [
     "code": "GL-34-9088",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9088",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9088.jpg",
+    "image": "/product-whitebacks/gl-34-9088.png",
     "alt": "Küre Glop GL-34-9088"
   },
   {
@@ -3511,7 +3519,7 @@ export const toprakProducts = [
     "code": "GL-34-9089",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9089",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9089.jpg",
+    "image": "/product-whitebacks/gl-34-9089.png",
     "alt": "Küre Glop GL-34-9089"
   },
   {
@@ -3520,7 +3528,7 @@ export const toprakProducts = [
     "code": "GL-34-9093",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9093",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9093.jpg",
+    "image": "/product-whitebacks/gl-34-9093.png",
     "alt": "Küre Glop GL-34-9093"
   },
   {
@@ -3529,7 +3537,7 @@ export const toprakProducts = [
     "code": "GL-34-9091",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9091",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9091.jpg",
+    "image": "/product-whitebacks/gl-34-9091.png",
     "alt": "Küre Glop GL-34-9091"
   },
   {
@@ -3538,7 +3546,7 @@ export const toprakProducts = [
     "code": "GL-34-9092",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9092",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9092.jpg",
+    "image": "/product-whitebacks/gl-34-9092.png",
     "alt": "Küre Glop GL-34-9092"
   },
   {
@@ -3547,7 +3555,7 @@ export const toprakProducts = [
     "code": "GL-34-9094",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9094",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9094.jpg",
+    "image": "/product-whitebacks/gl-34-9094.png",
     "alt": "Küre Glop GL-34-9094"
   },
   {
@@ -3556,7 +3564,7 @@ export const toprakProducts = [
     "code": "GL-34-9096",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9096",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9096.jpg",
+    "image": "/product-whitebacks/gl-34-9096.png",
     "alt": "Küre Glop GL-34-9096"
   },
   {
@@ -3565,7 +3573,7 @@ export const toprakProducts = [
     "code": "GL-34-9095",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9095",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9095.jpg",
+    "image": "/product-whitebacks/gl-34-9095.png",
     "alt": "Küre Glop GL-34-9095"
   },
   {
@@ -3574,7 +3582,7 @@ export const toprakProducts = [
     "code": "GL-34-9097",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9097",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9097.jpg",
+    "image": "/product-whitebacks/gl-34-9097.png",
     "alt": "Küre Glop GL-34-9097"
   },
   {
@@ -3583,7 +3591,7 @@ export const toprakProducts = [
     "code": "GL-34-9099",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9099",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9099.jpg",
+    "image": "/product-whitebacks/gl-34-9099.png",
     "alt": "Küre Glop GL-34-9099"
   },
   {
@@ -3592,7 +3600,7 @@ export const toprakProducts = [
     "code": "GL-34-9098",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9098",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9098.jpg",
+    "image": "/product-whitebacks/gl-34-9098.png",
     "alt": "Küre Glop GL-34-9098"
   },
   {
@@ -3601,7 +3609,7 @@ export const toprakProducts = [
     "code": "GL-34-9004",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9004",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9004.jpg",
+    "image": "/product-whitebacks/gl-34-9004.png",
     "alt": "Küre Glop GL-34-9004"
   },
   {
@@ -3610,7 +3618,7 @@ export const toprakProducts = [
     "code": "GL-34-9102",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9102",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9102.jpg",
+    "image": "/product-whitebacks/gl-34-9102.png",
     "alt": "Küre Glop GL-34-9102"
   },
   {
@@ -3619,7 +3627,7 @@ export const toprakProducts = [
     "code": "GL-34-9101",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9101",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9101.jpg",
+    "image": "/product-whitebacks/gl-34-9101.png",
     "alt": "Küre Glop GL-34-9101"
   },
   {
@@ -3628,7 +3636,7 @@ export const toprakProducts = [
     "code": "GL-34-9105",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9105",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9105.jpg",
+    "image": "/product-whitebacks/gl-34-9105.png",
     "alt": "Küre Glop GL-34-9105"
   },
   {
@@ -3637,7 +3645,7 @@ export const toprakProducts = [
     "code": "GL-34-9103",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9103",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9103.jpg",
+    "image": "/product-whitebacks/gl-34-9103.png",
     "alt": "Küre Glop GL-34-9103"
   },
   {
@@ -3646,7 +3654,7 @@ export const toprakProducts = [
     "code": "GL-34-9109",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9109",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9109.jpg",
+    "image": "/product-whitebacks/gl-34-9109.png",
     "alt": "Küre Glop GL-34-9109"
   },
   {
@@ -3655,7 +3663,7 @@ export const toprakProducts = [
     "code": "GL-34-9107",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9107",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9107.jpg",
+    "image": "/product-whitebacks/gl-34-9107.png",
     "alt": "Küre Glop GL-34-9107"
   },
   {
@@ -3664,7 +3672,7 @@ export const toprakProducts = [
     "code": "GL-34-9106",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9106",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9106.jpg",
+    "image": "/product-whitebacks/gl-34-9106.png",
     "alt": "Küre Glop GL-34-9106"
   },
   {
@@ -3673,7 +3681,7 @@ export const toprakProducts = [
     "code": "GL-34-9104",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9104",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9104.jpg",
+    "image": "/product-whitebacks/gl-34-9104.png",
     "alt": "Küre Glop GL-34-9104"
   },
   {
@@ -3682,7 +3690,7 @@ export const toprakProducts = [
     "code": "GL-34-9110",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9110",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9110.jpg",
+    "image": "/product-whitebacks/gl-34-9110.png",
     "alt": "Küre Glop GL-34-9110"
   },
   {
@@ -3691,7 +3699,7 @@ export const toprakProducts = [
     "code": "GL-34-9108",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9108",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9108.jpg",
+    "image": "/product-whitebacks/gl-34-9108.png",
     "alt": "Küre Glop GL-34-9108"
   },
   {
@@ -3700,7 +3708,7 @@ export const toprakProducts = [
     "code": "GL-34-9115",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9115",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9115.jpg",
+    "image": "/product-whitebacks/gl-34-9115.png",
     "alt": "Küre Glop GL-34-9115"
   },
   {
@@ -3709,7 +3717,7 @@ export const toprakProducts = [
     "code": "GL-34-9117",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9117",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9117.jpg",
+    "image": "/product-whitebacks/gl-34-9117.png",
     "alt": "Küre Glop GL-34-9117"
   },
   {
@@ -3718,7 +3726,7 @@ export const toprakProducts = [
     "code": "GL-34-9116",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9116",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9116.jpg",
+    "image": "/product-whitebacks/gl-34-9116.png",
     "alt": "Küre Glop GL-34-9116"
   },
   {
@@ -3727,7 +3735,7 @@ export const toprakProducts = [
     "code": "GL-34-9112",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9112",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9112.jpg",
+    "image": "/product-whitebacks/gl-34-9112.png",
     "alt": "Küre Glop GL-34-9112"
   },
   {
@@ -3736,7 +3744,7 @@ export const toprakProducts = [
     "code": "GL-34-9114",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9114",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9114.jpg",
+    "image": "/product-whitebacks/gl-34-9114.png",
     "alt": "Küre Glop GL-34-9114"
   },
   {
@@ -3745,7 +3753,7 @@ export const toprakProducts = [
     "code": "GL-34-9111",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9111",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9111.jpg",
+    "image": "/product-whitebacks/gl-34-9111.png",
     "alt": "Küre Glop GL-34-9111"
   },
   {
@@ -3754,7 +3762,7 @@ export const toprakProducts = [
     "code": "GL-34-9113",
     "category": "gloplar",
     "href": "/tr/urunler/gl-34-9113",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-34-9113.jpg",
+    "image": "/product-whitebacks/gl-34-9113.png",
     "alt": "Küre Glop GL-34-9113"
   },
   {
@@ -3763,7 +3771,7 @@ export const toprakProducts = [
     "code": "GL-100S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-100s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-100s.jpg",
+    "image": "/product-whitebacks/gl-100s.png",
     "alt": "Küre Glop GL-100S"
   },
   {
@@ -3772,7 +3780,7 @@ export const toprakProducts = [
     "code": "GL-100O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-100o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-100o.jpg",
+    "image": "/product-whitebacks/gl-100o.png",
     "alt": "Küre Glop GL-100O"
   },
   {
@@ -3781,7 +3789,7 @@ export const toprakProducts = [
     "code": "GL-100F",
     "category": "gloplar",
     "href": "/tr/urunler/gl-100f",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-100f.jpg",
+    "image": "/product-whitebacks/gl-100f.png",
     "alt": "Küre Glop GL-100F"
   },
   {
@@ -3790,7 +3798,7 @@ export const toprakProducts = [
     "code": "GL-101S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101s.jpg",
+    "image": "/product-whitebacks/gl-101s.png",
     "alt": "Küre Glop GL-101S"
   },
   {
@@ -3799,7 +3807,7 @@ export const toprakProducts = [
     "code": "GL-101O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101o.jpg",
+    "image": "/product-whitebacks/gl-101o.png",
     "alt": "Küre Glop GL-101O"
   },
   {
@@ -3808,7 +3816,7 @@ export const toprakProducts = [
     "code": "GL-101F",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101f",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101f.jpg",
+    "image": "/product-whitebacks/gl-101f.png",
     "alt": "Küre Glop GL-101F"
   },
   {
@@ -3817,7 +3825,7 @@ export const toprakProducts = [
     "code": "GL-121S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-121s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-121s.jpg",
+    "image": "/product-whitebacks/gl-121s.png",
     "alt": "Küre Glop GL-121S"
   },
   {
@@ -3826,7 +3834,7 @@ export const toprakProducts = [
     "code": "GL-101T-O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-o.jpg",
+    "image": "/product-whitebacks/gl-101t-o.png",
     "alt": "Küre Glop GL-101T-O"
   },
   {
@@ -3835,7 +3843,7 @@ export const toprakProducts = [
     "code": "GL-101T-S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-s.jpg",
+    "image": "/product-whitebacks/gl-101t-s.png",
     "alt": "Küre Glop GL-101T-S"
   },
   {
@@ -3844,7 +3852,7 @@ export const toprakProducts = [
     "code": "GL-101T-S-2-2",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-s-2-2",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-s.jpg",
+    "image": "/product-whitebacks/gl-101t-s-2-2.png",
     "alt": "Küre Glop GL-101T-S"
   },
   {
@@ -3853,7 +3861,7 @@ export const toprakProducts = [
     "code": "GL-101T-O-3-2",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-o-3-2",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-o.jpg",
+    "image": "/product-whitebacks/gl-101t-o-3-2.png",
     "alt": "Küre Glop GL-101T-O"
   },
   {
@@ -3862,7 +3870,7 @@ export const toprakProducts = [
     "code": "GL-101T-O-3-3",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-o-3-3",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-o.jpg",
+    "image": "/product-whitebacks/gl-101t-o-3-3.png",
     "alt": "Küre Glop GL-101T-O"
   },
   {
@@ -3871,7 +3879,7 @@ export const toprakProducts = [
     "code": "GL-101T-O-3-4",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-o-3-4",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-o.jpg",
+    "image": "/product-whitebacks/gl-101t-o-3-4.png",
     "alt": "Küre Glop GL-101T-O"
   },
   {
@@ -3880,7 +3888,7 @@ export const toprakProducts = [
     "code": "GL-101T-O-3-5",
     "category": "gloplar",
     "href": "/tr/urunler/gl-101t-o-3-5",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-101t-o.jpg",
+    "image": "/product-whitebacks/gl-101t-o-3-5.png",
     "alt": "Küre Glop GL-101T-O"
   },
   {
@@ -3889,7 +3897,7 @@ export const toprakProducts = [
     "code": "GL-103S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-103s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-103s.jpg",
+    "image": "/product-whitebacks/gl-103s.png",
     "alt": "Küre Glop GL-103S"
   },
   {
@@ -3898,7 +3906,7 @@ export const toprakProducts = [
     "code": "GL-103O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-103o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-103o.jpg",
+    "image": "/product-whitebacks/gl-103o.png",
     "alt": "Küre Glop GL-103O"
   },
   {
@@ -3907,7 +3915,7 @@ export const toprakProducts = [
     "code": "GL-103F",
     "category": "gloplar",
     "href": "/tr/urunler/gl-103f",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-103f.jpg",
+    "image": "/product-whitebacks/gl-103f.png",
     "alt": "Küre Glop GL-103F"
   },
   {
@@ -3916,7 +3924,7 @@ export const toprakProducts = [
     "code": "GL-123S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-123s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-123s.jpg",
+    "image": "/product-whitebacks/gl-123s.png",
     "alt": "Küre Glop GL-123S"
   },
   {
@@ -3925,7 +3933,7 @@ export const toprakProducts = [
     "code": "GL-105S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-105s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-105s.jpg",
+    "image": "/product-whitebacks/gl-105s.png",
     "alt": "Küre Glop GL-105S"
   },
   {
@@ -3934,7 +3942,7 @@ export const toprakProducts = [
     "code": "GL-105O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-105o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-105o.jpg",
+    "image": "/product-whitebacks/gl-105o.png",
     "alt": "Küre Glop GL-105O"
   },
   {
@@ -3943,7 +3951,7 @@ export const toprakProducts = [
     "code": "GL-125S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-125s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-125s.jpg",
+    "image": "/product-whitebacks/gl-125s.png",
     "alt": "Küre Glop GL-125S"
   },
   {
@@ -3952,7 +3960,7 @@ export const toprakProducts = [
     "code": "GL-105F",
     "category": "gloplar",
     "href": "/tr/urunler/gl-105f",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-105f.jpg",
+    "image": "/product-whitebacks/gl-105f.png",
     "alt": "Küre Glop GL-105F"
   },
   {
@@ -3961,7 +3969,7 @@ export const toprakProducts = [
     "code": "GL-135O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-135o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-135o.jpg",
+    "image": "/product-whitebacks/gl-135o.png",
     "alt": "Küre Glop GL-135O"
   },
   {
@@ -3970,7 +3978,7 @@ export const toprakProducts = [
     "code": "GL-133O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-133o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-133o.jpg",
+    "image": "/product-whitebacks/gl-133o.png",
     "alt": "Küre Glop GL-133O"
   },
   {
@@ -3979,7 +3987,7 @@ export const toprakProducts = [
     "code": "GL-131O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-131o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-131o.jpg",
+    "image": "/product-whitebacks/gl-131o.png",
     "alt": "Küre Glop GL-131O"
   },
   {
@@ -3988,7 +3996,7 @@ export const toprakProducts = [
     "code": "GL-132O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-132o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-132o.jpg",
+    "image": "/product-whitebacks/gl-132o.png",
     "alt": "Küre Glop GL-132O"
   },
   {
@@ -3997,7 +4005,7 @@ export const toprakProducts = [
     "code": "GL-141S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-141s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-141s.jpg",
+    "image": "/product-whitebacks/gl-141s.png",
     "alt": "Küre Glop GL-141S"
   },
   {
@@ -4006,7 +4014,7 @@ export const toprakProducts = [
     "code": "GL-141O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-141o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-141o.jpg",
+    "image": "/product-whitebacks/gl-141o.png",
     "alt": "Küre Glop GL-141O"
   },
   {
@@ -4015,7 +4023,7 @@ export const toprakProducts = [
     "code": "GL-151S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-151s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-151s.jpg",
+    "image": "/product-whitebacks/gl-151s.png",
     "alt": "Küre Glop GL-151S"
   },
   {
@@ -4024,7 +4032,7 @@ export const toprakProducts = [
     "code": "GL-142O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-142o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-142o.jpg",
+    "image": "/product-whitebacks/gl-142o.png",
     "alt": "Küre Glop GL-142O"
   },
   {
@@ -4033,7 +4041,7 @@ export const toprakProducts = [
     "code": "GL-142S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-142s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-142s.jpg",
+    "image": "/product-whitebacks/gl-142s.png",
     "alt": "Küre Glop GL-142S"
   },
   {
@@ -4042,7 +4050,7 @@ export const toprakProducts = [
     "code": "GL-152S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-152s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-152s.jpg",
+    "image": "/product-whitebacks/gl-152s.png",
     "alt": "Küre Glop GL-152S"
   },
   {
@@ -4051,7 +4059,7 @@ export const toprakProducts = [
     "code": "GL-161S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-161s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-161s.jpg",
+    "image": "/product-whitebacks/gl-161s.png",
     "alt": "Küre Glop GL-161S"
   },
   {
@@ -4060,7 +4068,7 @@ export const toprakProducts = [
     "code": "GL-161O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-161o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-161o.jpg",
+    "image": "/product-whitebacks/gl-161o.png",
     "alt": "Küre Glop GL-161O"
   },
   {
@@ -4069,7 +4077,7 @@ export const toprakProducts = [
     "code": "GL-171S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-171s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-171s.jpg",
+    "image": "/product-whitebacks/gl-171s.png",
     "alt": "Küre Glop GL-171S"
   },
   {
@@ -4078,7 +4086,7 @@ export const toprakProducts = [
     "code": "GL-181S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-181s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-181s.jpg",
+    "image": "/product-whitebacks/gl-181s.png",
     "alt": "Küre Glop GL-181S"
   },
   {
@@ -4087,7 +4095,7 @@ export const toprakProducts = [
     "code": "GL-181O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-181o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-181o.jpg",
+    "image": "/product-whitebacks/gl-181o.png",
     "alt": "Küre Glop GL-181O"
   },
   {
@@ -4096,7 +4104,7 @@ export const toprakProducts = [
     "code": "GL-181SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-181sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-181sf.jpg",
+    "image": "/product-whitebacks/gl-181sf.png",
     "alt": "Küre Glop GL-181SF"
   },
   {
@@ -4105,7 +4113,7 @@ export const toprakProducts = [
     "code": "GL-191S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-191s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-191s.jpg",
+    "image": "/product-whitebacks/gl-191s.png",
     "alt": "Küre Glop GL-191S"
   },
   {
@@ -4114,7 +4122,7 @@ export const toprakProducts = [
     "code": "GL-191O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-191o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-191o.jpg",
+    "image": "/product-whitebacks/gl-191o.png",
     "alt": "Küre Glop GL-191O"
   },
   {
@@ -4123,7 +4131,7 @@ export const toprakProducts = [
     "code": "GL-191SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-191sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-191sf.jpg",
+    "image": "/product-whitebacks/gl-191sf.png",
     "alt": "Küre Glop GL-191SF"
   },
   {
@@ -4132,7 +4140,7 @@ export const toprakProducts = [
     "code": "GL-201S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-201s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-201s.jpg",
+    "image": "/product-whitebacks/gl-201s.png",
     "alt": "Küre Glop GL-201S"
   },
   {
@@ -4141,7 +4149,7 @@ export const toprakProducts = [
     "code": "GL-201O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-201o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-201o.jpg",
+    "image": "/product-whitebacks/gl-201o.png",
     "alt": "Küre Glop GL-201O"
   },
   {
@@ -4150,7 +4158,7 @@ export const toprakProducts = [
     "code": "GL-201SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-201sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-201sf.jpg",
+    "image": "/product-whitebacks/gl-201sf.png",
     "alt": "Küre Glop GL-201SF"
   },
   {
@@ -4159,7 +4167,7 @@ export const toprakProducts = [
     "code": "GL-211S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-211s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-211s.jpg",
+    "image": "/product-whitebacks/gl-211s.png",
     "alt": "Küre Glop GL-211S"
   },
   {
@@ -4168,7 +4176,7 @@ export const toprakProducts = [
     "code": "GL-211O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-211o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-211o.jpg",
+    "image": "/product-whitebacks/gl-211o.png",
     "alt": "Küre Glop GL-211O"
   },
   {
@@ -4177,7 +4185,7 @@ export const toprakProducts = [
     "code": "GL-211SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-211sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-211sf.jpg",
+    "image": "/product-whitebacks/gl-211sf.png",
     "alt": "Küre Glop GL-211SF"
   },
   {
@@ -4186,7 +4194,7 @@ export const toprakProducts = [
     "code": "GL-221S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-221s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-221s.jpg",
+    "image": "/product-whitebacks/gl-221s.png",
     "alt": "Küre Glop GL-221S"
   },
   {
@@ -4195,7 +4203,7 @@ export const toprakProducts = [
     "code": "GL-221O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-221o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-221o.jpg",
+    "image": "/product-whitebacks/gl-221o.png",
     "alt": "Küre Glop GL-221O"
   },
   {
@@ -4204,7 +4212,7 @@ export const toprakProducts = [
     "code": "GL-221SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-221sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-221sf.jpg",
+    "image": "/product-whitebacks/gl-221sf.png",
     "alt": "Küre Glop GL-221SF"
   },
   {
@@ -4213,7 +4221,7 @@ export const toprakProducts = [
     "code": "GL-222O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-222o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-222o.jpg",
+    "image": "/product-whitebacks/gl-222o.png",
     "alt": "Küre Glop GL-222O"
   },
   {
@@ -4222,7 +4230,7 @@ export const toprakProducts = [
     "code": "GL-222S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-222s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-222s.jpg",
+    "image": "/product-whitebacks/gl-222s.png",
     "alt": "Küre Glop GL-222S"
   },
   {
@@ -4231,7 +4239,7 @@ export const toprakProducts = [
     "code": "GL-222SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-222sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-222sf.jpg",
+    "image": "/product-whitebacks/gl-222sf.png",
     "alt": "Küre Glop GL-222SF"
   },
   {
@@ -4240,7 +4248,7 @@ export const toprakProducts = [
     "code": "GL-222BS",
     "category": "gloplar",
     "href": "/tr/urunler/gl-222bs",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-222bs.jpg",
+    "image": "/product-whitebacks/gl-222bs.png",
     "alt": "Küre Glop GL-222BS"
   },
   {
@@ -4249,7 +4257,7 @@ export const toprakProducts = [
     "code": "GL-223O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-223o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-223o.jpg",
+    "image": "/product-whitebacks/gl-223o.png",
     "alt": "Küre Glop GL-223O"
   },
   {
@@ -4258,7 +4266,7 @@ export const toprakProducts = [
     "code": "GL-223S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-223s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-223s.jpg",
+    "image": "/product-whitebacks/gl-223s.png",
     "alt": "Küre Glop GL-223S"
   },
   {
@@ -4267,7 +4275,7 @@ export const toprakProducts = [
     "code": "GL-223SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-223sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-223sf.jpg",
+    "image": "/product-whitebacks/gl-223sf.png",
     "alt": "Küre Glop GL-223SF"
   },
   {
@@ -4276,7 +4284,7 @@ export const toprakProducts = [
     "code": "GL-223BS",
     "category": "gloplar",
     "href": "/tr/urunler/gl-223bs",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-223bs.jpg",
+    "image": "/product-whitebacks/gl-223bs.png",
     "alt": "Küre Glop GL-223BS"
   },
   {
@@ -4285,7 +4293,7 @@ export const toprakProducts = [
     "code": "GL-225O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-225o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-225o.jpg",
+    "image": "/product-whitebacks/gl-225o.png",
     "alt": "Küre Glop GL-225O"
   },
   {
@@ -4294,7 +4302,7 @@ export const toprakProducts = [
     "code": "GL-225S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-225s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-225s.jpg",
+    "image": "/product-whitebacks/gl-225s.png",
     "alt": "Küre Glop GL-225S"
   },
   {
@@ -4303,7 +4311,7 @@ export const toprakProducts = [
     "code": "GL-225SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-225sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-225sf.jpg",
+    "image": "/product-whitebacks/gl-225sf.png",
     "alt": "Küre Glop GL-225SF"
   },
   {
@@ -4312,7 +4320,7 @@ export const toprakProducts = [
     "code": "GL-224O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-224o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-224o.jpg",
+    "image": "/product-whitebacks/gl-224o.png",
     "alt": "Küre Glop GL-224O"
   },
   {
@@ -4321,7 +4329,7 @@ export const toprakProducts = [
     "code": "GL-224S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-224s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-224s.jpg",
+    "image": "/product-whitebacks/gl-224s.png",
     "alt": "Küre Glop GL-224S"
   },
   {
@@ -4330,7 +4338,7 @@ export const toprakProducts = [
     "code": "GL-224SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-224sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-224sf.jpg",
+    "image": "/product-whitebacks/gl-224sf.png",
     "alt": "Küre Glop GL-224SF"
   },
   {
@@ -4339,7 +4347,7 @@ export const toprakProducts = [
     "code": "GL-232S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-232s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-232s.jpg",
+    "image": "/product-whitebacks/gl-232s.png",
     "alt": "Küre Glop GL-232S"
   },
   {
@@ -4348,7 +4356,7 @@ export const toprakProducts = [
     "code": "GL-232SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-232sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-232sf.jpg",
+    "image": "/product-whitebacks/gl-232sf.png",
     "alt": "Küre Glop GL-232SF"
   },
   {
@@ -4357,7 +4365,7 @@ export const toprakProducts = [
     "code": "GL-232O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-232o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-232o.jpg",
+    "image": "/product-whitebacks/gl-232o.png",
     "alt": "Küre Glop GL-232O"
   },
   {
@@ -4366,7 +4374,7 @@ export const toprakProducts = [
     "code": "GL-232SS",
     "category": "gloplar",
     "href": "/tr/urunler/gl-232ss",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-232ss.jpg",
+    "image": "/product-whitebacks/gl-232ss.png",
     "alt": "Küre Glop GL-232SS"
   },
   {
@@ -4375,7 +4383,7 @@ export const toprakProducts = [
     "code": "GL-233O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-233o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-233o.jpg",
+    "image": "/product-whitebacks/gl-233o.png",
     "alt": "Küre Glop GL-233O"
   },
   {
@@ -4384,7 +4392,7 @@ export const toprakProducts = [
     "code": "GL-233SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-233sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-233sf.jpg",
+    "image": "/product-whitebacks/gl-233sf.png",
     "alt": "Küre Glop GL-233SF"
   },
   {
@@ -4393,7 +4401,7 @@ export const toprakProducts = [
     "code": "GL-233S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-233s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-233s.jpg",
+    "image": "/product-whitebacks/gl-233s.png",
     "alt": "Küre Glop GL-233S"
   },
   {
@@ -4402,7 +4410,7 @@ export const toprakProducts = [
     "code": "GL-234S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-234s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-234s.jpg",
+    "image": "/product-whitebacks/gl-234s.png",
     "alt": "Küre Glop GL-234S"
   },
   {
@@ -4411,7 +4419,7 @@ export const toprakProducts = [
     "code": "GL-234SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-234sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-234sf.jpg",
+    "image": "/product-whitebacks/gl-234sf.png",
     "alt": "Küre Glop GL-234SF"
   },
   {
@@ -4420,7 +4428,7 @@ export const toprakProducts = [
     "code": "GL-234O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-234o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-234o.jpg",
+    "image": "/product-whitebacks/gl-234o.png",
     "alt": "Küre Glop GL-234O"
   },
   {
@@ -4429,7 +4437,7 @@ export const toprakProducts = [
     "code": "GL-234SS",
     "category": "gloplar",
     "href": "/tr/urunler/gl-234ss",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-234ss.jpg",
+    "image": "/product-whitebacks/gl-234ss.png",
     "alt": "Küre Glop GL-234SS"
   },
   {
@@ -4438,7 +4446,7 @@ export const toprakProducts = [
     "code": "GL-243O",
     "category": "gloplar",
     "href": "/tr/urunler/gl-243o",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-243o.jpg",
+    "image": "/product-whitebacks/gl-243o.png",
     "alt": "Küre Glop GL-243O"
   },
   {
@@ -4447,7 +4455,7 @@ export const toprakProducts = [
     "code": "GL-243SF",
     "category": "gloplar",
     "href": "/tr/urunler/gl-243sf",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-243sf.jpg",
+    "image": "/product-whitebacks/gl-243sf.png",
     "alt": "Küre Glop GL-243SF"
   },
   {
@@ -4456,7 +4464,7 @@ export const toprakProducts = [
     "code": "GL-243S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-243s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-243s.jpg",
+    "image": "/product-whitebacks/gl-243s.png",
     "alt": "Küre Glop GL-243S"
   },
   {
@@ -4465,7 +4473,7 @@ export const toprakProducts = [
     "code": "GL-244SS",
     "category": "gloplar",
     "href": "/tr/urunler/gl-244ss",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-244ss.jpg",
+    "image": "/product-whitebacks/gl-244ss.png",
     "alt": "Küre Glop GL-244SS"
   },
   {
@@ -4474,7 +4482,7 @@ export const toprakProducts = [
     "code": "GL-244SB",
     "category": "gloplar",
     "href": "/tr/urunler/gl-244sb",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-244sb.jpg",
+    "image": "/product-whitebacks/gl-244sb.png",
     "alt": "Küre Glop GL-244SB"
   },
   {
@@ -4483,7 +4491,7 @@ export const toprakProducts = [
     "code": "GL-244S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-244s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-244s.jpg",
+    "image": "/product-whitebacks/gl-244s.png",
     "alt": "Küre Glop GL-244S"
   },
   {
@@ -4492,7 +4500,7 @@ export const toprakProducts = [
     "code": "GL-245SS",
     "category": "gloplar",
     "href": "/tr/urunler/gl-245ss",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-245ss.jpg",
+    "image": "/product-whitebacks/gl-245ss.png",
     "alt": "Küre Glop GL-245SS"
   },
   {
@@ -4501,7 +4509,7 @@ export const toprakProducts = [
     "code": "GL-245SB",
     "category": "gloplar",
     "href": "/tr/urunler/gl-245sb",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-245sb.jpg",
+    "image": "/product-whitebacks/gl-245sb.png",
     "alt": "Küre Glop GL-245SB"
   },
   {
@@ -4510,7 +4518,7 @@ export const toprakProducts = [
     "code": "GL-245S",
     "category": "gloplar",
     "href": "/tr/urunler/gl-245s",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-245s.jpg",
+    "image": "/product-whitebacks/gl-245s.png",
     "alt": "Küre Glop GL-245S"
   },
   {
@@ -4519,7 +4527,7 @@ export const toprakProducts = [
     "code": "GL-121R",
     "category": "gloplar",
     "href": "/tr/urunler/gl-121r",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-121r.jpg",
+    "image": "/product-whitebacks/gl-121r.png",
     "alt": "Küre Glop GL-121R"
   },
   {
@@ -4528,7 +4536,7 @@ export const toprakProducts = [
     "code": "GL-122R",
     "category": "gloplar",
     "href": "/tr/urunler/gl-122r",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-122r.jpg",
+    "image": "/product-whitebacks/gl-122r.png",
     "alt": "Küre Glop GL-122R"
   },
   {
@@ -4537,7 +4545,7 @@ export const toprakProducts = [
     "code": "GL-103R",
     "category": "gloplar",
     "href": "/tr/urunler/gl-103r",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-103r.jpg",
+    "image": "/product-whitebacks/gl-103r.png",
     "alt": "Küre Glop GL-103R"
   },
   {
@@ -4546,7 +4554,7 @@ export const toprakProducts = [
     "code": "GL-135R",
     "category": "gloplar",
     "href": "/tr/urunler/gl-135r",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-135r.jpg",
+    "image": "/product-whitebacks/gl-135r.png",
     "alt": "Küre Glop GL-135R"
   },
   {
@@ -4555,7 +4563,7 @@ export const toprakProducts = [
     "code": "GL-301",
     "category": "gloplar",
     "href": "/tr/urunler/gl-301",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-301.jpg",
+    "image": "/product-whitebacks/gl-301.png",
     "alt": "Aksesuar GL-301"
   },
   {
@@ -4564,7 +4572,7 @@ export const toprakProducts = [
     "code": "GL-302",
     "category": "gloplar",
     "href": "/tr/urunler/gl-302",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-302.jpg",
+    "image": "/product-whitebacks/gl-302.png",
     "alt": "Aksesuar GL-302"
   },
   {
@@ -4573,7 +4581,7 @@ export const toprakProducts = [
     "code": "GL-351",
     "category": "gloplar",
     "href": "/tr/urunler/gl-351",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-351.jpg",
+    "image": "/product-whitebacks/gl-351.png",
     "alt": "Aksesuar GL-351"
   },
   {
@@ -4582,7 +4590,7 @@ export const toprakProducts = [
     "code": "GL-352",
     "category": "gloplar",
     "href": "/tr/urunler/gl-352",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-352.jpg",
+    "image": "/product-whitebacks/gl-352.png",
     "alt": "Aksesuar GL-352"
   },
   {
@@ -4591,7 +4599,7 @@ export const toprakProducts = [
     "code": "GL-401",
     "category": "gloplar",
     "href": "/tr/urunler/gl-401",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-401.jpg",
+    "image": "/product-whitebacks/gl-401.png",
     "alt": "Aksesuar GL-401"
   },
   {
@@ -4600,7 +4608,7 @@ export const toprakProducts = [
     "code": "GL-451",
     "category": "gloplar",
     "href": "/tr/urunler/gl-451",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-451.jpg",
+    "image": "/product-whitebacks/gl-451.png",
     "alt": "Aksesuar GL-451"
   },
   {
@@ -4609,7 +4617,7 @@ export const toprakProducts = [
     "code": "GL-452",
     "category": "gloplar",
     "href": "/tr/urunler/gl-452",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-452.jpg",
+    "image": "/product-whitebacks/gl-452.png",
     "alt": "Aksesuar GL-452"
   },
   {
@@ -4618,7 +4626,7 @@ export const toprakProducts = [
     "code": "GL-501",
     "category": "gloplar",
     "href": "/tr/urunler/gl-501",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-501.jpg",
+    "image": "/product-whitebacks/gl-501.png",
     "alt": "Aksesuar GL-501"
   },
   {
@@ -4627,7 +4635,7 @@ export const toprakProducts = [
     "code": "GL-551",
     "category": "gloplar",
     "href": "/tr/urunler/gl-551",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-551.jpg",
+    "image": "/product-whitebacks/gl-551.png",
     "alt": "Aksesuar GL-551"
   },
   {
@@ -4636,7 +4644,7 @@ export const toprakProducts = [
     "code": "GL-601",
     "category": "gloplar",
     "href": "/tr/urunler/gl-601",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-601.jpg",
+    "image": "/product-whitebacks/gl-601.png",
     "alt": "Aksesuar GL-601"
   },
   {
@@ -4645,7 +4653,7 @@ export const toprakProducts = [
     "code": "GL-605",
     "category": "gloplar",
     "href": "/tr/urunler/gl-605",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-605.jpg",
+    "image": "/product-whitebacks/gl-605.png",
     "alt": "Aksesuar GL-605"
   },
   {
@@ -4654,7 +4662,7 @@ export const toprakProducts = [
     "code": "GL-701",
     "category": "gloplar",
     "href": "/tr/urunler/gl-701",
-    "image": "https://toprakaydinlatma.vercel.app/images/models/gl-gl-701.jpg",
+    "image": "/product-whitebacks/gl-701.png",
     "alt": "Aksesuar GL-701"
   }
 ] as const satisfies readonly ToprakProduct[];

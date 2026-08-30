@@ -2,7 +2,16 @@
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Globe, Shield, Palette, Award, Users, Factory, Truck, HeartHandshake } from "lucide-react";
+import {
+  Award,
+  Factory,
+  Globe,
+  Handshake,
+  Palette,
+  Shield,
+  Truck,
+  UsersRound,
+} from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -91,30 +100,30 @@ export default function AboutPage() {
       </section>
 
       {/* Values Section */}
-      <section style={{ width: "100vw", background: "#ffffff", padding: "6rem 5vw", display: "flex", justifyContent: "center" }}>
+      <section className="about-values-section">
         <div className="container-inner">
           <div style={{ textAlign: "center", marginBottom: "4rem" }}>
             <span className="section-tag">Değerlerimiz</span>
             <h2 className="section-title" style={{ marginBottom: "1rem" }}>Bizi Ne Güçlendirir?</h2>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "2rem" }}>
-            <div className="feature-box" style={{ textAlign: "center", alignItems: "center" }}>
-              <div className="feature-icon"><Factory size={22} /></div>
+          <div className="about-values-grid">
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><Factory size={36} /></div>
               <h3 className="feature-title">Üretim Kalitesi</h3>
               <p className="feature-desc">Standart, tekrarlanabilir ve kontrollü üretim anlayışı.</p>
             </div>
-            <div className="feature-box" style={{ textAlign: "center", alignItems: "center" }}>
-              <div className="feature-icon"><HeartHandshake size={22} /></div>
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><Handshake size={36} /></div>
               <h3 className="feature-title">Müşteri Odaklılık</h3>
               <p className="feature-desc">Proje ihtiyacına göre ürün ve çözüm önerisi sunan destek ekibi.</p>
             </div>
-            <div className="feature-box" style={{ textAlign: "center", alignItems: "center" }}>
-              <div className="feature-icon"><Truck size={22} /></div>
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><Truck size={36} /></div>
               <h3 className="feature-title">Zamanında Teslimat</h3>
               <p className="feature-desc">Planlı üretim ve sevkiyat süreçleriyle projelere uyum.</p>
             </div>
-            <div className="feature-box" style={{ textAlign: "center", alignItems: "center" }}>
-              <div className="feature-icon"><Users size={22} /></div>
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><UsersRound size={36} /></div>
               <h3 className="feature-title">Uzman Ekip</h3>
               <p className="feature-desc">Teknik detay, tasarım ve uygulama süreçlerinde deneyimli ekip.</p>
             </div>

@@ -1,11 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import MunicipalityPartners from "@/components/MunicipalityPartners";
+import { Globe3D, type GlobeMarker } from "@/components/ui/3d-globe";
 import { 
   Facebook, 
   Instagram, 
@@ -15,38 +17,175 @@ import {
   ChevronRight,
   Lightbulb,
   LightbulbOff,
-  Globe,
-  Shield,
-  Palette,
-  Award
 } from "lucide-react";
+
+const PROJECT_COUNTRY_MARKERS: GlobeMarker[] = [
+  {
+    lat: 39.9334,
+    lng: 32.8597,
+    src: "https://flagcdn.com/w80/tr.png",
+    label: "Türkiye",
+    offset: { lift: 0.18 },
+  },
+  {
+    lat: 52.52,
+    lng: 13.405,
+    src: "https://flagcdn.com/w80/de.png",
+    label: "Almanya",
+    offset: { lift: 0.18 },
+  },
+  {
+    lat: 51.5074,
+    lng: -0.1278,
+    src: "https://flagcdn.com/w80/gb.png",
+    label: "İngiltere",
+    offset: { lift: 0.2 },
+  },
+  {
+    lat: 41.9028,
+    lng: 12.4964,
+    src: "https://flagcdn.com/w80/it.png",
+    label: "İtalya",
+    offset: { lift: 0.2 },
+  },
+  {
+    lat: 41.9981,
+    lng: 21.4254,
+    src: "https://flagcdn.com/w80/mk.png",
+    label: "Makedonya",
+    size: 0.14,
+    offset: { lift: 0.23 },
+  },
+  {
+    lat: 45.815,
+    lng: 15.9819,
+    src: "https://flagcdn.com/w80/hr.png",
+    label: "Hırvatistan",
+    size: 0.14,
+    offset: { lift: 0.21 },
+  },
+  {
+    lat: 42.4304,
+    lng: 19.2594,
+    src: "https://flagcdn.com/w80/me.png",
+    label: "Karadağ",
+    size: 0.14,
+    offset: { lift: 0.25 },
+  },
+  {
+    lat: 35.6762,
+    lng: 139.6503,
+    src: "https://flagcdn.com/w80/jp.png",
+    label: "Japonya",
+    offset: { lift: 0.18 },
+  },
+  {
+    lat: 34.0522,
+    lng: -118.2437,
+    src: "https://flagcdn.com/w80/us.png",
+    label: "Amerika",
+    offset: { lift: 0.18 },
+  },
+  {
+    lat: 25.2048,
+    lng: 55.2708,
+    src: "https://flagcdn.com/w80/ae.png",
+    label: "Birleşik Arap Emirlikleri",
+    offset: { lift: 0.18 },
+  },
+  {
+    lat: 24.7136,
+    lng: 46.6753,
+    src: "https://flagcdn.com/w80/sa.png",
+    label: "Suudi Arabistan",
+    offset: { lift: 0.21 },
+  },
+  {
+    lat: 33.3152,
+    lng: 44.3661,
+    src: "https://flagcdn.com/w80/iq.png",
+    label: "Irak",
+    size: 0.14,
+    offset: { lift: 0.23 },
+  },
+  {
+    lat: 35.6892,
+    lng: 51.389,
+    src: "https://flagcdn.com/w80/ir.png",
+    label: "İran",
+    size: 0.14,
+    offset: { lift: 0.2 },
+  },
+  {
+    lat: 25.2854,
+    lng: 51.531,
+    src: "https://flagcdn.com/w80/qa.png",
+    label: "Katar",
+    size: 0.14,
+    offset: { lift: 0.25 },
+  },
+];
+
+const PROJECT_GLOBE_CONFIG = {
+  atmosphereColor: "#c5a880",
+  atmosphereIntensity: 0.45,
+  bumpScale: 3,
+  autoRotateSpeed: 0.1,
+  initialRotation: { x: -0.08, y: -2.45 },
+  showAtmosphere: false,
+  markerSize: 0.15,
+};
+
+const HERO_SLIDE_INTERVAL_MS = 8000;
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isScrolled, setIsScrolled] = useState(false);
+  const [showWhatsapp, setShowWhatsapp] = useState(false);
   const [lightStates, setLightStates] = useState<Record<string, boolean>>({});
+  const spotlightRef = useRef<HTMLDivElement>(null);
+  const productsSectionRef = useRef<HTMLElement>(null);
+  const mousePositionRef = useRef({ x: 0, y: 0 });
+  const isScrolledRef = useRef(false);
+  const animationFrameRef = useRef<number | null>(null);
 
-  // Track mouse position for the ambient spotlight
+  // Track mouse position without re-rendering the full page/globe on every move.
   useEffect(() => {
+    const updateSpotlight = () => {
+      animationFrameRef.current = null;
+      const { x, y } = mousePositionRef.current;
+      const color = isScrolledRef.current
+        ? "rgba(197, 168, 128, 0.03)"
+        : "rgba(197, 168, 128, 0.08)";
+
+      if (spotlightRef.current) {
+        spotlightRef.current.style.background = `radial-gradient(800px circle at ${x}px ${y}px, ${color}, transparent 80%)`;
+      }
+    };
+
     const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
+      mousePositionRef.current = { x: e.clientX, y: e.clientY };
+      if (animationFrameRef.current === null) {
+        animationFrameRef.current = window.requestAnimationFrame(updateSpotlight);
+      }
     };
 
     window.addEventListener("mousemove", handleMouseMove);
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
+      if (animationFrameRef.current !== null) {
+        window.cancelAnimationFrame(animationFrameRef.current);
+      }
     };
   }, []);
 
   // Track window scroll position to toggle navbar theme state
   useEffect(() => {
     const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 60) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
+      const nextScrolled = window.scrollY > 60;
+      if (isScrolledRef.current !== nextScrolled) {
+        isScrolledRef.current = nextScrolled;
+        setIsScrolled(nextScrolled);
       }
     };
 
@@ -56,7 +195,20 @@ export default function Home() {
     };
   }, []);
 
-  const totalSlides = 5;
+  useEffect(() => {
+    const updateWhatsappVisibility = () => {
+      const productsTop = productsSectionRef.current?.offsetTop ?? Number.POSITIVE_INFINITY;
+      setShowWhatsapp(window.scrollY + window.innerHeight * 0.55 >= productsTop);
+    };
+
+    updateWhatsappVisibility();
+    window.addEventListener("scroll", updateWhatsappVisibility, { passive: true });
+    window.addEventListener("resize", updateWhatsappVisibility);
+    return () => {
+      window.removeEventListener("scroll", updateWhatsappVisibility);
+      window.removeEventListener("resize", updateWhatsappVisibility);
+    };
+  }, []);
 
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? totalSlides - 1 : prev - 1));
@@ -73,33 +225,35 @@ export default function Home() {
     }));
   };
 
-  const slideContent = [
+  const heroSlides = [
+    {
+      highlight: "Dayanıklılık",
+      rest: "her detayda hissedilir.",
+      subtitle: "Dış mekan şartlarına uygun, uzun ömürlü üretim ve malzeme kalitesi.",
+      image: "/hero3.png",
+    },
     {
       highlight: "Işık",
       rest: "mekanınızı tanımlar.",
       subtitle: "Yol, cadde, park ve bahçe projeleri için güvenilir aydınlatma çözümleri.",
+      image: "/hero-bg.jpg",
     },
     {
       highlight: "Tasarım",
       rest: "mühendislikle buluşur.",
       subtitle: "Estetik, dayanıklılık ve verimliliği aynı üründe birleştiren sistemler.",
-    },
-    {
-      highlight: "Dayanıklılık",
-      rest: "her detayda hissedilir.",
-      subtitle: "Dış mekan şartlarına uygun, uzun ömürlü üretim ve malzeme kalitesi.",
-    },
-    {
-      highlight: "Atmosfer",
-      rest: "projenize göre şekillenir.",
-      subtitle: "Peyzaj, site, belediye ve özel projeler için esnek ürün seçenekleri.",
-    },
-    {
-      highlight: "Üretim",
-      rest: "tecrübeyle güçlenir.",
-      subtitle: "Toprak Aydınlatma kalitesiyle modern ve güvenilir aydınlatma ürünleri.",
+      image: "/hero-slide-2.webp",
     }
   ];
+  const totalSlides = heroSlides.length;
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setActiveIndex((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
+    }, HERO_SLIDE_INTERVAL_MS);
+
+    return () => window.clearTimeout(timer);
+  }, [activeIndex, totalSlides]);
 
   // Featured products for homepage (6 items)
   const featuredProducts = [
@@ -109,7 +263,8 @@ export default function Home() {
       category: "GLOP",
       desc: "Bahçe ve peyzaj alanları için opal küre glop aydınlatma çözümü.",
       price: "Teklif Al",
-      img: "/globe-opal.jpg",
+      img: "/product-states/opal-off.png",
+      litImg: "/product-states/opal-on.png",
       versions: ["GL-9063 (20cm)", "GL-9066 (25cm)", "GL-9070 (30cm)", "GL-9074 (40cm)"]
     },
     {
@@ -118,7 +273,8 @@ export default function Home() {
       category: "PRİZMATİK",
       desc: "Prizmatik yüzeyiyle dengeli ışık dağılımı sağlayan dış mekan glopu.",
       price: "Teklif Al",
-      img: "/globe-prismatic.jpg",
+      img: "/product-states/prismatic-off.png",
+      litImg: "/product-states/prismatic-on.png",
       versions: ["GL-9062 (20cm)", "GL-9067 (25cm)", "GL-9071 (30cm)", "GL-9075 (40cm)"]
     },
     {
@@ -127,42 +283,73 @@ export default function Home() {
       category: "FÜME",
       desc: "Modern peyzaj uygulamaları için füme görünümlü dekoratif glop.",
       price: "Teklif Al",
-      img: "/globe-fume.jpg",
+      img: "/product-states/fume-off.png",
+      litImg: "/product-states/fume-on.png",
       versions: ["GL-9065 (25cm)", "GL-9069 (30cm)", "GL-9073 (40cm)"]
     },
     {
       id: "p4",
-      title: "Çift Dome Glop GL-34-1350",
-      category: "DOME",
-      desc: "Işığı kontrollü dağıtan, dış mekan projeleri için özel dome sistem.",
+      title: "Toprak Serisi 3545",
+      category: "YOL VE CADDE",
+      desc: "Dış mekan projeleri için dairesel form ve çift yönlü aydınlatma çözümü.",
       price: "Teklif Al",
-      img: "/globe-dualdome.jpg",
-      versions: ["GL-1320 (25cm)", "GL-1330 (30cm)", "GL-1350 (40cm)"]
+      img: "/product-states/toprak-series-ring-gray-off.png",
+      litImg: "/product-states/toprak-series-ring-gray-on.png",
+      versions: ["Toprak Serisi", "Çift Konsol", "LED"],
+      renderFit: true
     },
     {
       id: "p5",
-      title: "Küre Glop GL-34-9076",
-      category: "OPAL",
-      desc: "Park, bahçe ve yürüyüş yollarında kullanılabilen opal glop modeli.",
+      title: "Toprak Serisi 3545-016",
+      category: "YOL VE CADDE",
+      desc: "Dekoratif orta paneliyle cadde ve peyzaj aksları için mimari direk sistemi.",
       price: "Teklif Al",
-      img: "/globe-opal.jpg",
-      versions: ["GL-9076 (20cm)", "GL-9078 (20cm Prismatic)"]
+      img: "/product-states/toprak-series-016-gray-off.png",
+      litImg: "/product-states/toprak-series-016-gray-on.png",
+      versions: ["3545-016", "Dekoratif", "LED"],
+      renderFit: true
     },
     {
       id: "p6",
-      title: "Dome Glop GL-34-9081",
-      category: "DOME",
-      desc: "Peyzaj ve bahçe uygulamalarında güçlü görsel etki sunan dome glop.",
+      title: "Toprak Serisi 3545-036",
+      category: "YOL VE CADDE",
+      desc: "Akıcı kavisli gövdesiyle modern dış mekan projeleri için çift armatürlü sistem.",
       price: "Teklif Al",
-      img: "/globe-dualdome.jpg",
-      versions: ["GL-9079 (20cm Clear)", "GL-9080 (20cm Prismatic)", "GL-9081 (20cm Opal)"]
+      img: "/product-states/toprak-series-036-gray-off.png",
+      litImg: "/product-states/toprak-series-036-gray-on.png",
+      versions: ["3545-036", "Dekoratif", "LED"],
+      renderFit: true
     }
+  ];
+
+  const aboutFeatures = [
+    {
+      label: "Kamu Projeleri",
+      title: "Belediye ve Kamu Kuruluşları",
+      image: "/project-images/about/park-bahce-belediye.png",
+    },
+    {
+      label: "Proje Ekipleri",
+      title: "İnşaat ve Mimarlık Firmaları",
+      image: "/project-images/about/insaat-mimarlik.png",
+    },
+    {
+      label: "Kurumsal Alanlar",
+      title: "Firmalar İçin Dış Aydınlatma",
+      image: "/project-images/about/dis-aydinlatma.png",
+    },
+    {
+      label: "Özel Yaşam Alanları",
+      title: "Otel ve Lüks Villa",
+      image: "/hero-bg.jpg",
+    },
   ];
 
   return (
     <div className="site-wrapper">
       {/* Ambient spotlight overlay */}
       <div 
+        ref={spotlightRef}
         className="spotlight"
         style={{
           position: "absolute",
@@ -172,7 +359,7 @@ export default function Home() {
           bottom: 0,
           pointerEvents: "none",
           zIndex: 5,
-          background: `radial-gradient(800px circle at ${mousePosition.x}px ${mousePosition.y}px, ${isScrolled ? 'rgba(197, 168, 128, 0.03)' : 'rgba(197, 168, 128, 0.08)'}, transparent 80%)`,
+          background: "radial-gradient(800px circle at 0px 0px, rgba(197, 168, 128, 0.08), transparent 80%)",
           transition: "background 0.3s ease",
         }}
       />
@@ -181,7 +368,20 @@ export default function Home() {
       <Navbar />
 
       {/* 2. Hero Frame (Full Screen) */}
-      <div className="hero-frame" id="home">
+      <div
+        className="hero-frame"
+        id="home"
+      >
+        <div className="hero-background-stack" aria-hidden="true">
+          {heroSlides.map((slide, index) => (
+            <div
+              className={`hero-background-layer ${index === activeIndex ? "is-active" : ""}`}
+              key={slide.image}
+              style={{ backgroundImage: `url('${slide.image}')` }}
+            />
+          ))}
+        </div>
+
         {/* Architectural Grid lines */}
         <div className="grid-line-vertical-left" />
         <div className="grid-line-vertical-right" />
@@ -216,18 +416,18 @@ export default function Home() {
           <AnimatePresence mode="wait">
             <motion.div
               key={activeIndex}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.95, ease: [0.22, 1, 0.36, 1] }}
             >
               <h1 className="hero-title">
-                <span className="hero-title-highlight">{slideContent[activeIndex].highlight}</span>{" "}
-                {slideContent[activeIndex].rest}
+                <span className="hero-title-highlight">{heroSlides[activeIndex].highlight}</span>{" "}
+                {heroSlides[activeIndex].rest}
               </h1>
               
               <p className="hero-subtitle">
-                {slideContent[activeIndex].subtitle}
+                {heroSlides[activeIndex].subtitle}
               </p>
             </motion.div>
           </AnimatePresence>
@@ -267,31 +467,10 @@ export default function Home() {
         </div>
       </div>
 
-      {/* REFERENCES — Scrolling Logo Marquee on White */}
-      <section className="section-references">
-        <span className="references-label">Projelerde Güvenilen Çözüm Ortağı</span>
-        <div className="marquee-wrapper">
-          <div className="marquee-track">
-            {/* First set */}
-            <div className="ref-logo">LOGO 1</div>
-            <div className="ref-logo">LOGO 2</div>
-            <div className="ref-logo">LOGO 3</div>
-            <div className="ref-logo">LOGO 4</div>
-            <div className="ref-logo">LOGO 5</div>
-            <div className="ref-logo">LOGO 6</div>
-            {/* Duplicate for seamless loop */}
-            <div className="ref-logo">LOGO 1</div>
-            <div className="ref-logo">LOGO 2</div>
-            <div className="ref-logo">LOGO 3</div>
-            <div className="ref-logo">LOGO 4</div>
-            <div className="ref-logo">LOGO 5</div>
-            <div className="ref-logo">LOGO 6</div>
-          </div>
-        </div>
-      </section>
+      <MunicipalityPartners />
 
       {/* 3. Section: FEATURED PRODUCTS */}
-      <section className="section-products" id="products">
+      <section className="section-products" id="products" ref={productsSectionRef}>
         <div className="container-inner">
           <span className="section-tag">Öne Çıkan Ürünler</span>
           <h2 className="section-title">Mimari Aydınlatma Sistemleri</h2>
@@ -301,35 +480,61 @@ export default function Home() {
 
           {/* Featured Products Grid - 3 columns, static cards */}
           <div className="featured-grid">
-            {featuredProducts.map((product) => {
+            {featuredProducts.map((product, index) => {
               const isLit = lightStates[product.id] || false;
               return (
                 <div
                   key={product.id}
-                  className={`featured-card ${isLit ? "lit" : ""}`}
+                  className={`featured-card ${index === 0 ? "has-light-hint" : ""} ${product.renderFit ? "render-card" : ""} ${isLit ? "lit" : ""}`}
                 >
                   {/* Image Area — fills entire top half of card */}
                   <div className="featured-lamp-area">
                     {/* Warm ambient glow — covers top half when light is ON */}
-                    <div className={`lamp-glow ${isLit ? "active" : ""}`} />
+                    {!product.renderFit && (
+                      <div className={`lamp-glow ${isLit ? "active" : ""}`} />
+                    )}
                     <Image
-                      src={product.img}
+                      src={isLit ? product.litImg : product.img}
                       alt={product.title}
                       fill
                       sizes="(max-width: 768px) 100vw, 33vw"
-                      className="featured-lamp-img"
-                      style={{ objectFit: "cover" }}
+                      className={`featured-lamp-img ${product.renderFit ? "render-fit" : ""}`}
+                      style={{ objectFit: product.renderFit ? "contain" : "cover" }}
                     />
                   </div>
 
                   {/* Light Toggle Button */}
                   <button
                     className={`light-toggle ${isLit ? "on" : ""}`}
-                    onClick={(e) => { e.stopPropagation(); toggleLight(product.id); }}
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      toggleLight(product.id);
+                    }}
                     aria-label={isLit ? "Işığı kapat" : "Işığı aç"}
                   >
                     {isLit ? <Lightbulb size={16} /> : <LightbulbOff size={16} />}
                   </button>
+                  {index === 0 && !isLit && (
+                    <div className="light-hint" aria-hidden="true">
+                      <span>Işığı aç</span>
+                      <svg viewBox="0 0 92 44" fill="none">
+                        <path
+                          d="M4 35C22 12 48 7 78 21"
+                          stroke="currentColor"
+                          strokeWidth="2.4"
+                          strokeLinecap="round"
+                          strokeDasharray="5 7"
+                        />
+                        <path
+                          d="M73 12L83 24L67 27"
+                          stroke="currentColor"
+                          strokeWidth="2.4"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                  )}
 
                   {/* Info Area */}
                   <div className="featured-info">
@@ -377,26 +582,6 @@ export default function Home() {
       {/* 4. Section: ABOUT */}
       <section className="section-about" id="about">
         <div className="container-inner">
-          {/* Stats Band */}
-          <div className="stats-band">
-            <div className="stat-item">
-              <span className="stat-number">20+</span>
-              <span className="stat-label">Yıllık Tecrübe</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">40+</span>
-              <span className="stat-label">Ülke</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">500+</span>
-              <span className="stat-label">Proje</span>
-            </div>
-            <div className="stat-item">
-              <span className="stat-number">50K+</span>
-              <span className="stat-label">Ürün Satışı</span>
-            </div>
-          </div>
-
           <div className="about-layout">
             <div className="about-left">
               <span className="section-tag">Toprak Aydınlatma Hakkında</span>
@@ -415,40 +600,74 @@ export default function Home() {
             </div>
 
             <div className="about-features">
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <Globe size={22} />
-                </div>
-                <h3 className="feature-title">Geniş Ürün Yelpazesi</h3>
-                <p className="feature-desc">Yol, cadde, park, bahçe, glop ve aksesuar gruplarında kapsamlı çözümler.</p>
-              </div>
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <Shield size={22} />
-                </div>
-                <h3 className="feature-title">Dış Mekana Uygun</h3>
-                <p className="feature-desc">Yağmur, toz ve zorlu çevre koşullarına uygun dayanıklı ürün yapısı.</p>
-              </div>
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <Palette size={22} />
-                </div>
-                <h3 className="feature-title">Kaliteli Malzeme</h3>
-                <p className="feature-desc">Uzun süreli kullanım için seçilmiş gövde, glop ve bağlantı bileşenleri.</p>
-              </div>
-              <div className="feature-box">
-                <div className="feature-icon">
-                  <Award size={22} />
-                </div>
-                <h3 className="feature-title">Proje Desteği</h3>
-                <p className="feature-desc">Ürün seçimi, teknik detaylar ve teklif süreçlerinde hızlı destek.</p>
-              </div>
+              {aboutFeatures.map((feature) => (
+                <Link className="feature-box" href="/projects" key={feature.title}>
+                  <div className="feature-image">
+                    <Image
+                      src={feature.image}
+                      alt={feature.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 25vw"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                  <div className="feature-content">
+                    <span className="feature-label">{feature.label}</span>
+                    <div className="feature-heading-row">
+                      <h3 className="feature-title">{feature.title}</h3>
+                      <ArrowRight size={18} />
+                    </div>
+                  </div>
+                </Link>
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-      {/* 5. Section: CTA Banner */}
+      {/* 5. Section: Project Countries */}
+      <section className="section-project-countries" aria-label="Proje kurduğumuz ülkeler">
+        <div className="container-inner project-countries-layout">
+          <div className="project-countries-copy">
+            <span className="section-tag">Projelerimiz</span>
+            <h2 className="section-title">Projelerimiz</h2>
+            <p className="section-subtitle">
+              Türkiye ve dünyada dış mekan aydınlatma projeleri için ürün seçimi,
+              teknik planlama ve uygulama ihtiyaçlarına göre çözüm geliştiriyoruz.
+            </p>
+            <p className="section-subtitle">
+              Belediye, peyzaj, cadde ve özel yaşam alanlarında güvenilir,
+              sürdürülebilir ve estetik aydınlatma sistemleri sunuyoruz.
+            </p>
+          </div>
+
+          <div className="project-countries-stats" aria-label="Proje istatistikleri">
+            <div className="project-countries-stat">
+              <strong>15+</strong>
+              <span>Ülkede proje</span>
+            </div>
+            <div className="project-countries-stat">
+              <strong>75</strong>
+              <span>Proje tamamlandı</span>
+            </div>
+          </div>
+
+          <div className="project-countries-globe" aria-hidden="true">
+            <div className="project-countries-map-badge">15+ ülkede proje</div>
+            <div className="project-countries-map-legend">
+              <span><i />Tamamlanan</span>
+              <span><i />Devam eden</span>
+            </div>
+            <Globe3D
+              className="project-countries-globe__canvas"
+              markers={PROJECT_COUNTRY_MARKERS}
+              config={PROJECT_GLOBE_CONFIG}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* 6. Section: CTA Banner */}
       <section className="section-cta">
         <div className="container-inner" style={{ textAlign: "center", maxWidth: "700px" }}>
           <span className="section-tag" style={{ color: "rgba(197, 168, 128, 0.9)" }}>Projenize Başlayın</span>
@@ -479,8 +698,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 6. Shared Footer */}
+      {/* 7. Shared Footer */}
       <Footer />
+
+      <a
+        className={`whatsapp-float ${showWhatsapp ? "is-visible" : ""}`}
+        href="https://wa.me/902125550123"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp ile bizimle iletişime geçin"
+      >
+        <span>Bizimle iletişime geçin</span>
+        <span className="whatsapp-float-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" role="img">
+            <path d="M16 3.4c-6.94 0-12.58 5.43-12.58 12.12 0 2.31.68 4.47 1.86 6.31L3.4 28.6l7.05-1.78A12.97 12.97 0 0 0 16 28.08c6.94 0 12.58-5.43 12.58-12.12S22.94 3.4 16 3.4Zm0 22.45c-1.75 0-3.45-.43-4.95-1.25l-.35-.19-4.18 1.06 1.11-4-.23-.37a9.73 9.73 0 0 1-1.56-5.58c0-5.46 4.56-9.89 10.15-9.89s10.15 4.43 10.15 9.89S21.59 25.85 16 25.85Zm5.57-7.42c-.3-.15-1.78-.85-2.06-.94-.28-.1-.48-.15-.68.15-.2.29-.78.94-.96 1.13-.18.2-.35.22-.65.07-.3-.15-1.27-.45-2.42-1.45-.89-.78-1.49-1.75-1.67-2.04-.17-.3-.02-.46.13-.6.13-.13.3-.34.45-.51.15-.17.2-.29.3-.49.1-.2.05-.37-.03-.52-.08-.15-.68-1.59-.93-2.18-.25-.57-.5-.49-.68-.5h-.58c-.2 0-.52.07-.8.37-.27.3-1.05 1-1.05 2.43 0 1.43 1.08 2.82 1.23 3.01.15.2 2.13 3.15 5.16 4.42.72.3 1.28.48 1.72.61.72.22 1.38.19 1.9.12.58-.08 1.78-.7 2.03-1.38.25-.68.25-1.26.18-1.38-.08-.12-.28-.2-.58-.34Z" />
+          </svg>
+        </span>
+      </a>
     </div>
   );
 }

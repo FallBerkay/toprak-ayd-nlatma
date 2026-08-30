@@ -2,10 +2,32 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import Link from "next/link";
 import { useMemo, useState } from "react";
-import { ChevronUp, Sun } from "lucide-react";
-import { toprakCategories, toprakProducts } from "./toprakProducts";
+import { ChevronUp } from "lucide-react";
+import Navbar from "@/components/Navbar";
+import { type ToprakProduct, toprakCategories, toprakProducts } from "./toprakProducts";
+
+function getGrayProductImage(image: string) {
+  if (image.startsWith("/product-whitebacks/3545-") && image.endsWith(".png")) {
+    return image.replace("/product-whitebacks/", "/product-gray-clean/");
+  }
+
+  return null;
+}
+
+function getProductImage(product: ToprakProduct) {
+  const grayProductImage = getGrayProductImage(product.image);
+
+  if (grayProductImage) {
+    return grayProductImage;
+  }
+
+  return product.image;
+}
+
+function getProductImageClass(product: ToprakProduct) {
+  return getGrayProductImage(product.image) ? "toprak-product-gray-img" : "";
+}
 
 export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -20,33 +42,17 @@ export default function ProductsPage() {
 
   return (
     <main className="toprak-products-page">
-      <header className="toprak-products-nav">
-        <Link href="/" className="toprak-products-logo" aria-label="Toprak Aydınlatma">
-          <img
-            src="https://toprakaydinlatma.vercel.app/images/logo-white.png"
-            alt="Toprak Aydınlatma"
-          />
-        </Link>
-
-        <nav className="toprak-products-links" aria-label="Ana navigasyon">
-          <Link href="/">Anasayfa</Link>
-          <Link href="/about">Hakkımızda</Link>
-          <Link href="/products" aria-current="page">Ürünler</Link>
-          <Link href="/blog">Blog</Link>
-          <Link href="/contact">İletişim</Link>
-        </nav>
-
-        <button className="toprak-products-lang" type="button" aria-label="Dil seçimi">
-          TR
-          <span aria-hidden="true">⌄</span>
-        </button>
-      </header>
+      <Navbar />
 
       <section className="toprak-products-hero">
-        <h1>
-          Ürünler<span>.</span>
-        </h1>
-        <p>Aydınlatma çözümlerinde yanınızdayız — tüm ürün gruplarımızı inceleyin.</p>
+        <div>
+          <span className="toprak-products-eyebrow">Ürün Kataloğu</span>
+          <h1>Ürünler</h1>
+          <p>
+            Yol, cadde, park, bahçe ve mimari dış mekan projeleri için
+            geliştirilen Toprak Aydınlatma ürün gruplarını inceleyin.
+          </p>
+        </div>
 
         <div className="toprak-products-filters" aria-label="Ürün kategorileri">
           {toprakCategories.map((category) => (
@@ -72,22 +78,20 @@ export default function ProductsPage() {
             rel="noreferrer"
           >
             <span className="toprak-product-image-wrap">
-              <img src={product.image} alt={product.alt} loading="lazy" />
+              <img
+                src={getProductImage(product)}
+                alt={product.alt}
+                loading="lazy"
+                className={getProductImageClass(product)}
+              />
             </span>
-            <span className="toprak-product-name">{product.name}</span>
+            {product.name !== "TOPRAK SERİSİ" && (
+              <span className="toprak-product-name">{product.name}</span>
+            )}
             <span className="toprak-product-code">{product.code}</span>
           </a>
         ))}
       </section>
-
-      <button
-        className="toprak-theme-button"
-        type="button"
-        aria-label="Tema"
-        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-      >
-        <Sun size={18} />
-      </button>
 
       <button
         className="toprak-scroll-top"

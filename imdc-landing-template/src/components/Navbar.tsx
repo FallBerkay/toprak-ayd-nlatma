@@ -9,6 +9,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const isHome = pathname === "/";
   const [isHomeScrolled, setIsHomeScrolled] = useState(false);
+  const [activeLanguage, setActiveLanguage] = useState<"tr" | "eng">("tr");
   const isScrolled = !isHome || isHomeScrolled;
 
   useEffect(() => {
@@ -26,6 +27,8 @@ export default function Navbar() {
   }, [isHome]);
 
   const isActive = (path: string) => pathname === path;
+  const isCertificatesActive = pathname === "/certificates" || pathname === "/tr/sertifikalar";
+  const isProjectsActive = pathname === "/projects" || pathname === "/tr/projeler";
 
   return (
     <div className={`navbar-wrapper ${isScrolled ? "scrolled" : ""}`} style={!isHome ? { top: 0 } : {}}>
@@ -39,19 +42,43 @@ export default function Navbar() {
           <span className="navbar-divider">|</span>
           <Link href="/products" className={`navbar-link ${isActive("/products") ? "active-link" : ""}`}>Ürünler</Link>
           <span className="navbar-divider">|</span>
+          <Link href="/projects" className={`navbar-link ${isProjectsActive ? "active-link" : ""}`}>Projeler</Link>
+          <span className="navbar-divider">|</span>
           <Link href="/about" className={`navbar-link ${isActive("/about") ? "active-link" : ""}`}>Hakkımızda</Link>
           <span className="navbar-divider">|</span>
-          <Link href="/blog" className={`navbar-link ${isActive("/blog") ? "active-link" : ""}`}>Blog</Link>
+          <Link href="/certificates" className={`navbar-link ${isCertificatesActive ? "active-link" : ""}`}>Sertifikalar</Link>
           <span className="navbar-divider">|</span>
-          <Link href="/contact" className={`navbar-link ${isActive("/contact") ? "active-link" : ""}`}>İletişim</Link>
+          <Link href="/blog" className={`navbar-link ${isActive("/blog") ? "active-link" : ""}`}>Blog</Link>
         </nav>
 
-        <Link href="/contact" className="btn-contact">
-          İletişim
-          <div className="btn-contact-arrow">
-            <ArrowRight size={14} />
+        <div className="navbar-actions">
+          <div className="language-toggle" data-active={activeLanguage} aria-label="Dil seçimi">
+            <span className="language-slider" aria-hidden="true" />
+            <button
+              className={`language-option ${activeLanguage === "tr" ? "active-language" : ""}`}
+              type="button"
+              aria-pressed={activeLanguage === "tr"}
+              onClick={() => setActiveLanguage("tr")}
+            >
+              TR
+            </button>
+            <button
+              className={`language-option ${activeLanguage === "eng" ? "active-language" : ""}`}
+              type="button"
+              aria-pressed={activeLanguage === "eng"}
+              onClick={() => setActiveLanguage("eng")}
+            >
+              ENG
+            </button>
           </div>
-        </Link>
+
+          <Link href="/contact" className="btn-contact">
+            İletişim
+            <div className="btn-contact-arrow">
+              <ArrowRight size={14} />
+            </div>
+          </Link>
+        </div>
       </header>
     </div>
   );
