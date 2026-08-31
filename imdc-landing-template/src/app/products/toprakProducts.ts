@@ -47,7 +47,7 @@ export const toprakCategories = [
     "slug": "sehir-gorselleri"
   },
   {
-    "label": "Galvanizli Yol Aydınlatma",
+    "label": "Galvanizli Çelik Aydınlatma",
     "slug": "galvanizli-yol-aydinlatma"
   },
   {
@@ -320,345 +320,345 @@ export const toprakProducts = [
   },
   {
     "id": "3545-182",
-    "name": "RAIN",
+    "name": "Park & Bahçe Direği",
     "code": "3545-182",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-182",
     "image": "/product-whitebacks/3545-182.png",
-    "alt": "RAIN 3545-182"
+    "alt": "Park & Bahçe Direği 3545-182"
   },
   {
     "id": "3545-192",
-    "name": "COBRA",
+    "name": "Park & Bahçe Direği",
     "code": "3545-192",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-192",
     "image": "/product-whitebacks/3545-192.png",
-    "alt": "COBRA 3545-192"
+    "alt": "Park & Bahçe Direği 3545-192"
   },
   {
     "id": "3545-202",
-    "name": "ATLAS",
+    "name": "Park & Bahçe Direği",
     "code": "3545-202",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-202",
     "image": "/product-whitebacks/3545-202.png",
-    "alt": "ATLAS 3545-202"
+    "alt": "Park & Bahçe Direği 3545-202"
   },
   {
     "id": "3545-212",
-    "name": "ATLAS CENTER",
+    "name": "Park & Bahçe Direği",
     "code": "3545-212",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-212",
     "image": "/product-whitebacks/3545-212.png",
-    "alt": "ATLAS CENTER 3545-212"
+    "alt": "Park & Bahçe Direği 3545-212"
   },
   {
     "id": "3545-222",
-    "name": "ATLAS SİTE",
+    "name": "Park & Bahçe Direği",
     "code": "3545-222",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-222",
     "image": "/product-whitebacks/3545-222.png",
-    "alt": "ATLAS SİTE 3545-222"
+    "alt": "Park & Bahçe Direği 3545-222"
   },
   {
     "id": "3545-232",
-    "name": "ATLAS İKİLİ",
+    "name": "Park & Bahçe Direği",
     "code": "3545-232",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-232",
     "image": "/product-whitebacks/3545-232.png",
-    "alt": "ATLAS İKİLİ 3545-232"
+    "alt": "Park & Bahçe Direği 3545-232"
   },
   {
     "id": "3545-242",
-    "name": "ATLAS CITY",
+    "name": "Park & Bahçe Direği",
     "code": "3545-242",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-242",
     "image": "/product-whitebacks/3545-242.png",
-    "alt": "ATLAS CITY 3545-242"
+    "alt": "Park & Bahçe Direği 3545-242"
   },
   {
     "id": "3545-262",
-    "name": "ATLAS PARK",
+    "name": "Park & Bahçe Direği",
     "code": "3545-262",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-262",
     "image": "/product-whitebacks/3545-262.png",
-    "alt": "ATLAS PARK 3545-262"
+    "alt": "Park & Bahçe Direği 3545-262"
   },
   {
     "id": "3545-272",
-    "name": "ATLAS CITY",
+    "name": "Park & Bahçe Direği",
     "code": "3545-272",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-272",
     "image": "/product-whitebacks/3545-272.png",
-    "alt": "ATLAS CITY 3545-272"
+    "alt": "Park & Bahçe Direği 3545-272"
   },
   {
     "id": "3545-282",
-    "name": "RİGEL",
+    "name": "Park & Bahçe Direği",
     "code": "3545-282",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-282",
     "image": "/product-whitebacks/3545-282.png",
-    "alt": "RİGEL 3545-282"
+    "alt": "Park & Bahçe Direği 3545-282"
   },
   {
     "id": "3545-292",
-    "name": "RİGEL ÇİFTLİ",
+    "name": "Park & Bahçe Direği",
     "code": "3545-292",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-292",
     "image": "/product-whitebacks/3545-292.png",
-    "alt": "RİGEL ÇİFTLİ 3545-292"
+    "alt": "Park & Bahçe Direği 3545-292"
   },
   {
     "id": "3545-302",
-    "name": "MİNA",
+    "name": "Park & Bahçe Direği",
     "code": "3545-302",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-302",
     "image": "/product-whitebacks/3545-302.png",
-    "alt": "MİNA 3545-302"
+    "alt": "Park & Bahçe Direği 3545-302"
   },
   {
     "id": "3545-312",
-    "name": "FLORA",
+    "name": "Park & Bahçe Direği",
     "code": "3545-312",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-312",
     "image": "/product-whitebacks/3545-312.png",
-    "alt": "FLORA 3545-312"
+    "alt": "Park & Bahçe Direği 3545-312"
   },
   {
     "id": "3545-322",
-    "name": "DORA",
+    "name": "Park & Bahçe Direği",
     "code": "3545-322",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-322",
     "image": "/product-whitebacks/3545-322.png",
-    "alt": "DORA 3545-322"
+    "alt": "Park & Bahçe Direği 3545-322"
   },
   {
     "id": "3545-332",
-    "name": "ALFA",
+    "name": "Park & Bahçe Direği",
     "code": "3545-332",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-332",
     "image": "/product-whitebacks/3545-332.png",
-    "alt": "ALFA 3545-332"
+    "alt": "Park & Bahçe Direği 3545-332"
   },
   {
     "id": "3545-342",
-    "name": "ALFA 3",
+    "name": "Park & Bahçe Direği",
     "code": "3545-342",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-342",
     "image": "/product-whitebacks/3545-342.png",
-    "alt": "ALFA 3 3545-342"
+    "alt": "Park & Bahçe Direği 3545-342"
   },
   {
     "id": "3545-352",
-    "name": "SUN",
+    "name": "Park & Bahçe Direği",
     "code": "3545-352",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-352",
     "image": "/product-whitebacks/3545-352.png",
-    "alt": "SUN 3545-352"
+    "alt": "Park & Bahçe Direği 3545-352"
   },
   {
     "id": "3545-362",
-    "name": "SUN 3",
+    "name": "Park & Bahçe Direği",
     "code": "3545-362",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-362",
     "image": "/product-whitebacks/3545-362.png",
-    "alt": "SUN 3 3545-362"
+    "alt": "Park & Bahçe Direği 3545-362"
   },
   {
     "id": "3545-372",
-    "name": "ALDO",
+    "name": "Park & Bahçe Direği",
     "code": "3545-372",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-372",
     "image": "/product-whitebacks/3545-372.png",
-    "alt": "ALDO 3545-372"
+    "alt": "Park & Bahçe Direği 3545-372"
   },
   {
     "id": "3545-382",
-    "name": "HEKTOR",
+    "name": "Park & Bahçe Direği",
     "code": "3545-382",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-382",
     "image": "/product-whitebacks/3545-382.png",
-    "alt": "HEKTOR 3545-382"
+    "alt": "Park & Bahçe Direği 3545-382"
   },
   {
     "id": "3545-392",
-    "name": "EGE",
+    "name": "Park & Bahçe Direği",
     "code": "3545-392",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-392",
     "image": "/product-whitebacks/3545-392.png",
-    "alt": "EGE 3545-392"
+    "alt": "Park & Bahçe Direği 3545-392"
   },
   {
     "id": "3545-402",
-    "name": "UFO",
+    "name": "Park & Bahçe Direği",
     "code": "3545-402",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-402",
     "image": "/product-whitebacks/3545-402.png",
-    "alt": "UFO 3545-402"
+    "alt": "Park & Bahçe Direği 3545-402"
   },
   {
     "id": "3545-412",
-    "name": "EVA",
+    "name": "Park & Bahçe Direği",
     "code": "3545-412",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-412",
     "image": "/product-whitebacks/3545-412.png",
-    "alt": "EVA 3545-412"
+    "alt": "Park & Bahçe Direği 3545-412"
   },
   {
     "id": "3545-422",
-    "name": "RUSTIK",
+    "name": "Park & Bahçe Direği",
     "code": "3545-422",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-422",
     "image": "/product-whitebacks/3545-422.png",
-    "alt": "RUSTIK 3545-422"
+    "alt": "Park & Bahçe Direği 3545-422"
   },
   {
     "id": "3545-426",
-    "name": "RUSTIK A",
+    "name": "Park & Bahçe Direği",
     "code": "3545-426",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-426",
     "image": "/product-whitebacks/3545-426.png",
-    "alt": "RUSTIK A 3545-426"
+    "alt": "Park & Bahçe Direği 3545-426"
   },
   {
     "id": "3545-429",
-    "name": "RUSTIK B",
+    "name": "Park & Bahçe Direği",
     "code": "3545-429",
     "category": "park-bahce",
     "href": "/tr/urunler/3545-429",
     "image": "/product-whitebacks/3545-429.png",
-    "alt": "RUSTIK B 3545-429"
+    "alt": "Park & Bahçe Direği 3545-429"
   },
   {
     "id": "3545-432",
-    "name": "STORM",
+    "name": "Kamera Direği",
     "code": "3545-432",
     "category": "kamera-direkleri",
     "href": "/tr/urunler/3545-432",
     "image": "/product-whitebacks/3545-432.png",
-    "alt": "STORM 3545-432"
+    "alt": "Kamera Direği 3545-432"
   },
   {
     "id": "3545-442",
-    "name": "MAIA",
+    "name": "Şehir Görseli",
     "code": "3545-442",
     "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-442",
     "image": "/product-whitebacks/3545-442.png",
-    "alt": "MAIA 3545-442"
+    "alt": "Şehir Görseli 3545-442"
   },
   {
     "id": "3545-452",
-    "name": "STAR",
+    "name": "Şehir Görseli",
     "code": "3545-452",
     "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-452",
     "image": "/product-whitebacks/3545-452.png",
-    "alt": "STAR 3545-452"
+    "alt": "Şehir Görseli 3545-452"
   },
   {
     "id": "3545-462",
-    "name": "NOVA",
+    "name": "Şehir Görseli",
     "code": "3545-462",
     "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-462",
     "image": "/product-whitebacks/3545-462.png",
-    "alt": "NOVA 3545-462"
+    "alt": "Şehir Görseli 3545-462"
   },
   {
     "id": "3545-472",
-    "name": "ALYA",
+    "name": "Şehir Görseli",
     "code": "3545-472",
     "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-472",
     "image": "/product-whitebacks/3545-472.png",
-    "alt": "ALYA 3545-472"
+    "alt": "Şehir Görseli 3545-472"
   },
   {
     "id": "3545-482",
-    "name": "MEYDAN",
+    "name": "Şehir Görseli",
     "code": "3545-482",
     "category": "sehir-gorselleri",
     "href": "/tr/urunler/3545-482",
     "image": "/product-whitebacks/3545-482.png",
-    "alt": "MEYDAN 3545-482"
+    "alt": "Şehir Görseli 3545-482"
   },
   {
     "id": "3545-492",
-    "name": "RİGA",
+    "name": "Galvanizli Çelik Aydınlatma",
     "code": "3545-492",
     "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-492",
     "image": "/product-whitebacks/3545-492.png",
-    "alt": "RİGA 3545-492"
+    "alt": "Galvanizli Çelik Aydınlatma 3545-492"
   },
   {
     "id": "3545-502",
-    "name": "MATA",
+    "name": "Galvanizli Çelik Aydınlatma",
     "code": "3545-502",
     "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-502",
     "image": "/product-whitebacks/3545-502.png",
-    "alt": "MATA 3545-502"
+    "alt": "Galvanizli Çelik Aydınlatma 3545-502"
   },
   {
     "id": "3545-512",
-    "name": "KİT",
+    "name": "Galvanizli Çelik Aydınlatma",
     "code": "3545-512",
     "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-512",
     "image": "/product-whitebacks/3545-512.png",
-    "alt": "KİT 3545-512"
+    "alt": "Galvanizli Çelik Aydınlatma 3545-512"
   },
   {
     "id": "3545-522",
-    "name": "HEKA",
+    "name": "Galvanizli Çelik Aydınlatma",
     "code": "3545-522",
     "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-522",
     "image": "/product-whitebacks/3545-522.png",
-    "alt": "HEKA 3545-522"
+    "alt": "Galvanizli Çelik Aydınlatma 3545-522"
   },
   {
     "id": "3545-532",
-    "name": "ALKES",
+    "name": "Galvanizli Çelik Aydınlatma",
     "code": "3545-532",
     "category": "galvanizli-yol-aydinlatma",
     "href": "/tr/urunler/3545-532",
     "image": "/product-whitebacks/3545-532.png",
-    "alt": "ALKES 3545-532"
+    "alt": "Galvanizli Çelik Aydınlatma 3545-532"
   },
   {
     "id": "3545-542",
-    "name": "SOLAR A",
+    "name": "Solar Aydınlatma",
     "code": "3545-542",
     "category": "solar",
     "href": "/tr/urunler/3545-542",
     "image": "/product-whitebacks/3545-542.png",
-    "alt": "SOLAR A 3545-542"
+    "alt": "Solar Aydınlatma 3545-542"
   },
   {
     "id": "3545-552",
@@ -671,12 +671,12 @@ export const toprakProducts = [
   },
   {
     "id": "3545-562",
-    "name": "SOLAR C",
+    "name": "Solar Aydınlatma",
     "code": "3545-562",
     "category": "solar",
     "href": "/tr/urunler/3545-562",
     "image": "/product-whitebacks/3545-562.png",
-    "alt": "SOLAR C 3545-562"
+    "alt": "Solar Aydınlatma 3545-562"
   },
   {
     "id": "3545-572",
@@ -913,42 +913,6 @@ export const toprakProducts = [
     "alt": "FLORA S 3545-1095"
   },
   {
-    "id": "gl-34-2001",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2001",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2001",
-    "image": "/product-whitebacks/gl-34-2001.png",
-    "alt": "Park & Bahçe Direği GL-34-2001"
-  },
-  {
-    "id": "gl-34-2002",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2002",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2002",
-    "image": "/product-whitebacks/gl-34-2002.png",
-    "alt": "Park & Bahçe Direği GL-34-2002"
-  },
-  {
-    "id": "gl-34-2003",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2003",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2003",
-    "image": "/product-whitebacks/gl-34-2003.png",
-    "alt": "Park & Bahçe Direği GL-34-2003"
-  },
-  {
-    "id": "gl-34-2004",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2004",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2004",
-    "image": "/product-whitebacks/gl-34-2004.png",
-    "alt": "Park & Bahçe Direği GL-34-2004"
-  },
-  {
     "id": "gl-34-2006",
     "name": "Park & Bahçe Direği",
     "code": "GL-34-2006",
@@ -974,15 +938,6 @@ export const toprakProducts = [
     "href": "/tr/urunler/gl-34-2008",
     "image": "/product-whitebacks/gl-34-2008.png",
     "alt": "Park & Bahçe Direği GL-34-2008"
-  },
-  {
-    "id": "gl-34-2005",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2005",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2005",
-    "image": "/product-whitebacks/gl-34-2005.png",
-    "alt": "Park & Bahçe Direği GL-34-2005"
   },
   {
     "id": "gl-34-2009",
@@ -1100,123 +1055,6 @@ export const toprakProducts = [
     "href": "/tr/urunler/gl-34-2021",
     "image": "/product-whitebacks/gl-34-2021.png",
     "alt": "Park & Bahçe Direği GL-34-2021"
-  },
-  {
-    "id": "gl-34-2022",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2022",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2022",
-    "image": "/product-whitebacks/gl-34-2022.png",
-    "alt": "Park & Bahçe Direği GL-34-2022"
-  },
-  {
-    "id": "gl-34-2023",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2023",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2023",
-    "image": "/product-whitebacks/gl-34-2023.png",
-    "alt": "Park & Bahçe Direği GL-34-2023"
-  },
-  {
-    "id": "gl-34-2024",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2024",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2024",
-    "image": "/product-whitebacks/gl-34-2024.png",
-    "alt": "Park & Bahçe Direği GL-34-2024"
-  },
-  {
-    "id": "gl-34-2025",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2025",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2025",
-    "image": "/product-whitebacks/gl-34-2025.png",
-    "alt": "Park & Bahçe Direği GL-34-2025"
-  },
-  {
-    "id": "gl-34-2026",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2026",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2026",
-    "image": "/product-whitebacks/gl-34-2026.png",
-    "alt": "Park & Bahçe Direği GL-34-2026"
-  },
-  {
-    "id": "gl-34-2027",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2027",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2027",
-    "image": "/product-whitebacks/gl-34-2027.png",
-    "alt": "Park & Bahçe Direği GL-34-2027"
-  },
-  {
-    "id": "gl-34-2028",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-2028",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-2028",
-    "image": "/product-whitebacks/gl-34-2028.png",
-    "alt": "Park & Bahçe Direği GL-34-2028"
-  },
-  {
-    "id": "gl-34-3001",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3001",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3001",
-    "image": "/product-whitebacks/gl-34-3001.png",
-    "alt": "Park & Bahçe Direği GL-34-3001"
-  },
-  {
-    "id": "gl-34-3002",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3002",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3002",
-    "image": "/product-whitebacks/gl-34-3002.png",
-    "alt": "Park & Bahçe Direği GL-34-3002"
-  },
-  {
-    "id": "gl-34-3003",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3003",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3003",
-    "image": "/product-whitebacks/gl-34-3003.png",
-    "alt": "Park & Bahçe Direği GL-34-3003"
-  },
-  {
-    "id": "gl-34-3004",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3004",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3004",
-    "image": "/product-whitebacks/gl-34-3004.png",
-    "alt": "Park & Bahçe Direği GL-34-3004"
-  },
-  {
-    "id": "gl-34-3005",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3005",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3005",
-    "image": "/product-whitebacks/gl-34-3005.png",
-    "alt": "Park & Bahçe Direği GL-34-3005"
-  },
-  {
-    "id": "gl-34-3006",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3006",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3006",
-    "image": "/product-whitebacks/gl-34-3006.png",
-    "alt": "Park & Bahçe Direği GL-34-3006"
   },
   {
     "id": "gl-34-3007",
@@ -1741,15 +1579,6 @@ export const toprakProducts = [
     "alt": "Park & Bahçe Direği GL-34-3063"
   },
   {
-    "id": "gl-34-3065",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3065",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3065",
-    "image": "/product-whitebacks/gl-34-3065.png",
-    "alt": "Park & Bahçe Direği GL-34-3065"
-  },
-  {
     "id": "gl-34-3066",
     "name": "Park & Bahçe Direği",
     "code": "GL-34-3066",
@@ -1757,24 +1586,6 @@ export const toprakProducts = [
     "href": "/tr/urunler/gl-34-3066",
     "image": "/product-whitebacks/gl-34-3066.png",
     "alt": "Park & Bahçe Direği GL-34-3066"
-  },
-  {
-    "id": "gl-34-3067",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3067",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3067",
-    "image": "/product-whitebacks/gl-34-3067.png",
-    "alt": "Park & Bahçe Direği GL-34-3067"
-  },
-  {
-    "id": "gl-34-3068",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-3068",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-3068",
-    "image": "/product-whitebacks/gl-34-3068.png",
-    "alt": "Park & Bahçe Direği GL-34-3068"
   },
   {
     "id": "gl-34-4001",
@@ -3226,15 +3037,6 @@ export const toprakProducts = [
     "alt": "Park & Bahçe Direği GL-34-5128"
   },
   {
-    "id": "gl-34-5125",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-5125",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-5125",
-    "image": "/product-whitebacks/gl-34-5125.png",
-    "alt": "Park & Bahçe Direği GL-34-5125"
-  },
-  {
     "id": "gl-34-5126",
     "name": "Park & Bahçe Direği",
     "code": "GL-34-5126",
@@ -3242,15 +3044,6 @@ export const toprakProducts = [
     "href": "/tr/urunler/gl-34-5126",
     "image": "/product-whitebacks/gl-34-5126.png",
     "alt": "Park & Bahçe Direği GL-34-5126"
-  },
-  {
-    "id": "gl-34-5127",
-    "name": "Park & Bahçe Direği",
-    "code": "GL-34-5127",
-    "category": "park-bahce",
-    "href": "/tr/urunler/gl-34-5127",
-    "image": "/product-whitebacks/gl-34-5127.png",
-    "alt": "Park & Bahçe Direği GL-34-5127"
   },
   {
     "id": "gl-34-9063",
