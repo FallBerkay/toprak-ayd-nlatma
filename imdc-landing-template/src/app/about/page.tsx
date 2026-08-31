@@ -4,10 +4,10 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {
-  Award,
-  Globe,
-  Palette,
-  Shield,
+  Factory,
+  Handshake,
+  Truck,
+  UsersRound,
 } from "lucide-react";
 
 const storyImages = [
@@ -89,27 +89,18 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="about-features">
-              <div className="feature-box">
-                <div className="feature-icon"><Globe size={22} /></div>
-                <h3 className="feature-title">Geniş Ürün Yelpazesi</h3>
-                <p className="feature-desc">Farklı ölçeklerdeki dış mekan projeleri için çok sayıda ürün grubu.</p>
-              </div>
-              <div className="feature-box">
-                <div className="feature-icon"><Shield size={22} /></div>
-                <h3 className="feature-title">Dış Mekan Dayanımı</h3>
-                <p className="feature-desc">Yağmur, toz ve zorlu çevre koşullarına uygun ürün yapısı.</p>
-              </div>
-              <div className="feature-box">
-                <div className="feature-icon"><Palette size={22} /></div>
-                <h3 className="feature-title">Kaliteli Malzeme</h3>
-                <p className="feature-desc">Uzun ömürlü kullanım için seçilmiş gövde, glop ve bağlantı bileşenleri.</p>
-              </div>
-              <div className="feature-box">
-                <div className="feature-icon"><Award size={22} /></div>
-                <h3 className="feature-title">Proje Desteği</h3>
-                <p className="feature-desc">Teknik bilgi, ürün seçimi ve teklif süreçlerinde hızlı destek.</p>
-              </div>
+            <div className="about-features about-story-image-grid">
+              {storyImages.map((image, index) => (
+                <figure className="about-story-image-card" key={image.src}>
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    sizes="(max-width: 1024px) 50vw, 25vw"
+                    priority={index < 2}
+                  />
+                </figure>
+              ))}
             </div>
           </div>
 
@@ -123,18 +114,27 @@ export default function AboutPage() {
             <span className="section-tag">Değerlerimiz</span>
             <h2 className="section-title" style={{ marginBottom: "1rem" }}>Bizi Ne Güçlendirir?</h2>
           </div>
-          <div className="about-values-grid about-values-image-grid">
-            {storyImages.map((image, index) => (
-              <figure className="about-value-image-card" key={image.src}>
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  priority={index < 2}
-                />
-              </figure>
-            ))}
+          <div className="about-values-grid">
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><Factory size={36} /></div>
+              <h3 className="feature-title">Üretim Kalitesi</h3>
+              <p className="feature-desc">Standart, tekrarlanabilir ve kontrollü üretim anlayışı.</p>
+            </div>
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><Handshake size={36} /></div>
+              <h3 className="feature-title">Müşteri Odaklılık</h3>
+              <p className="feature-desc">Proje ihtiyacına göre ürün ve çözüm önerisi sunan destek ekibi.</p>
+            </div>
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><Truck size={36} /></div>
+              <h3 className="feature-title">Zamanında Teslimat</h3>
+              <p className="feature-desc">Planlı üretim ve sevkiyat süreçleriyle projelere uyum.</p>
+            </div>
+            <div className="feature-box about-value-card">
+              <div className="feature-icon about-value-icon"><UsersRound size={36} /></div>
+              <h3 className="feature-title">Uzman Ekip</h3>
+              <p className="feature-desc">Teknik detay, tasarım ve uygulama süreçlerinde deneyimli ekip.</p>
+            </div>
           </div>
         </div>
       </section>
