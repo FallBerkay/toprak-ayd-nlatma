@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" className={`${outfit.variable} ${inter.variable}`}>
+    <html lang="tr" className={`${outfit.variable} ${inter.variable}`} data-scroll-behavior="smooth">
       <body>{children}</body>
     </html>
   );

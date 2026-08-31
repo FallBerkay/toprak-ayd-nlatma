@@ -3,31 +3,11 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
 import { ChevronUp } from "lucide-react";
 import Navbar from "@/components/Navbar";
-import { type ToprakProduct, toprakCategories, toprakProducts } from "./toprakProducts";
-
-function getGrayProductImage(image: string) {
-  if (image.startsWith("/product-whitebacks/3545-") && image.endsWith(".png")) {
-    return image.replace("/product-whitebacks/", "/product-gray-clean/");
-  }
-
-  return null;
-}
-
-function getProductImage(product: ToprakProduct) {
-  const grayProductImage = getGrayProductImage(product.image);
-
-  if (grayProductImage) {
-    return grayProductImage;
-  }
-
-  return product.image;
-}
-
-function getProductImageClass(product: ToprakProduct) {
-  return getGrayProductImage(product.image) ? "toprak-product-gray-img" : "";
-}
+import { getProductDisplayImage, getProductImageClass } from "./productImages";
+import { toprakCategories, toprakProducts } from "./toprakProducts";
 
 export default function ProductsPage() {
   const [activeCategory, setActiveCategory] = useState("all");
@@ -70,16 +50,14 @@ export default function ProductsPage() {
 
       <section className="toprak-products-grid" aria-live="polite">
         {visibleProducts.map((product) => (
-          <a
+          <Link
             key={`${product.category}-${product.id}`}
             className="toprak-product-card"
-            href={`https://toprakaydinlatma.vercel.app${product.href}`}
-            target="_blank"
-            rel="noreferrer"
+            href={product.href}
           >
             <span className="toprak-product-image-wrap">
               <img
-                src={getProductImage(product)}
+                src={getProductDisplayImage(product)}
                 alt={product.alt}
                 loading="lazy"
                 className={getProductImageClass(product)}
@@ -89,7 +67,7 @@ export default function ProductsPage() {
               <span className="toprak-product-name">{product.name}</span>
             )}
             <span className="toprak-product-code">{product.code}</span>
-          </a>
+          </Link>
         ))}
       </section>
 

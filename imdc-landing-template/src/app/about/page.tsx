@@ -1,17 +1,33 @@
 "use client";
 
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import {
   Award,
-  Factory,
   Globe,
-  Handshake,
   Palette,
   Shield,
-  Truck,
-  UsersRound,
 } from "lucide-react";
+
+const storyImages = [
+  {
+    src: "/project-images/about/story-rain-bollard.png",
+    alt: "Yağmur testi altında dış mekan bollard aydınlatma ürünü",
+  },
+  {
+    src: "/project-images/about/story-project-plan.png",
+    alt: "Peyzaj proje planı üzerinde dekoratif aydınlatma direği",
+  },
+  {
+    src: "/project-images/about/story-globe-assembly.png",
+    alt: "Glop aydınlatma montaj ve bağlantı parçaları",
+  },
+  {
+    src: "/project-images/about/story-product-family.png",
+    alt: "Dış mekan aydınlatma ürün ailesi",
+  },
+];
 
 export default function AboutPage() {
   return (
@@ -38,15 +54,15 @@ export default function AboutPage() {
               <span className="stat-label">Yıllık Tecrübe</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">40+</span>
+              <span className="stat-number">15+</span>
               <span className="stat-label">Ülke</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">500+</span>
+              <span className="stat-number">280+</span>
               <span className="stat-label">Proje</span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">50K+</span>
+              <span className="stat-number">25K+</span>
               <span className="stat-label">Ürün Satışı</span>
             </div>
           </div>
@@ -96,6 +112,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
+
         </div>
       </section>
 
@@ -106,27 +123,18 @@ export default function AboutPage() {
             <span className="section-tag">Değerlerimiz</span>
             <h2 className="section-title" style={{ marginBottom: "1rem" }}>Bizi Ne Güçlendirir?</h2>
           </div>
-          <div className="about-values-grid">
-            <div className="feature-box about-value-card">
-              <div className="feature-icon about-value-icon"><Factory size={36} /></div>
-              <h3 className="feature-title">Üretim Kalitesi</h3>
-              <p className="feature-desc">Standart, tekrarlanabilir ve kontrollü üretim anlayışı.</p>
-            </div>
-            <div className="feature-box about-value-card">
-              <div className="feature-icon about-value-icon"><Handshake size={36} /></div>
-              <h3 className="feature-title">Müşteri Odaklılık</h3>
-              <p className="feature-desc">Proje ihtiyacına göre ürün ve çözüm önerisi sunan destek ekibi.</p>
-            </div>
-            <div className="feature-box about-value-card">
-              <div className="feature-icon about-value-icon"><Truck size={36} /></div>
-              <h3 className="feature-title">Zamanında Teslimat</h3>
-              <p className="feature-desc">Planlı üretim ve sevkiyat süreçleriyle projelere uyum.</p>
-            </div>
-            <div className="feature-box about-value-card">
-              <div className="feature-icon about-value-icon"><UsersRound size={36} /></div>
-              <h3 className="feature-title">Uzman Ekip</h3>
-              <p className="feature-desc">Teknik detay, tasarım ve uygulama süreçlerinde deneyimli ekip.</p>
-            </div>
+          <div className="about-values-grid about-values-image-grid">
+            {storyImages.map((image, index) => (
+              <figure className="about-value-image-card" key={image.src}>
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  priority={index < 2}
+                />
+              </figure>
+            ))}
           </div>
         </div>
       </section>
