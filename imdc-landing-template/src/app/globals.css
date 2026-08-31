@@ -2742,70 +2742,10 @@ html::-webkit-scrollbar-thumb:hover {
 /* ==========================================================================
    Certificates Page
    ========================================================================== */
-.certificates-section {
-  width: 100vw;
-  background: #ffffff;
-  padding: 6rem 5vw;
-  display: flex;
-  justify-content: center;
-}
-
-.certificates-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1.5rem;
-}
-
-.certificate-card {
-  min-height: 260px;
-  padding: 2rem;
-  border: 1px solid rgba(12, 12, 13, 0.08);
-  background: #ffffff;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.05);
-}
-
-.certificate-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: rgba(212, 77, 34, 0.1);
-  color: #d44d22;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-}
-
-.certificate-code {
-  color: #d44d22;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 0.8rem;
-}
-
-.certificate-card h2 {
-  color: #0c0c0d;
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 0.85rem;
-}
-
-.certificate-card p {
-  color: rgba(12, 12, 13, 0.58);
-  font-size: 0.96rem;
-  line-height: 1.65;
-}
-
 .certificate-document-section {
   width: 100vw;
   background: #ffffff;
-  padding: 0 5vw 6rem;
+  padding: 6rem 5vw;
   display: flex;
   justify-content: center;
 }
@@ -2816,8 +2756,6 @@ html::-webkit-scrollbar-thumb:hover {
   justify-content: space-between;
   gap: 2rem;
   margin-bottom: 2rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(12, 12, 13, 0.08);
 }
 
 .certificate-document-header h2 {
@@ -3680,9 +3618,6 @@ html::-webkit-scrollbar-thumb:hover {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .certificates-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
   .certificate-pages-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3927,14 +3862,8 @@ html::-webkit-scrollbar-thumb:hover {
   .products-grid {
     grid-template-columns: 1fr;
   }
-  .certificates-section {
-    padding: 4rem 5vw;
-  }
-  .certificates-grid {
-    grid-template-columns: 1fr;
-  }
   .certificate-document-section {
-    padding: 0 5vw 4rem;
+    padding: 4rem 5vw;
   }
   .certificate-document-header {
     display: block;
