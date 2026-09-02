@@ -264,9 +264,9 @@ export default function Home() {
       image: "/hero-bg.jpg",
     },
     {
-      highlight: "Tasarım",
+      highlight: "Estetik",
       rest: "mühendislikle buluşur.",
-      subtitle: "Estetik, dayanıklılık ve verimliliği aynı üründe birleştiren sistemler.",
+      subtitle: "Dış mekan aydınlatmasında tasarım ve dayanıklılığı bir arada sunuyoruz.",
       image: "/hero-slide-2.webp",
     }
   ];
