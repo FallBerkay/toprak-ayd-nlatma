@@ -47,6 +47,90 @@ const projects = [
     alt: "Aydınlatılmış lüks otel bahçesi ve yaşam alanı",
     href: "/projects/park-peyzaj-projesi",
   },
+  {
+    scope: "Yerel Projeler",
+    category: "Park & Peyzaj",
+    eyebrow: "Türkiye · Muğla",
+    title: "Kıyı Resort Peyzaj Aydınlatması",
+    description: "Sahil hattındaki yürüyüş yolları, zeytin ağaçları ve dinlenme alanları için sıcak tonlu peyzaj aydınlatması.",
+    year: "2026",
+    type: "Park & Peyzaj Aydınlatması",
+    image: "/project-images/generated/mugla-resort-peyzaj.png",
+    alt: "Muğla kıyı resort bahçesinde yürüyüş yolu ve peyzaj aydınlatması",
+    href: "/projects/park-peyzaj-projesi",
+  },
+  {
+    scope: "Yerel Projeler",
+    category: "Otel & Yaşam",
+    eyebrow: "Türkiye · Bodrum",
+    title: "Bodrum Villa Bahçe Projesi",
+    description: "Taş villa, havuz çevresi ve bahçe akslarında mimari dokuyu öne çıkaran düşük parlaklıklı dış mekan çözümü.",
+    year: "2026",
+    type: "Villa & Bahçe Aydınlatması",
+    image: "/project-images/generated/bodrum-villa-bahce.png",
+    alt: "Bodrum taş villa bahçesinde sıcak dış mekan aydınlatması",
+    href: "/projects/park-peyzaj-projesi",
+  },
+  {
+    scope: "Yerel Projeler",
+    category: "Otel & Yaşam",
+    eyebrow: "Türkiye · Çeşme",
+    title: "Çeşme Butik Otel Avlusu",
+    description: "Butik otel avlusu, havuz kenarı ve geçiş yollarında konforlu, davetkar ve dengeli ışık kurgusu.",
+    year: "2025",
+    type: "Otel & Yaşam Aydınlatması",
+    image: "/project-images/generated/cesme-butik-otel.png",
+    alt: "Çeşme butik otel avlusunda glob ve bollard aydınlatmalar",
+    href: "/projects/park-peyzaj-projesi",
+  },
+  {
+    scope: "Yerel Projeler",
+    category: "Kamu",
+    eyebrow: "Türkiye · Alaçatı",
+    title: "Alaçatı Taş Sokak Aydınlatması",
+    description: "Taş cepheli yaya akslarında tarihi dokuya uyum sağlayan sıcak duvar, bollard ve glop aydınlatma uygulaması.",
+    year: "2025",
+    type: "Yaya Aksı Aydınlatması",
+    image: "/project-images/generated/alacati-tas-sokak.png",
+    alt: "Alaçatı taş sokakta sıcak duvar ve yürüyüş yolu aydınlatması",
+    href: "/projects/park-peyzaj-projesi",
+  },
+  {
+    scope: "Uluslararası",
+    category: "Cadde & Yol",
+    eyebrow: "Orta Doğu · Dubai",
+    title: "Dubai Bulvar Aydınlatması",
+    description: "Palmiyeli şehir bulvarı, yaya kaldırımları ve araç yolları için ritmik direkli sistem ve peyzaj ışığı.",
+    year: "2025",
+    type: "Cadde & Yol Aydınlatması",
+    image: "/project-images/generated/dubai-bulvar-aydinlatma.png",
+    alt: "Dubai şehir bulvarında modern yol ve peyzaj aydınlatması",
+    href: "/projects/park-peyzaj-projesi",
+  },
+  {
+    scope: "Uluslararası",
+    category: "Otel & Yaşam",
+    eyebrow: "Orta Doğu · Abu Dhabi",
+    title: "Abu Dhabi Sahil Otel Promenadı",
+    description: "Sahil oteli promenadı, palmiyeler ve kamusal yürüyüş bandında uzun ömürlü bollard ve direkli uygulama.",
+    year: "2024",
+    type: "Otel & Promenad Aydınlatması",
+    image: "/project-images/generated/abu-dhabi-sahil-otel.png",
+    alt: "Abu Dhabi sahil oteli promenadında dış mekan aydınlatması",
+    href: "/projects/park-peyzaj-projesi",
+  },
+  {
+    scope: "Uluslararası",
+    category: "Kamu",
+    eyebrow: "Orta Doğu · Yas Island",
+    title: "Yas Island Marina Yürüyüş Aksı",
+    description: "Marina kıyısı, otel geçişleri ve peyzaj bantlarında su yansımasını kontrol eden sıcak dış mekan aydınlatması.",
+    year: "2024",
+    type: "Marina & Kamu Aydınlatması",
+    image: "/project-images/generated/yas-island-marina.png",
+    alt: "Yas Island marina yürüyüş yolunda bollard ve direk aydınlatmaları",
+    href: "/projects/park-peyzaj-projesi",
+  },
 ];
 
 export default function ProjectsPage() {
@@ -89,7 +173,7 @@ export default function ProjectsPage() {
                 </button>
               ))}
             </div>
-            <span className="projects-count"><i aria-hidden="true" />36 proje</span>
+            <span className="projects-count"><i aria-hidden="true" />{visibleProjects.length} proje</span>
           </div>
         </section>
 
