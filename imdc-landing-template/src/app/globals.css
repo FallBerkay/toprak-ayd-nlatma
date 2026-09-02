@@ -1233,7 +1233,27 @@ html::-webkit-scrollbar-thumb:hover {
 }
 
 .faq-copy .section-subtitle {
-  margin-bottom: 0;
+  margin-bottom: 1.8rem;
+}
+
+.faq-visual {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f4f1ec;
+  box-shadow: 0 24px 64px rgba(12, 12, 13, 0.11);
+}
+
+.faq-visual::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(12, 12, 13, 0) 54%, rgba(12, 12, 13, 0.34) 100%),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.16);
 }
 
 .faq-list {
@@ -3963,6 +3983,9 @@ html::-webkit-scrollbar-thumb:hover {
   .faq-copy {
     position: static;
   }
+  .faq-visual {
+    aspect-ratio: 16 / 9;
+  }
   .footer-layout {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
@@ -4371,6 +4394,9 @@ html::-webkit-scrollbar-thumb:hover {
   .faq-answer {
     padding: 0 1rem 1.2rem;
     font-size: 0.95rem;
+  }
+  .faq-visual {
+    aspect-ratio: 1.18 / 1;
   }
   .hero-frame {
     width: 100vw;

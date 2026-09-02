@@ -738,6 +738,15 @@ export default function Home() {
             <p className="section-subtitle">
               Dış mekan aydınlatması, glob armatürler ve proje seçimleri hakkında en çok gelen sorular.
             </p>
+            <div className="faq-visual">
+              <Image
+                src="/faq-images/glob-bahce-aydinlatma.png"
+                alt="Bahçe yolunda sıcak ışık veren glob aydınlatmalar"
+                fill
+                sizes="(max-width: 900px) 100vw, 38vw"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
           </div>
 
           <div className="faq-list">
