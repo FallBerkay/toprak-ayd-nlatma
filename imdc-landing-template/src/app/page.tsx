@@ -15,6 +15,7 @@ import {
   ArrowRight, 
   ChevronLeft, 
   ChevronRight,
+  ChevronDown,
   Lightbulb,
   LightbulbOff,
 } from "lucide-react";
@@ -138,11 +139,39 @@ const PROJECT_GLOBE_CONFIG = {
 
 const HERO_SLIDE_INTERVAL_MS = 8000;
 
+const faqItems = [
+  {
+    question: "Glob aydınlatma nedir?",
+    answer: "Top şeklinde, her yöne eşit ışık veren bahçe ve yol aydınlatma armatürüdür.",
+  },
+  {
+    question: "Dış mekân aydınlatması yağmurdan, sudan etkilenir mi?",
+    answer: "Kaliteli su geçirmez armatürler yağmura, neme ve dış hava koşullarına dayanıklıdır; sorun çıkarmaz.",
+  },
+  {
+    question: "Villa bahçesinde direkler arasına ne kadar mesafe olmalı?",
+    answer: "Direk boyuna göre değişir ama genel olarak her 3-4 metrede bir direk konulması yeterli ve dengeli bir görüntü verir.",
+  },
+  {
+    question: "Otel ve villa bahçesinde nasıl bir ışık rengi tercih edilmeli?",
+    answer: "Sıcak, sarıya yakın beyaz ışık tercih edilmeli; bu ton göze rahat gelir ve bahçeyi daha sıcak, davetkâr gösterir.",
+  },
+  {
+    question: "Sahil kenarındaki otellerde aydınlatma neden daha çabuk bozulur?",
+    answer: "Deniz tuzu ve nem, kaliteli malzemeyle yapılmamış armatürlerde zamanla paslanmaya yol açar; bu yüzden sahil projelerinde paslanmaz malzeme şart.",
+  },
+  {
+    question: "İzmir, İstanbul ve Manisa'da aydınlatma seçimi neden farklı olur?",
+    answer: "İzmir'de deniz kenarı için tuza dayanıklı, İstanbul'da nemli havaya uygun, Manisa'da ise geniş bahçeleri kaplayan direkli sistemler tercih edilir.",
+  },
+];
+
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
   const [showWhatsapp, setShowWhatsapp] = useState(false);
   const [lightStates, setLightStates] = useState<Record<string, boolean>>({});
+  const [openFaqIndex, setOpenFaqIndex] = useState(0);
   const spotlightRef = useRef<HTMLDivElement>(null);
   const productsSectionRef = useRef<HTMLElement>(null);
   const mousePositionRef = useRef({ x: 0, y: 0 });
@@ -698,7 +727,56 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. Shared Footer */}
+      {/* 7. Section: FAQ */}
+      <section className="section-faq" aria-labelledby="faq-title">
+        <div className="container-inner faq-layout">
+          <div className="faq-copy">
+            <span className="section-tag">SSS</span>
+            <h2 className="section-title" id="faq-title">
+              Sık Sorulan Sorular
+            </h2>
+            <p className="section-subtitle">
+              Dış mekan aydınlatması, glob armatürler ve proje seçimleri hakkında en çok gelen sorular.
+            </p>
+          </div>
+
+          <div className="faq-list">
+            {faqItems.map((item, index) => {
+              const isOpen = openFaqIndex === index;
+              return (
+                <div className={`faq-item ${isOpen ? "is-open" : ""}`} key={item.question}>
+                  <button
+                    className="faq-question"
+                    type="button"
+                    aria-expanded={isOpen}
+                    aria-controls={`faq-answer-${index}`}
+                    onClick={() => setOpenFaqIndex(isOpen ? -1 : index)}
+                  >
+                    <span>{item.question}</span>
+                    <ChevronDown size={20} aria-hidden="true" />
+                  </button>
+                  <AnimatePresence initial={false}>
+                    {isOpen && (
+                      <motion.div
+                        id={`faq-answer-${index}`}
+                        className="faq-answer-wrap"
+                        initial={{ height: 0, opacity: 0 }}
+                        animate={{ height: "auto", opacity: 1 }}
+                        exit={{ height: 0, opacity: 0 }}
+                        transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+                      >
+                        <p className="faq-answer">{item.answer}</p>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Shared Footer */}
       <Footer />
 
       <a

@@ -1208,6 +1208,101 @@ html::-webkit-scrollbar-thumb:hover {
   pointer-events: none;
 }
 
+.section-faq {
+  width: 100vw;
+  background: #ffffff;
+  color: #0c0c0d;
+  padding: 7rem 5vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.faq-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.76fr) minmax(420px, 1.24fr);
+  gap: clamp(3rem, 6vw, 6rem);
+  align-items: start;
+}
+
+.faq-copy {
+  position: sticky;
+  top: 8.5rem;
+}
+
+.faq-copy .section-subtitle {
+  margin-bottom: 0;
+}
+
+.faq-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.faq-item {
+  border: 1px solid rgba(12, 12, 13, 0.08);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 18px 50px rgba(12, 12, 13, 0.045);
+  overflow: hidden;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.faq-item:hover,
+.faq-item.is-open {
+  border-color: rgba(197, 168, 128, 0.46);
+  box-shadow: 0 22px 56px rgba(12, 12, 13, 0.075);
+}
+
+.faq-item:hover {
+  transform: translateY(-1px);
+}
+
+.faq-question {
+  width: 100%;
+  min-height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.35rem 1.5rem;
+  border: 0;
+  background: transparent;
+  color: #0c0c0d;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 1.2vw, 1.18rem);
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.faq-question svg {
+  flex: 0 0 auto;
+  color: rgba(12, 12, 13, 0.58);
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.faq-item.is-open .faq-question svg {
+  color: var(--color-gold);
+  transform: rotate(180deg);
+}
+
+.faq-answer-wrap {
+  overflow: hidden;
+}
+
+.faq-answer {
+  margin: 0;
+  padding: 0 1.5rem 1.5rem;
+  max-width: 720px;
+  color: rgba(12, 12, 13, 0.58);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
 .section-footer {
   width: 100vw;
   background-color: #ffffff;
@@ -3861,6 +3956,13 @@ html::-webkit-scrollbar-thumb:hover {
     min-height: 420px;
     margin-top: 0;
   }
+  .faq-layout {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .faq-copy {
+    position: static;
+  }
   .footer-layout {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
@@ -3871,7 +3973,7 @@ html::-webkit-scrollbar-thumb:hover {
   .stats-band {
     grid-template-columns: repeat(2, 1fr);
   }
-  .section-products, .section-about, .section-project-countries, .section-footer {
+  .section-products, .section-about, .section-project-countries, .section-faq, .section-footer {
     padding: 6rem 5vw;
   }
   .hero-frame {
@@ -4258,8 +4360,17 @@ html::-webkit-scrollbar-thumb:hover {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
-  .section-products, .section-about, .section-project-countries, .section-footer {
+  .section-products, .section-about, .section-project-countries, .section-faq, .section-footer {
     padding: 4rem 1.5rem;
+  }
+  .faq-question {
+    min-height: 66px;
+    padding: 1.1rem 1rem;
+    gap: 1rem;
+  }
+  .faq-answer {
+    padding: 0 1rem 1.2rem;
+    font-size: 0.95rem;
   }
   .hero-frame {
     width: 100vw;
