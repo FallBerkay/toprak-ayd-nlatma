@@ -160,10 +160,6 @@ const faqItems = [
     question: "Sahil kenarındaki otellerde aydınlatma neden daha çabuk bozulur?",
     answer: "Deniz tuzu ve nem, kaliteli malzemeyle yapılmamış armatürlerde zamanla paslanmaya yol açar; bu yüzden sahil projelerinde paslanmaz malzeme şart.",
   },
-  {
-    question: "İzmir, İstanbul ve Manisa'da aydınlatma seçimi neden farklı olur?",
-    answer: "İzmir'de deniz kenarı için tuza dayanıklı, İstanbul'da nemli havaya uygun, Manisa'da ise geniş bahçeleri kaplayan direkli sistemler tercih edilir.",
-  },
 ];
 
 export default function Home() {
@@ -773,6 +769,11 @@ export default function Home() {
                 </div>
               );
             })}
+          </div>
+
+          <div className="faq-contact">
+            <a href="mailto:info@imdesignconcepts.com">info@imdesignconcepts.com</a>
+            <span>İzmir · İstanbul · Dubai</span>
           </div>
         </div>
       </section>

@@ -1326,6 +1326,38 @@ html::-webkit-scrollbar-thumb:hover {
   line-height: 1.75;
 }
 
+.faq-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  padding-top: 0.8rem;
+  text-align: center;
+}
+
+.faq-contact a {
+  color: #0c0c0d;
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 1.6vw, 1.55rem);
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.faq-contact a:hover {
+  color: var(--color-gold);
+}
+
+.faq-contact span {
+  color: rgba(12, 12, 13, 0.48);
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  font-weight: 650;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
 .section-footer {
   width: 100vw;
   background-color: #ffffff;
@@ -4393,6 +4425,12 @@ html::-webkit-scrollbar-thumb:hover {
   .faq-answer {
     padding: 0 3.85rem 1.2rem;
     font-size: 0.95rem;
+  }
+  .faq-contact a {
+    overflow-wrap: anywhere;
+  }
+  .faq-contact span {
+    letter-spacing: 0.12em;
   }
   .hero-frame {
     width: 100vw;
