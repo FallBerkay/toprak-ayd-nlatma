@@ -738,15 +738,6 @@ export default function Home() {
             <p className="section-subtitle">
               Dış mekan aydınlatması, glob armatürler ve proje seçimleri hakkında en çok gelen sorular.
             </p>
-            <div className="faq-visual">
-              <Image
-                src="/faq-images/glob-bahce-aydinlatma.png"
-                alt="Bahçe yolunda sıcak ışık veren glob aydınlatmalar"
-                fill
-                sizes="(max-width: 900px) 100vw, 38vw"
-                style={{ objectFit: "cover" }}
-              />
-            </div>
           </div>
 
           <div className="faq-list">
@@ -761,7 +752,8 @@ export default function Home() {
                     aria-controls={`faq-answer-${index}`}
                     onClick={() => setOpenFaqIndex(isOpen ? -1 : index)}
                   >
-                    <span>{item.question}</span>
+                    <span className="faq-index">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="faq-question-text">{item.question}</span>
                     <ChevronDown size={20} aria-hidden="true" />
                   </button>
                   <AnimatePresence initial={false}>
