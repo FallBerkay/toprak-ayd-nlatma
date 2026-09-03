@@ -288,8 +288,8 @@ export default function Home() {
       category: "GLOP",
       desc: "Bahçe ve peyzaj alanları için opal küre glop aydınlatma çözümü.",
       price: "Teklif Al",
-      img: "/product-states/opal-off.png",
-      litImg: "/product-states/opal-on.png",
+      img: "/product-states/opal-off-matched-base.png",
+      litImg: "/product-states/opal-on-matched-base.png",
       versions: ["GL-9063 (20cm)", "GL-9066 (25cm)", "GL-9070 (30cm)", "GL-9074 (40cm)"]
     },
     {
@@ -308,8 +308,8 @@ export default function Home() {
       category: "FÜME",
       desc: "Modern peyzaj uygulamaları için füme görünümlü dekoratif glop.",
       price: "Teklif Al",
-      img: "/product-states/fume-off.png",
-      litImg: "/product-states/fume-on.png",
+      img: "/product-states/fume-off-clean.png",
+      litImg: "/product-states/fume-on-clean.png",
       versions: ["GL-9065 (25cm)", "GL-9069 (30cm)", "GL-9073 (40cm)"]
     },
     {
